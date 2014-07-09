@@ -5,14 +5,6 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.xml.bind.JAXBException;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.stream.XMLStreamException;
-
-import org.xml.sax.SAXException;
-
-import nicta.pubMed.jaxb.eFetch.PubmedArticleSet;
-import nicta.pubMed.utils.XMLConvertor;
 
 public class EFetch {
 
@@ -45,17 +37,6 @@ public class EFetch {
 			}
 		}
 	}
-
-	@SuppressWarnings("restriction")
-	public PubmedArticleSet getPubMedArticleSet() throws IOException,
-			JAXBException, ParserConfigurationException, SAXException,
-			XMLStreamException {
-		XMLConvertor<PubmedArticleSet> xmlConvertor = new XMLConvertor<PubmedArticleSet>(
-				new PubmedArticleSet(), url.openStream());
-		return xmlConvertor.convertXMLtoObject();
-
-	}
-
 	public InputStream getEFetchResult() throws IOException {
 
 		return url.openStream();
