@@ -73,7 +73,7 @@ public class ESearch {
 
 		ESearch eSearch = new ESearch(
 		
-				"db=pubmed&term=cancer&reldate=60&datetype=edat&retmax=500&usehistory=y");
+				"db=pubmed&term=cancer&reldate=60&datetype=edat&retmax=150&usehistory=y");
 		
 		try {
 			List<Id> idList = eSearch.getListOfId();
@@ -82,7 +82,7 @@ public class ESearch {
 			System.out.println("eSearch Time:"+(t7- t));
 			Date time5 = new Date();
 			long t5 = time5.getTime();
-			if (idList.size() > 100) {
+			if (idList.size() > 150) {
 				PubMedMultiThreadsCall mCall = new PubMedMultiThreadsCall(
 						idList, "pubmed");
 				List<Future<pubMedSAXHandler>> futures=mCall.getFutures();

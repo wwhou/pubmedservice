@@ -127,7 +127,9 @@ public class ESearch {
 				// System.out.print(handler.getArticleMetas().size());
 				List<ArticleMeta> collection = (List<ArticleMeta>) handler
 						.getArticleMetas();
+
 				System.out.println(collection.get(0).getTitle());
+
 				Date time1 = new Date();
 				System.out.println(time1.getTime() - t4);
 

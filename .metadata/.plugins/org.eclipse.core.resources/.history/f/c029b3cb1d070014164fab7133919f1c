@@ -127,12 +127,39 @@ public class ESearch {
 				// System.out.print(handler.getArticleMetas().size());
 				List<ArticleMeta> collection = (List<ArticleMeta>) handler
 						.getArticleMetas();
+
 				System.out.println(collection.get(0).getTitle());
+
 				Date time1 = new Date();
+				// time1.getTime();
+
 				System.out.println(time1.getTime() - t4);
 
 				System.out.println(time1.getTime() - t);
 			}
+			// EFetch efetch = new EFetch(idString, true);
+			// List<Object> obList = efetch.getPubMedArticleSet()
+			// .getPubmedArticleOrPubmedBookArticle();
+
+			// try {
+			// JSONObject jsonObject=
+			// XML.toJSONObject(efetch.getEFetchResult());
+			// String jsonPrettyPrintString = jsonObject.toString();
+			// System.out.println(jsonPrettyPrintString);
+			// jsonObject.getJSONObject("PubmedArticleSet").getJSONArray("PubmedArticle");
+			// } catch (JSONException je) {
+			// System.out.println(je.toString());
+			// }
+			// JSONObject jsonObject = new JSONObject(jsontokenor);
+			//
+			// System.out.println( jsonObject.toString());
+			// JSONArray authors = jsonObject.getJSONArray("authors");
+			// for(int i=0;i<authors.length();i++){
+			// JSONObject author=authors.getJSONObject(i);
+			// JSONArray names=author.getJSONArray("names");
+			// System.out.print(names.getJSONObject(0).get("name").toString());
+			// }
+
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

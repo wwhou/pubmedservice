@@ -73,7 +73,7 @@ public class ESearch {
 
 		ESearch eSearch = new ESearch(
 		
-				"db=pubmed&term=cancer&reldate=60&datetype=edat&retmax=500&usehistory=y");
+				"db=pubmed&term=cancer&reldate=60&datetype=edat&retmax=100&usehistory=y");
 		
 		try {
 			List<Id> idList = eSearch.getListOfId();
