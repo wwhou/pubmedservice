@@ -38,7 +38,7 @@ public class PubMedMultiThreadsCall {
 					Future<pubMedSAXHandler> future = executor
 							.submit(new MyCallable(fetchIds));			
 					results.add(future);
-				//	System.out.println(fetchIds);
+					System.out.println(fetchIds);
 					fetchIds ="db="+db+"&id="+ idList.get(i).getContent();
 				} else {
 					if (i > 0)

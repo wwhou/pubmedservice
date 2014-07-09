@@ -32,13 +32,13 @@ public class PubMedMultiThreadsCall {
 			ExecutorService executor = Executors.newFixedThreadPool(threads);
 			
 			int i=0;
-			String fetchIds="db="+db+"&id="+idList.get(0).getContent()+",";
+			String fetchIds="db="+db+"&id="+idList.get(0).getContent();
 			while (i < length) {
 				if ((i + 1) % 100 == 0) {	
 					Future<pubMedSAXHandler> future = executor
 							.submit(new MyCallable(fetchIds));			
 					results.add(future);
-				//	System.out.println(fetchIds);
+					System.out.println(fetchIds);
 					fetchIds ="db="+db+"&id="+ idList.get(i).getContent();
 				} else {
 					if (i > 0)
