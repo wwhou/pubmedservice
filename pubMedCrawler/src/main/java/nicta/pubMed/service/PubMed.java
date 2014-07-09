@@ -162,13 +162,13 @@
 //}
 
 package nicta.pubMed.service;
-
-import gov.nih.nlm.ncbi.www.soap.eutils.EFetchPmcServiceStub;
-import gov.nih.nlm.ncbi.www.soap.eutils.EUtilsServiceStub;
-import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.ArticleDocument.Article;
-import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchRequestDocument;
-import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchRequestDocument.EFetchRequest;
-import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchResultDocument;
+//
+//import gov.nih.nlm.ncbi.www.soap.eutils.EFetchPmcServiceStub;
+//import gov.nih.nlm.ncbi.www.soap.eutils.EUtilsServiceStub;
+//import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.ArticleDocument.Article;
+//import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchRequestDocument;
+//import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchRequestDocument.EFetchRequest;
+//import gov.nih.nlm.ncbi.www.soap.eutils.efetch_pmc.EFetchResultDocument;
 
 import java.util.ArrayList;
 import java.util.Date;

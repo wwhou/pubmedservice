@@ -50,29 +50,15 @@
 			<version>2.1</version>
 		</dependency>
 		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
 			<groupId>asm</groupId>
 			<artifactId>asm</artifactId>
 			<version>3.2</version>
-		</dependency>
-		<dependency>
-			<groupId>efetch_pmc_xmlbeans</groupId>
-			<artifactId>swingx</artifactId>
-			<version>0.9.2</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/efetch_pmc_xmlbeans.jar</systemPath>
-		</dependency>
-		<!-- <dependency> <groupId>axis2</groupId> <artifactId>axis2</artifactId> 
-			<version>1.6.2</version> <scope>system</scope> <systemPath>${project.basedir}/lib/</systemPath> 
-			</dependency> -->
-		<!-- <dependency> <groupId>org.apache.axis2</groupId> <artifactId>axis2</artifactId> 
-			<version>1.6.2</version> </dependency> -->
-
-		<dependency>
-			<groupId>eutils_axis2</groupId>
-			<artifactId>swingx</artifactId>
-			<version>0.9.2</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/lib/eutils_axis2.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>sax</groupId>
