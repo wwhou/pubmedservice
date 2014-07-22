@@ -211,6 +211,7 @@ public class PubMedService {
 		List<Id> idList = eSearchResult.getIdList();
 		String idString = "db=" + pubMedParam.database + "&id=";
 		int index = 0;
+		if(idList.size()<500){
 		for (Id id : idList) {
 			if (index > 0)
 				idString += ",";
@@ -225,6 +226,9 @@ public class PubMedService {
 			throw new WebApplicationException(Response
 					.status(Status.BAD_REQUEST).entity(e.getMessage())
 					.build());
+		}
+		}else{
+			return null;
 		}
 	}
 
