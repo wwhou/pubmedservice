@@ -57,8 +57,10 @@ public class pubMedSAXHandler extends DefaultHandler {
 				authors = new ArrayList<Author>();
 			journal = new Journal();
 			articleMeta = new ArticleMeta();
-			articles=new ArrayList<Article>();
+			if (articles == null)
+				articles = new ArrayList<Article>();
 			article = new Article();
+
 			break;
 		case "pubmedbookarticle":
 			if (articleMetas == null)
@@ -66,8 +68,10 @@ public class pubMedSAXHandler extends DefaultHandler {
 			if (authors == null)
 				authors = new ArrayList<Author>();
 			book = new Book();
+
 			articleMeta = new ArticleMeta();
-			articles=new ArrayList<Article>();
+			if (articles == null)
+				articles = new ArrayList<Article>();
 			article = new Article();
 			break;
 		case "author":
@@ -75,7 +79,7 @@ public class pubMedSAXHandler extends DefaultHandler {
 			break;
 		case "abstracttext":
 			String label = attributes.getValue("NlmCategory");
-			if (label!=null && !label.equals("UNLABELLED"))
+			if (label != null && !label.equals("UNLABELLED"))
 				abstractText += label;
 			break;
 		case "articledate":
@@ -86,35 +90,35 @@ public class pubMedSAXHandler extends DefaultHandler {
 			publisher = new Publisher();
 			break;
 		}
-//		if (qName.equalsIgnoreCase("PubmedArticle")) {
-//			if (articleMetas == null)
-//				articleMetas = new ArrayList<ArticleMeta>();
-//			if (authors == null)
-//				authors = new ArrayList<Author>();
-//			journal = new Journal();
-//			articleMeta = new ArticleMeta();
-//			article = new Article();
-//		} else if (qName.equalsIgnoreCase("PubmedBookArticle")) {
-//			if (articleMetas == null)
-//				articleMetas = new ArrayList<ArticleMeta>();
-//			if (authors == null)
-//				authors = new ArrayList<Author>();
-//			book = new Book();
-//			articleMeta = new ArticleMeta();
-//			article = new Article();
-//		} else if (qName.equalsIgnoreCase("Author")) {
-//			author = new Author();
-//		} else if (qName.equalsIgnoreCase("AbstractText")) {
-//			String label = attributes.getValue("NlmCategory");
-//			if (!label.equals("UNLABELLED")) {
-//				abstractText += label;
-//			}
-//		} else if (qName.equalsIgnoreCase("ArticleDate")) {
-//			articleDateFlag = true;
-//			articlePubDate = new Date();
-//		} else if (qName.equalsIgnoreCase("Publisher")) {
-//			publisher = new Publisher();
-//		}
+		// if (qName.equalsIgnoreCase("PubmedArticle")) {
+		// if (articleMetas == null)
+		// articleMetas = new ArrayList<ArticleMeta>();
+		// if (authors == null)
+		// authors = new ArrayList<Author>();
+		// journal = new Journal();
+		// articleMeta = new ArticleMeta();
+		// article = new Article();
+		// } else if (qName.equalsIgnoreCase("PubmedBookArticle")) {
+		// if (articleMetas == null)
+		// articleMetas = new ArrayList<ArticleMeta>();
+		// if (authors == null)
+		// authors = new ArrayList<Author>();
+		// book = new Book();
+		// articleMeta = new ArticleMeta();
+		// article = new Article();
+		// } else if (qName.equalsIgnoreCase("Author")) {
+		// author = new Author();
+		// } else if (qName.equalsIgnoreCase("AbstractText")) {
+		// String label = attributes.getValue("NlmCategory");
+		// if (!label.equals("UNLABELLED")) {
+		// abstractText += label;
+		// }
+		// } else if (qName.equalsIgnoreCase("ArticleDate")) {
+		// articleDateFlag = true;
+		// articlePubDate = new Date();
+		// } else if (qName.equalsIgnoreCase("Publisher")) {
+		// publisher = new Publisher();
+		// }
 	}
 
 	@Override

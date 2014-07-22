@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -17,6 +18,7 @@ import nicta.pubMed.jaxb.eSearch.ESearchResult;
 import nicta.pubMed.jaxb.eSearch.Id;
 import nicta.pubMed.utils.XMLConvertor;
 import nicta.pubMed.utils.pubMedSAXHandler;
+import nicta.utils.Article;
 import nicta.utils.ArticleMeta;
 
 import org.xml.sax.InputSource;
@@ -86,15 +88,21 @@ public class ESearch {
 				PubMedMultiThreadsCall mCall = new PubMedMultiThreadsCall(
 						idList, "pubmed");
 				List<Future<pubMedSAXHandler>> futures=mCall.getFutures();
+				List<Article> articleList=new ArrayList<Article>();
 				for(Future<pubMedSAXHandler> future:futures ){
 					pubMedSAXHandler phandler=future.get();
-					
-					//System.out.println(phandler.getArticleMetas().size());
+		
+					articleList.addAll(phandler.getArtciles());
 				}
 				Date time6 = new Date();
 				long t6 = time6.getTime();
+				Date time11 = new Date();
+				long t11 = time11.getTime();
 				System.out.println(t6- t5);
 				System.out.println("final time:"+(t6- t));
+				UUID uid =UUID.randomUUID();
+				System.out.println(t6+"-"+uid+"__"+t11);
+				
 			} else {
 				Date time2 = new Date();
 				long t2 = time2.getTime();
@@ -132,6 +140,9 @@ public class ESearch {
 				System.out.println(time1.getTime() - t4);
 
 				System.out.println(time1.getTime() - t);
+				
+				UUID uid = UUID.fromString(time1.getTime()+"");
+				System.out.println(uid.randomUUID());
 			}
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block

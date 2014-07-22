@@ -11,14 +11,24 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "title", "articleAbstract", "keywords", "pagination",
+@XmlType(name = "", propOrder = { "id","title", "articleAbstract", "keywords", "pagination",
 		"articleType", "pubDate", "articleIdList" })
 @XmlRootElement(name = "articleMeta")
 public class ArticleMeta {
 
-	@XmlElement(name = "articleTitle", required = true)
+	@XmlElement(name="id", required=true)
+	protected String id;
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	@XmlElement(name = "title", required = true)
 	protected String title;
-	@XmlElement(name = "abstract", required = false)
+	@XmlElement(name = "articleAbstract", required = false)
 	protected String articleAbstract;
 	// here has three types Book, Conference and Journal
 	@XmlElements(value = {
@@ -38,9 +48,17 @@ public class ArticleMeta {
 	}
 
 	@XmlElement(name = "keywords", required = false)
-	protected List<Keyword> keywords;
+	protected KeywordList keywords;
 	@XmlElement(name = "articleIdList", required = false)
-	protected List<ArticleId> articleId;
+	protected ArticleIdList articleIdList;
+	public ArticleIdList getArticleIdList() {
+		return articleIdList;
+	}
+
+	public void setArticleIdList(ArticleIdList articleIdList) {
+		this.articleIdList = articleIdList;
+	}
+
 	@XmlElement(name = "pubDate", required = true)
 	protected Date pubDate;
 
@@ -52,11 +70,7 @@ public class ArticleMeta {
 		this.pubDate = pubDate;
 	}
 
-	public List<ArticleId> getArticleId() {
-		if (articleId == null)
-			articleId = new ArrayList<ArticleId>();
-		return articleId;
-	}
+	
 
 	public String getTitle() {
 		return title;
@@ -81,10 +95,14 @@ public class ArticleMeta {
 	public void setArticleType(Object articleType) {
 		this.articleType = articleType;
 	}
-	public List<Keyword> getKeywods() {
-		if (keywords == null)
-			keywords = new ArrayList<Keyword>();
+
+	public KeywordList getKeywords() {
 		return keywords;
 	}
+
+	public void setKeywords(KeywordList keywords) {
+		this.keywords = keywords;
+	}
+	
 
 }

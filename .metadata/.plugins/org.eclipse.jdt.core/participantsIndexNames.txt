@@ -1,3 +1,5 @@
 INDEX VERSION 1.127
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2787306115.index
+/pubMedCrawler/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1065368943.index
 /pubMedCrawler/src/main/resources

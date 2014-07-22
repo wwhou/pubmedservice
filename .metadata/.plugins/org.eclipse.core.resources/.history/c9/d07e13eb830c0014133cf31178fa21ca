@@ -1,0 +1,76 @@
+package nicta.pubMed.test;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class TestSearch {
+
+	public static void main(String[] args) throws IOException {
+//
+//		Client client = ClientBuilder.newClient();
+//
+//		
+//		WebTarget target = client.target("http://localhost:8080").path(
+//				"pubMedCrawler/rest/search/pubmed");
+		//target.request().post(arg0)
+//		PubMedParameter pram = new PubMedParameter();
+//		pram.setDatabase("pubmed");
+//		pram.setTerm("mouse");
+//		target.request(MediaType.APPLICATION_JSON_TYPE).post(
+//				Entity.entity(pram,MediaType.APPLICATION_FORM_URLENCODED_TYPE),
+//				PubMedParameter.class);
+
+		 URL obj = new URL(
+		 "http://localhost:8080/pubMedCrawler/rest/search/pubmed");
+		 HttpURLConnection conn = (HttpURLConnection) obj.openConnection();
+		 conn.setRequestProperty("Content-Type",
+		 "application/json;charset=utf8");
+		 conn.setDoOutput(true);
+		 conn.setRequestMethod("POST");
+		 String data = "{\"db\":\"pubmed\",\"term\":\"mouse\"}";
+		 System.out.println(data);
+		
+		 OutputStreamWriter out = new
+		 OutputStreamWriter(conn.getOutputStream());
+		 out.write(data);
+		 out.close();
+		
+		 BufferedReader br = new BufferedReader(new InputStreamReader(
+		 conn.getInputStream()));
+		 while (br.readLine() != null) {
+		 System.out.print(br.readLine());
+		 }
+
+		// try {
+		//
+		// Client client = Client.create();
+		//
+		// WebResource webResource = client
+		// .resource("http://localhost:8080/pubMedCrawler/rest/search");
+		//
+		// String input =
+		// "{\"db\":\"pubmed\",\"term\":\"mouse\", \"retMax\":\"10\"}";
+		//
+		// ClientResponse response = webResource.type("application/json")
+		// .post(ClientResponse.class, input);
+		//
+		// if (response.getStatus() != 201) {
+		// throw new RuntimeException("Failed : HTTP error code : "
+		// + response.getStatus());
+		// }
+		//
+		// System.out.println("Output from Server .... \n");
+		// InputStream output = response.getEntity(InputStream.class);
+		// System.out.println(output.toString());
+		//
+		// } catch (Exception e) {
+		//
+		// e.printStackTrace();
+		//
+		// }
+	}
+}

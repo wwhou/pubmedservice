@@ -1,0 +1,279 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>nicta.pubMedService</groupId>
+	<artifactId>pubMedCrawler</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>pubMedCrawler Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-core</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>3.2</version>
+		</dependency>
+	
+		<!-- <dependency> <groupId>axis2</groupId> <artifactId>axis2</artifactId> 
+			<version>1.6.2</version> <scope>system</scope> <systemPath>${project.basedir}/lib/</systemPath> 
+			</dependency> -->
+		<!-- <dependency> <groupId>org.apache.axis2</groupId> <artifactId>axis2</artifactId> 
+			<version>1.6.2</version> </dependency> -->
+
+		
+		<dependency>
+			<groupId>sax</groupId>
+			<artifactId>sax</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>pubMedCrawler</finalName>
+		<plugins>
+			<plugin>
+				<!-- jaxb plugin -->
+				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							<!-- the package for the generated java classes -->
+							<generatePackage>com.dimitrisli.jaxb.producedClasses</generatePackage>
+							<!-- If the following not specified all xsd in resources are included -->
+							<schemaIncludes>
+								<include>sampleJaxb/CustomersOrders.xsd</include>
+							</schemaIncludes>
+							<!-- if you don't want old output -->
+							<removeOldOutput>true</removeOldOutput>
+							<!-- if you want verbosity -->
+							<!-- verbose>true</verbose -->
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.26</version>
+				<configuration>
+					<!-- 在很短的时间间隔内在扫描web应用检查是否有改变，如果发觉有任何改变则自动热部署。默认为0，表示禁用热部署检查。任何一个大于0的数字都将表示启用。 -->
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<webAppConfig>
+						<!--jetty插件启动后的访问路径: http://localhost:8080/testdemo -->
+						<contextPath>/pubmed</contextPath>
+						<!-- <tempDirectory>${project.build.directory}/work</tempDirectory> -->
+					</webAppConfig>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<targetPath>WEB-INF</targetPath>
+				<filtering>false</filtering>
+				<directory>${basedir}/src/main/webapp</directory>
+				<includes>
+					<include>web.xml</include>
+				</includes>
+				<!-- <excludes> <exclude>/config/serfj.properties</exclude> </excludes> -->
+			</resource>
+		</resources>
+	</build>
+</project>
+
+<!-- <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>nicta.pubMedService</groupId>
+	<artifactId>pubMedCrawler</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>pubMedCrawler Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+		</dependency>
+		<dependency> <groupId>org.glassfish.jersey.media</groupId> <artifactId>jersey-media-json-jackson</artifactId> 
+			<version>2.10.1</version> </dependency> <dependency> <groupId>org.glassfish.jersey.core</groupId> 
+			<artifactId>jersey-client</artifactId> <version>2.10.1</version> <scope>provided</scope> 
+			</dependency> <dependency> <groupId>org.glassfish.jersey.media</groupId> 
+			<artifactId>jersey-media-moxy</artifactId> <version>2.10.1</version> </dependency>
+		<dependency> <groupId>com.fasterxml.jackson.jaxrs</groupId> <artifactId>jackson-jaxrs-json-provider</artifactId> 
+			<version>2.2.3</version> </dependency>
+		<dependency> <groupId>org.glassfish.jersey.containers</groupId> if 
+			your container implements Servlet API older than 3.0, use "jersey-container-servlet-core" 
+			<artifactId>jersey-container-servlet</artifactId> <version>2.10.1</version> 
+			</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-core</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>1.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.8</version>
+		</dependency> 
+		
+		
+		
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>jsr311-api</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>sax</groupId>
+			<artifactId>sax</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>pubMedCrawler</finalName>
+		<plugins>
+			<plugin>
+				jaxb plugin
+				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+						<configuration>
+							the package for the generated java classes
+							<generatePackage>com.dimitrisli.jaxb.producedClasses</generatePackage>
+							If the following not specified all xsd in resources are included
+							<schemaIncludes>
+								<include>sampleJaxb/CustomersOrders.xsd</include>
+							</schemaIncludes>
+							if you don't want old output
+							<removeOldOutput>true</removeOldOutput>
+							if you want verbosity
+							verbose>true</verbose
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.mortbay.jetty</groupId>
+				<artifactId>maven-jetty-plugin</artifactId>
+				<version>6.1.26</version>
+				<configuration>
+					在很短的时间间隔内在扫描web应用检查是否有改变，如果发觉有任何改变则自动热部署。默认为0，表示禁用热部署检查。任何一个大于0的数字都将表示启用。
+					<scanIntervalSeconds>10</scanIntervalSeconds>
+					<webAppConfig>
+						jetty插件启动后的访问路径: http://localhost:8080/testdemo
+						<contextPath>/pubmed</contextPath>
+						<tempDirectory>${project.build.directory}/work</tempDirectory>
+					</webAppConfig>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<targetPath>WEB-INF</targetPath>
+				<filtering>false</filtering>
+				<directory>${basedir}/src/main/webapp</directory>
+				<includes>
+					<include>web.xml</include>
+				</includes>
+				<excludes> <exclude>/config/serfj.properties</exclude> </excludes>
+			</resource>
+		</resources>
+	</build>
+</project>
+ -->

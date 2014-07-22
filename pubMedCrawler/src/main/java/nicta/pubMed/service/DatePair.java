@@ -8,8 +8,7 @@ import java.util.Date;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
-
-import com.sun.jersey.api.client.ClientResponse.Status;
+import javax.ws.rs.core.Response.Status;
 
 public class DatePair {
 
