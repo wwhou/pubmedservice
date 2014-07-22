@@ -55,10 +55,10 @@ public class PubMedService {
 					.status(Status.BAD_REQUEST)
 					.entity("the term is required: ").build());
 		}
-		if (retMax > 5000) {
+		if (retMax > 500) {
 			throw new WebApplicationException(Response
 					.status(Status.BAD_REQUEST)
-					.entity("the maximum retival number is 5000").build());
+					.entity("the maximum retival number is 500").build());
 		}
 		ESearchQuery ep = new ESearchQuery();
 		ep.setDataBase(database);
@@ -134,24 +134,22 @@ public class PubMedService {
 		}
 
 	}
-	
-	
 
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/articlemeta")
-	public Collection<ArticleMeta> getArticle(final PubMedParameter pubMedParam){
-		ESearchResult eSearchResult=new ESearchResult(pubMedParam);
-			try {
-				List<Id> idList1 = eSearchResult.getIdList();
-				if(idList1!=null){
+	public Collection<ArticleMeta> getArticle(final PubMedParameter pubMedParam) {
+		ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+		try {
+			List<Id> idList1 = eSearchResult.getIdList();
+			if (idList1 != null) {
 				if (idList1.size() > 100) {
 					PubMedMultiThreadsCall mCall = new PubMedMultiThreadsCall(
 							idList1, pubMedParam.getDatabase());
-					List<Future<pubMedSAXHandler>> futures=mCall.getFutures();
-					List<ArticleMeta> articleList=new ArrayList<ArticleMeta>();
-					for(Future<pubMedSAXHandler> future:futures ){
+					List<Future<pubMedSAXHandler>> futures = mCall.getFutures();
+					List<ArticleMeta> articleList = new ArrayList<ArticleMeta>();
+					for (Future<pubMedSAXHandler> future : futures) {
 						pubMedSAXHandler phandler;
 						try {
 							phandler = future.get();
@@ -164,7 +162,8 @@ public class PubMedService {
 					}
 					return articleList;
 				} else {
-					String idString1 = "db="+pubMedParam.getDatabase()+"&id=";
+					String idString1 = "db=" + pubMedParam.getDatabase()
+							+ "&id=";
 					int index1 = 0;
 					for (Id id : idList1) {
 						if (index1 > 0)
@@ -188,16 +187,16 @@ public class PubMedService {
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
-					List<ArticleMeta> collection = (List<ArticleMeta>) handler.getArticleMetas();
-					return collection;					
+					List<ArticleMeta> collection = (List<ArticleMeta>) handler
+							.getArticleMetas();
+					return collection;
 				}
-				}else{
-					throw new IllegalArgumentException("No Result");
-				}
-			} catch (SAXException e) {
-				e.printStackTrace();
+			} else {
+				throw new IllegalArgumentException("No Result");
 			}
-			
+		} catch (SAXException e) {
+			e.printStackTrace();
+		}
 		return null;
 	}
 
@@ -207,28 +206,31 @@ public class PubMedService {
 	@Path("/inputstream")
 	// the satrtDate and endDate must be in format of YYYY/MM/DD
 	public InputStream getPubMedSearchResult(final PubMedParameter pubMedParam) {
-		ESearchResult eSearchResult=new ESearchResult(pubMedParam);
-		List<Id> idList = eSearchResult.getIdList();
-		String idString = "db=" + pubMedParam.database + "&id=";
-		int index = 0;
-		if(idList.size()<500){
-		for (Id id : idList) {
-			if (index > 0)
-				idString += ",";
-			idString += id.getContent();
-			index++;
-		}
-		EFetch efetch = new EFetch(idString);
-		try {
-			return efetch.getEFetchResult();
-
-		} catch (IOException e) {
+		if (pubMedParam.getRetMax() > 500) {
 			throw new WebApplicationException(Response
-					.status(Status.BAD_REQUEST).entity(e.getMessage())
-					.build());
-		}
-		}else{
-			return null;
+					.status(Status.BAD_REQUEST)
+					.entity("the maximum retival number is 500").build());	
+		} else {
+			ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+			List<Id> idList = eSearchResult.getIdList();
+			String idString = "db=" + pubMedParam.database + "&id=";
+			int index = 0;
+
+			for (Id id : idList) {
+				if (index > 0)
+					idString += ",";
+				idString += id.getContent();
+				index++;
+			}
+			EFetch efetch = new EFetch(idString);
+			try {
+				return efetch.getEFetchResult();
+
+			} catch (IOException e) {
+				throw new WebApplicationException(Response
+						.status(Status.BAD_REQUEST).entity(e.getMessage())
+						.build());
+			}
 		}
 	}
 

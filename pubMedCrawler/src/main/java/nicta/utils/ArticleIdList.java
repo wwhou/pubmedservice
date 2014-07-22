@@ -9,20 +9,17 @@ import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "id"
+    "articleId"
 })
 @XmlRootElement(name = "ArtickeIdList")
 public class ArticleIdList {
-	
-
-
-	    @XmlElement(name = "Id")
-	    protected List<ArticleId> id;
-	    public List<ArticleId> getId() {
-	        if (id == null) {
-	            id = new ArrayList<ArticleId>();
+	    @XmlElement(name = "articleId")
+	    protected List<ArticleId> articleId;
+	    public List<ArticleId> getArticleId() {
+	        if (articleId == null) {
+	            articleId = new ArrayList<ArticleId>();
 	        }
-	        return this.id;
+	        return this.articleId;
 	    }
 
 }

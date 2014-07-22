@@ -72,13 +72,10 @@ public class PubMedMultiThreadsCall {
 			EFetch efetch = new EFetch(query, true);
 			XMLReader xr = XMLReaderFactory.createXMLReader();
 			pubMedSAXHandler handler = new pubMedSAXHandler();
-			Date timer1=new Date();
 			xr.setContentHandler(handler);
 			xr.setErrorHandler(handler);
 			InputStream inputStream = efetch.getEFetchResult();
 			xr.parse(new InputSource(inputStream));
-			Date timer2=new Date();
-			System.err.println(timer2.getTime()-timer1.getTime());
 			return handler;
 		}
 

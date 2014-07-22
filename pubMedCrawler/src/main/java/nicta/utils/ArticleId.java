@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "content" })
-@XmlRootElement(name = "articleId")
+@XmlRootElement(name = "ArticleId")
 
 // the article ID may include ISSN, DOI, IEEE, PUBMED,PATENT.......
 public class ArticleId {
