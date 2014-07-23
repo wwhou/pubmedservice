@@ -2776,3 +2776,464 @@ org.eclipse.jdt.core.JavaModelException: target/pubMedCrawler/WEB-INF/classes/ni
 2014-07-22 17:24:40,566 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
 2014-07-22 17:24:40,570 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
 2014-07-22 17:24:40,572 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:06:36,768 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:06:39,042 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:06:39,045 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:06:39,046 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:06:39,050 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:06:39,075 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:18:11,683 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:18:11,686 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:18:11,708 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:18:11,709 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:18:11,711 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:18:11,712 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:18:21,144 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:18:21,146 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:18:21,147 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:18:21,148 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:18:21,151 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:18:21,151 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:19:19,312 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:19:19,315 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:19,316 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:19:19,316 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:19:19,318 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:19,318 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:19:34,149 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:19:34,152 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:34,153 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:19:34,153 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:19:34,156 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:34,157 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:19:52,501 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:19:52,503 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:52,505 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:19:52,505 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:19:52,507 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:52,507 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:19:58,547 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:19:58,549 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:58,550 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:19:58,550 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:19:58,552 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:19:58,553 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:21:03,319 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler
+2014-07-23 12:21:03,320 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:21:06,941 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:21:06,943 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:21:06,944 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:21:06,944 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:21:06,946 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:21:06,975 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:21:17,153 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler
+2014-07-23 12:21:17,153 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:21:28,017 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:21:28,020 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:21:28,021 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:21:28,021 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:21:28,025 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:21:28,026 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:22:00,934 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:22:00,936 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:22:00,938 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:22:00,939 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:22:00,941 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:22:00,942 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:22:32,277 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:22:32,280 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:22:32,282 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:22:32,282 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:22:32,284 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:22:32,285 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:23:00,145 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:23:00,146 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:23:00,148 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:23:00,148 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:23:00,150 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:23:00,150 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:23:04,437 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:23:04,439 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:23:04,440 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:23:04,440 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:23:04,442 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:23:04,443 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:24:34,314 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:24:34,316 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:24:34,317 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:24:34,318 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:24:34,320 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:24:34,320 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:24:55,126 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:24:55,127 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:24:55,129 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:24:55,130 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:24:55,132 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:24:55,132 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:25:16,484 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:25:16,486 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:25:16,487 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:25:16,487 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:25:16,490 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:25:16,490 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:25:56,678 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:25:56,686 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:25:56,688 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:25:56,688 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:25:56,692 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:25:56,693 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:26:15,145 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:26:15,147 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:15,148 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:26:15,148 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:26:15,150 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:15,151 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:26:22,577 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:26:22,579 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:22,580 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:26:22,580 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:26:22,582 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:22,582 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:26:50,588 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:26:50,590 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:50,592 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:26:50,592 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:26:50,594 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:50,594 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:26:53,583 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:26:53,585 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:53,586 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:26:53,586 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:26:53,588 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:26:53,588 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:27:14,576 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:27:14,578 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:27:14,579 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:27:14,579 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:27:14,580 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:27:14,581 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:29:46,105 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:29:46,107 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:29:46,108 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:29:46,108 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:29:46,110 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:29:46,111 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:29:59,964 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:29:59,969 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:29:59,970 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:29:59,970 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:29:59,973 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:29:59,982 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:30:22,839 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:30:22,841 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:22,842 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:30:22,842 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:30:22,844 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:22,845 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:30:38,798 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:30:38,800 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:38,801 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:30:38,801 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:30:38,803 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:38,804 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:30:53,049 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:30:53,051 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:53,052 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:30:53,053 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:30:53,054 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:30:53,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:31:08,444 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:31:08,446 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:31:08,447 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:31:08,447 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:31:08,449 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:31:08,449 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:31:23,818 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:31:23,819 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:31:23,822 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:31:23,822 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:31:23,824 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:31:23,824 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:32:14,244 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:32:14,246 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:32:14,247 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:32:14,247 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:32:14,249 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:32:14,249 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:33:25,333 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.pubMedService:DataCollectionService:0.0.1-SNAPSHOT @ /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/pom.xml.
+2014-07-23 12:33:26,028 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:33:26,030 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:33:26,031 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:33:26,031 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:33:26,033 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:33:26,033 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:33:26,034 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of pubMedCrawler
+2014-07-23 12:33:26,035 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for pubMedCrawler
+2014-07-23 12:33:26,041 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:33:34,726 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler
+2014-07-23 12:33:34,726 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:33:37,891 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:33:37,894 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:33:37,895 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:33:37,895 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/target/generated-sources/xjc
+2014-07-23 12:33:37,898 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:33:37,898 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/pubMedCrawler/src/test/resources
+2014-07-23 12:33:58,338 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.pubMedService:DataCollectionService:0.0.1-SNAPSHOT @ /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/pom.xml.
+2014-07-23 12:34:02,590 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ESearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration ESearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:02,591 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ESearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration ESearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:02,596 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration ESearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration ESearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:02,598 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestSearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration TestSearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:02,599 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestSearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration TestSearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:02,604 [Worker-17] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestSearch references non-existing project pubMedCrawler.
+org.eclipse.core.runtime.CoreException: Launch configuration TestSearch references non-existing project pubMedCrawler.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1281) ~[org.eclipse.jdt.launching_3.7.100.v20140428-1912.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.6.200.v20130402-1505.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2162) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173) [org.eclipse.debug.core_3.9.0.v20140521-1435.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70) [org.eclipse.m2e.jdt_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:747) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:876) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:104) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:166) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:142) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:96) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1348) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:87) [org.eclipse.m2e.core_1.5.0.20140606-0033.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.0.v20140424-0053.jar:na]
+2014-07-23 12:34:04,860 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:34:04,863 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:04,863 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:34:04,863 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:34:04,865 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:04,866 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:34:14,759 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:34:14,759 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:34:18,452 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:34:18,454 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:18,455 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:34:18,455 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:34:18,457 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:18,458 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:34:25,919 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:34:25,919 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:34:34,852 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:34:34,854 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:34,856 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:34:34,856 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:34:34,858 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:34:34,858 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:36:35,630 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:36:35,631 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:36:38,751 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:36:38,753 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:36:38,754 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:36:38,754 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:36:38,756 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:36:38,757 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:36:46,132 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:36:46,132 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:37:05,132 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:37:05,132 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:37:23,715 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:37:23,715 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:37:32,715 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:37:32,717 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:37:32,718 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:37:32,719 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:37:32,723 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:37:32,723 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:39:27,596 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.pubMed.service:DataCollectionService:0.0.1-SNAPSHOT @ /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/pom.xml.
+2014-07-23 12:39:27,941 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:39:27,944 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:39:27,945 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:39:27,945 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:39:27,948 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:39:27,949 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:39:27,950 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DataCollectionService
+2014-07-23 12:39:27,950 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DataCollectionService
+2014-07-23 12:39:27,976 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:42:46,243 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:42:46,974 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:42:46,976 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:42:46,977 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:42:46,980 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:42:46,981 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:42:54,597 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:42:54,598 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:42:58,122 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:42:58,128 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:42:58,133 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:42:58,134 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:42:58,137 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:42:58,138 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:43:10,618 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:43:10,618 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:43:19,544 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:43:19,547 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:43:19,548 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:43:19,549 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:43:19,551 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:43:19,551 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:44:23,826 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:44:23,829 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:23,831 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:44:23,832 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:44:23,837 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:23,837 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:44:30,367 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:44:30,369 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:30,370 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:44:30,370 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:44:30,372 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:30,373 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:44:56,967 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:44:56,969 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:56,970 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:44:56,971 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:44:56,980 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:44:56,981 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:47:00,594 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:47:00,595 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-07-23 12:47:20,337 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-07-23 12:47:20,337 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-07-23 12:47:30,328 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:47:30,331 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:47:30,332 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:47:30,332 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:47:30,334 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:47:30,351 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-07-23 12:48:41,690 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-07-23 12:48:41,692 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:48:41,703 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-07-23 12:48:41,703 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-07-23 12:48:41,706 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-07-23 12:48:41,707 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
