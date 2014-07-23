@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;pubMedCrawler&apos; to &apos;DataCollectionService&apos;" description="Rename resource &apos;pubMedCrawler&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/pubMedCrawler" name="DataCollectionService" stamp="1406082837880" updateReferences="true"/>
+</session>
