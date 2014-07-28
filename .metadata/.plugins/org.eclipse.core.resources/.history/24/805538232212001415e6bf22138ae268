@@ -1,0 +1,22 @@
+package org.pubMed.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+import org.junit.Test;
+import org.pubMed.jaxb.eSearch.ESearchResult;
+import org.pubMed.utils.XMLConvertor;
+
+public class TestXMLConvertor {
+	private static final String TEST_XML = "src/test/files/test.xml";
+
+	@Test
+	public void testXMLConvertor() throws FileNotFoundException {
+		InputStream inputstream = new FileInputStream(TEST_XML);
+		ESearchResult eSearchResult = new ESearchResult();
+		XMLConvertor<ESearchResult> xmlConvertor = new XMLConvertor<ESearchResult>(
+				eSearchResult, inputstream);
+	}
+
+}

@@ -7,9 +7,21 @@
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.WebResource"/>
 <fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONObject"/>
 <fullyQualifiedTypeName name="nicta.utils.Article"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="nicta.pubMed.jaxb.eSearch.Id"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.ESearchResult"/>
+<fullyQualifiedTypeName name="org.pubMed.utils.XMLConvertor"/>
+<fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.Id"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.utils.Date"/>
+<fullyQualifiedTypeName name="org.utils.Month"/>
+<fullyQualifiedTypeName name="org.utils.Conference"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="org.interfaces.Query"/>
+<fullyQualifiedTypeName name="org.xml.sax.SAXException"/>
+<fullyQualifiedTypeName name="org.utils.Parameter"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.utils.Search"/>
 </qualifiedTypeNameHistroy>

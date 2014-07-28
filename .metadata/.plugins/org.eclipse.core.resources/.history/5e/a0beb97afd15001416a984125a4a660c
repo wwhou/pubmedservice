@@ -1,0 +1,22 @@
+package org.utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.pubMed.utils.DatePair;
+
+
+public abstract class Query {
+	
+	protected List<String> queryList;
+	
+	public Query(){
+		this.queryList=new ArrayList<String>();
+	}
+
+	public abstract void setDatePair(DatePair datePair);
+	public abstract void setRetMax(int retMax);
+	public abstract void setTerm(String term);
+	public abstract String toQuery();
+	
+}

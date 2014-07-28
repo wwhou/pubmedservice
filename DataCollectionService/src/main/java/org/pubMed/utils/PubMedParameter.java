@@ -1,10 +1,13 @@
 package org.pubMed.utils;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
+import org.utils.Parameter;
+
+//
+//import javax.xml.bind.annotation.XmlAccessType;
+//import javax.xml.bind.annotation.XmlAccessorType;
+//import javax.xml.bind.annotation.XmlElement;
+//import javax.xml.bind.annotation.XmlRootElement;
+//import javax.xml.bind.annotation.XmlType;
 
 //@XmlAccessorType(XmlAccessType.FIELD)
 //, propOrder = { "db", "term", "field", "retMax", "query_key",
@@ -12,8 +15,11 @@ import javax.xml.bind.annotation.XmlType;
 //"queryTranslation", "error", "errorList", "warningList" }
 //@XmlType(name = "PubMedParameter")
 //@XmlRootElement
-public class PubMedParameter {
+public class PubMedParameter extends Parameter{
 
+	public PubMedParameter(){
+		super();
+	}
 	public String getDatabase() {
 		return database;
 	}
@@ -22,13 +28,7 @@ public class PubMedParameter {
 		this.database = database;
 	}
 
-	public String getTerm() {
-		return term;
-	}
-
-	public void setTerm(String term) {
-		this.term = term;
-	}
+	
 
 	public String getField() {
 		return field;
@@ -38,13 +38,6 @@ public class PubMedParameter {
 		this.field = field;
 	}
 
-	public int getRetMax() {
-		return retMax;
-	}
-
-	public void setRetMax(int retMax) {
-		this.retMax = retMax;
-	}
 
 	public int getRetStart() {
 		return retStart;
@@ -113,11 +106,11 @@ public class PubMedParameter {
 //	@XmlElement(name = "db", required = false)
 	protected String database = "pubmed";
 //	@XmlElement(name = "term", required = true)
-	protected String term = "";
+	//protected String term = "";
 //	@XmlElement(name = "field", required = false)
 	protected String field = "";
 //	@XmlElement(name = "retMax", required = false)
-	protected int retMax = 20;
+//	protected int retMax = 20;
 //	@XmlElement(name = "retStart", required = false)
 	protected int retStart = 0;
 //	@XmlElement(name = "query_key", required = false)
@@ -135,9 +128,4 @@ public class PubMedParameter {
 //	@XmlElement(name = "usehistory", required = false)
 	protected boolean useHistory;
 
-	@Override
-	public String toString() {
-	    return "PubMedParameter{" + "db=" + database + ", term=" + term + 
-	            '}';
-	}
 }

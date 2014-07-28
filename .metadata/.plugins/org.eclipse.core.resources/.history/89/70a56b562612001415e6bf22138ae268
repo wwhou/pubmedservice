@@ -1,0 +1,8 @@
+package org.pubMed.test;
+
+public class TestPubMedSAXHandler {
+
+	public TestPubMedSAXHandler(){
+		
+	}
+}

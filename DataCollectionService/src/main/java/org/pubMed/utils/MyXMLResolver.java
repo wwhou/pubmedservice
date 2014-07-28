@@ -3,7 +3,6 @@ package org.pubMed.utils;
 import javax.xml.stream.XMLResolver;
 import javax.xml.stream.XMLStreamException;
 
-@SuppressWarnings("restriction")
 public class MyXMLResolver implements XMLResolver {
 
     private String publicID;
@@ -29,10 +28,10 @@ public class MyXMLResolver implements XMLResolver {
 
 	public Object resolveEntity(String arg0, String arg1, String arg2,
 			String arg3) throws XMLStreamException {
-		this.publicID = publicID;
-        this.systemID = systemID;
-        this.baseURI = baseURI;
-        this.namespace = namespace;
+		this.publicID = arg0;
+        this.systemID = arg1;
+        this.baseURI = arg2;
+        this.namespace = arg3;
         return null;
 	}
 

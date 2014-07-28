@@ -1,0 +1,30 @@
+package org.pubMed.test;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
+import org.junit.Test;
+import org.pubMed.utils.PubMedSAXHandler;
+import org.utils.Article;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.XMLReaderFactory;
+
+public class TestPubMedSAXHandler {
+
+	private static final String TEST_XML="src/test/files/efetchResult.xml";
+	@Test
+	public void testPubMedSAXHandler() throws SAXException, IOException{
+		XMLReader xr = XMLReaderFactory.createXMLReader();
+		PubMedSAXHandler handler = new PubMedSAXHandler();
+		xr.setContentHandler(handler);
+		xr.setErrorHandler(handler);
+		InputStream inputStream =new FileInputStream(TEST_XML);
+		xr.parse(new InputSource(inputStream));
+		ArrayList<Article> article=(ArrayList<Article>) handler.getArtciles();
+		
+	}
+}

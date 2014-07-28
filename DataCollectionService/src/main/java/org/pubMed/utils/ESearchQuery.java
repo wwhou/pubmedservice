@@ -1,14 +1,11 @@
 package org.pubMed.utils;
 
-import java.util.ArrayList;
-import java.util.List;
+import org.utils.Query;
 
-public class ESearchQuery {
-
-	private List<String> queryList;
+public class ESearchQuery extends Query {
 
 	public ESearchQuery() {
-		queryList = new ArrayList<String>();
+		super();
 	}
 
 	public void setDateType(String dateType) {
@@ -26,6 +23,7 @@ public class ESearchQuery {
 	}
 
 	// the term must follow the database type
+	@Override
 	public void setTerm(String term) {
 		queryList.add("&term=" + term);
 	}
@@ -62,11 +60,8 @@ public class ESearchQuery {
 		queryList.add(datePair.toString());
 	}
 
-	public void setRetMax(int retMax) {
-		queryList.add("&retmax=" + retMax);
-	}
-
 	// generate query string
+	@Override
 	public String toQuery() {
 
 		String queryString = "";
@@ -76,6 +71,13 @@ public class ESearchQuery {
 			queryString += query;
 		}
 		return queryString;
+	}
+
+	@Override
+	public void setRetMax(int retMax) {
+		// TODO Auto-generated method stub
+
+		queryList.add("&retmax=" + retMax);
 	}
 
 }

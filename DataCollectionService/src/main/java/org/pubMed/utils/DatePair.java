@@ -27,6 +27,7 @@ public class DatePair {
 
 		DateFormat dateFormat1 = new SimpleDateFormat("yyyy/MM/dd");
 		try {
+			@SuppressWarnings("unused")
 			Date date = dateFormat1.parse(startDate);
 			this.minDate = startDate;
 			DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
@@ -46,7 +47,9 @@ public class DatePair {
 
 		DateFormat dateFormat1 = new SimpleDateFormat("yyyy/MM/dd");
 		try {
+			@SuppressWarnings("unused")
 			Date date = dateFormat1.parse(startDate);
+			@SuppressWarnings("unused")
 			Date date2 = dateFormat1.parse(endDate);
 			this.minDate = startDate;
 			this.maxDate = endDate;

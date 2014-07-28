@@ -1,0 +1,20 @@
+1406504743334	Delete element
+1406504789333	Delete element
+1406506896584	Move compilation units
+1406506964132	Move compilation unit
+1406507082898	Move compilation unit
+1406507238571	Delete element
+1406507362194	Move compilation units
+1406507426157	Rename package 'org.pubMed.service'
+1406507568386	Rename package 'org.pubMed.test'
+1406508455745	Rename resource 'tests'
+1406508475091	Copy compilation units
+1406508509199	Move 3 resources to 'src'
+1406508817689	Move 3 resources to 'files'
+1406508903770	Rename source folder 'src/test/t'
+1406508922291	Move files
+1406508934488	Move package
+1406509030848	Move 3 resources to 'files'
+1406515229673	Delete element
+1406515272193	Delete element
+1406516206498	Rename method 'getEFetchResult'

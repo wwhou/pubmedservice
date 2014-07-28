@@ -16,7 +16,6 @@ import org.xml.sax.SAXException;
 public class XMLConvertor <T> {
 	
 	private T object;
-	//private T obt;
 	private InputStream stream;
 	public XMLConvertor(T object, InputStream stream){
 		this.object=object;
@@ -27,8 +26,8 @@ public class XMLConvertor <T> {
 	public T convertXMLtoObject() throws JAXBException, ParserConfigurationException, SAXException, FileNotFoundException, XMLStreamException{
 		
 		XMLInputFactory xif = XMLInputFactory.newInstance();
-        MyXMLResolver resolver = new MyXMLResolver();
-        xif.setXMLResolver(resolver);
+//        MyXMLResolver resolver = new MyXMLResolver();
+//        xif.setXMLResolver(resolver);
         XMLStreamReader xsr = xif.createXMLStreamReader(new InputStreamReader(stream));
         JAXBContext jc = JAXBContext.newInstance(object.getClass());
         Unmarshaller unmarshaller = jc.createUnmarshaller();

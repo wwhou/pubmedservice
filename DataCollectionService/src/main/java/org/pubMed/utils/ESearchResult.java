@@ -7,8 +7,8 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.pubMed.crawlers.ESearch;
 import org.pubMed.jaxb.eSearch.Id;
-import org.pubMed.service.ESearch;
 import org.xml.sax.SAXException;
 
 public class ESearchResult {
@@ -36,7 +36,7 @@ public class ESearchResult {
 		if (!pubMedParam.getField().equals("")) {
 			ep.setField(pubMedParam.getField());
 		}
-		ep.setRetMax(pubMedParam.retMax);
+		ep.setRetMax(pubMedParam.getRetMax());
 		if (!pubMedParam.webEnv.equals("") && !pubMedParam.useHistory) {
 			throw new WebApplicationException(Response
 					.status(Status.BAD_REQUEST)

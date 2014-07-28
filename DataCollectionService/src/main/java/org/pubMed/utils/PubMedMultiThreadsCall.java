@@ -9,19 +9,19 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+import org.pubMed.crawlers.EFetch;
 import org.pubMed.jaxb.eSearch.Id;
-import org.pubMed.service.EFetch;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 public class PubMedMultiThreadsCall {
 
-	private List<Future<pubMedSAXHandler>> results;
+	private List<Future<PubMedSAXHandler>> results;
 
 	public PubMedMultiThreadsCall(List<Id> idList, String db) {
 
-		results = new ArrayList<Future<pubMedSAXHandler>>();
+		results = new ArrayList<Future<PubMedSAXHandler>>();
 		if (idList.size() > 0) {
 			int length = idList.size();
 			int threads =length/100;
@@ -34,7 +34,7 @@ public class PubMedMultiThreadsCall {
 			String fetchIds="db="+db+"&id="+idList.get(0).getContent()+",";
 			while (i < length) {
 				if ((i + 1) % 100 == 0) {	
-					Future<pubMedSAXHandler> future = executor
+					Future<PubMedSAXHandler> future = executor
 							.submit(new MyCallable(fetchIds));			
 					results.add(future);
 				//	System.out.println(fetchIds);
@@ -53,11 +53,11 @@ public class PubMedMultiThreadsCall {
 
 	}
 
-	public List<Future<pubMedSAXHandler>> getFutures() {
+	public List<Future<PubMedSAXHandler>> getFutures() {
 		return results;
 	}
 
-	class MyCallable implements Callable<pubMedSAXHandler> {
+	class MyCallable implements Callable<PubMedSAXHandler> {
 
 		private String query;
 
@@ -66,14 +66,14 @@ public class PubMedMultiThreadsCall {
 		}
 
 		@Override
-		public pubMedSAXHandler call() throws Exception {
+		public PubMedSAXHandler call() throws Exception {
 
 			EFetch efetch = new EFetch(query, true);
 			XMLReader xr = XMLReaderFactory.createXMLReader();
-			pubMedSAXHandler handler = new pubMedSAXHandler();
+			PubMedSAXHandler handler = new PubMedSAXHandler();
 			xr.setContentHandler(handler);
 			xr.setErrorHandler(handler);
-			InputStream inputStream = efetch.getEFetchResult();
+			InputStream inputStream = efetch.getSearchResult();
 			xr.parse(new InputSource(inputStream));
 			return handler;
 		}

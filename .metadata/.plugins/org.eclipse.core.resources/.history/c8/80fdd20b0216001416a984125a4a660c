@@ -1,0 +1,14 @@
+package org.utils;
+
+import java.io.InputStream;
+
+public abstract class Search {
+
+	protected String url;
+	
+	public Search(String url){
+		this.url=url;
+	}
+	
+	public abstract InputStream getSearchResult();
+}

@@ -1,0 +1,23 @@
+package org.pubMed.test;
+
+import java.io.InputStream;
+
+import org.junit.Test;
+import org.pubMed.utils.PubMedSAXHandler;
+import org.xml.sax.InputSource;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.XMLReaderFactory;
+
+public class TestPubMedSAXHandler {
+
+	private static final String TEST_XML="src/test/files/efetchResult.xml";
+	@Test
+	public void testPubMedSAXHandler(){
+		XMLReader xr = XMLReaderFactory.createXMLReader();
+		PubMedSAXHandler handler = new PubMedSAXHandler();
+		xr.setContentHandler(handler);
+		xr.setErrorHandler(handler);
+		InputStream inputStream = efetch.getEFetchResult();
+		xr.parse(new InputSource(inputStream));
+	}
+}
