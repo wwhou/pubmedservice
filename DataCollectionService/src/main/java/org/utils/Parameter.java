@@ -1,6 +1,6 @@
 package org.utils;
 
-public class Parameter {
+public abstract class  Parameter {
 	
 	protected int retMax = 20;
 	protected String term="";
@@ -16,6 +16,5 @@ public class Parameter {
 	public void setTerm(String term) {
 		this.term = term;
 	}
-	
 
 }

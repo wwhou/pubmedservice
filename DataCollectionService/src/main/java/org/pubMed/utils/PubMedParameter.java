@@ -126,6 +126,6 @@ public class PubMedParameter extends Parameter{
 //	@XmlElement(name = "maxdate", required = false)
 	protected String endDate = "";
 //	@XmlElement(name = "usehistory", required = false)
-	protected boolean useHistory;
+	protected boolean useHistory=true;
 
 }

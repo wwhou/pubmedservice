@@ -2,14 +2,21 @@ package org.IEEE.utils;
 
 import java.util.Calendar;
 
-public class IEEEParameter {
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 
-	private int startYear;
-	private int endYear;
+import org.utils.Parameter;
 
-	public IEEEParameter(){
+public class IEEEParameter extends Parameter {
+
+	private int startYear = 0;
+	private int endYear = 0;
+
+	public IEEEParameter() {
 		super();
 	}
+
 	public int getStartYear() {
 		return startYear;
 	}
@@ -34,4 +41,5 @@ public class IEEEParameter {
 			throw new IllegalArgumentException("Exceed the year range!!");
 	}
 
+	
 }
