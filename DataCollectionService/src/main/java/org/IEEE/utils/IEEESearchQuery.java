@@ -4,8 +4,8 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import org.pubMed.utils.DatePair;
 import org.utils.Query;
+
 
 public class IEEESearchQuery implements Query {
 

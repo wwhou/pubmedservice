@@ -1,5 +1,6 @@
 package org.utils;
 
+
 public abstract class  Parameter {
 	
 	protected int retMax = 20;

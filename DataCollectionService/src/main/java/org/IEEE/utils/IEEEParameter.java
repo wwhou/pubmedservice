@@ -22,8 +22,8 @@ public class IEEEParameter extends Parameter {
 	}
 
 	public void setStartYear(int startYear) {
-		if (startYear > 1900
-				&& startYear < Calendar.getInstance().get(Calendar.YEAR))
+		if (startYear >= 1900
+				&& startYear <=Calendar.getInstance().get(Calendar.YEAR))
 			this.startYear = startYear;
 		else
 			throw new IllegalArgumentException("Exceed the year range!!");
@@ -34,12 +34,11 @@ public class IEEEParameter extends Parameter {
 	}
 
 	public void setEndYear(int endYear) {
-		if (endYear > startYear && endYear > 1900
-				&& endYear < Calendar.getInstance().get(Calendar.YEAR))
+		if (endYear >=startYear && endYear >=1900
+				&& endYear <= Calendar.getInstance().get(Calendar.YEAR))
 			this.endYear = endYear;
-		else
+		else 
 			throw new IllegalArgumentException("Exceed the year range!!");
 	}
 
-	
 }

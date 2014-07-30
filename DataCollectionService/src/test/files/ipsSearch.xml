@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+<totalfound>1064</totalfound>
+
+<totalsearched>3766350</totalsearched>
+
+<document>
+
+<rank>11</rank>
+
+<title><![CDATA[A Practical Guide to Testing Wireless Smartphone Applications]]></title>
+
+<authors><![CDATA[Harty, J.]]></authors>
+
+<pubtitle><![CDATA[A Practical Guide to Testing Wireless Smartphone Applications]]></pubtitle>
+
+<punumber><![CDATA[6813230]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Morgan & Claypool]]></publisher>
+
+<py><![CDATA[2009]]></py>
+
+<abstract><![CDATA[Testing applications for mobile phones is difficult, time-consuming, and hard to do effectively. Many people have limited their testing efforts to hands-on testing of an application on a few physical handsets, and they have to repeat the process every time a new version of the software is ready to test. They may miss many of the permutations of real-world use, and as a consequence their users are left with the unpleasant mess of a failing application on their phone. Test automation can help to increase the range and scope of testing, while reducing the overhead of manual testing of each version of the software. However automation is not a panacea, particularly for mobile applications, so we need to pick our test automation challenges wisely. This book is intended to help software and test engineers pick appropriately to achieve more; and as a consequence deliver better quality, working software to users. This Synthesis lecture provides practical advice based on direct experience of us ng software test automation to help improve the testing of a wide range of mobile phone applications, including the latest AJAX applications. The focus is on applications that rely on a wireless network connection to a remote server, however the principles may apply to other related fields and applications. We start by explaining terms and some of the key challenges involved in testing smartphone applications. Subsequent chapters describe a type of application e.g. markup, AJAX, Client, followed by a related chapter on how to test each of these applications. Common test automation techniques are covered in a separate chapter, and finally there is a brief chapter on when to test manually. The book also contains numerous pointers and links to further material to help you to improve your testing using automation appropriately. Table of Contents: Introduction / Markup Languages / Testing Techniques for Markup Applications / AJAX Mobile Applications / Testing Mobile AJAX Applications / Cli nt Applications / Testing Techniques for Client Applications / Common Techniques / When to Test Manually / Future Work / Appendix A: Links and References / Appendix B: Data Connectivity / Appendix C: Configuring Your Machine]]></abstract>
+
+<isbn><![CDATA[1608452549]]></isbn>
+
+<coverImage><![CDATA[/ebooks/6813230/6813230.jpg]]></coverImage>
+
+<arnumber><![CDATA[PU-6813230]]></arnumber>
+
+<doi><![CDATA[10.2200/S00219ED1V01Y200909MPC006]]></doi>
+
+<publicationId><![CDATA[6813230]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=PU-6813230&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=PU-6813230]]></pdf>
+
+</document>
+
+<document>
+
+<rank>12</rank>
+
+<title><![CDATA[A Primer on Internet Technology]]></title>
+
+<authors><![CDATA[Nuechterlein, J.;  Weiser, P.]]></authors>
+
+<pubtitle><![CDATA[Digital Crossroads:Telecommunications Law and Policy in the Internet Age]]></pubtitle>
+
+<punumber><![CDATA[6574625]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[MIT Press]]></publisher>
+
+<py><![CDATA[2013]]></py>
+
+<abstract><![CDATA[This chapter contains sections titled: I. The Basics, II. The Internet&#x0027;s Physical Infrastructure]]></abstract>
+
+<isbn><![CDATA[9780262315579]]></isbn>
+
+<arnumber><![CDATA[6577961]]></arnumber>
+
+<publicationId><![CDATA[6577961]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6577961&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6577961]]></pdf>
+
+</document>
+
+<document>
+
+<rank>13</rank>
+
+<title><![CDATA[A Primer on Memory Consistency and Cache Coherence]]></title>
+
+<authors><![CDATA[Sorin, D.;  Hill, M.;  Wood, D.]]></authors>
+
+<pubtitle><![CDATA[A Primer on Memory Consistency and Cache Coherence]]></pubtitle>
+
+<punumber><![CDATA[6813517]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Morgan & Claypool]]></publisher>
+
+<py><![CDATA[2011]]></py>
+
+<abstract><![CDATA[Many modern computer systems and most multicore chips (chip multiprocessors) support shared memory in hardware. In a shared memory system, each of the processor cores may read and write to a single shared address space. For a shared memory machine, the memory consistency model defines the architecturally visible behavior of its memory system. Consistency definitions provide rules about loads and stores (or memory reads and writes) and how they act upon memory. As part of supporting a memory consistency model, many machines also provide cache coherence protocols that ensure that multiple cached copies of data are kept up-to-date. The goal of this primer is to provide readers with a basic understanding of consistency and coherence. This understanding includes both the issues that must be solved as well as a variety of solutions. We present both highlevel concepts as well as specific, concrete examples from real-world systems. Table of Contents: Preface / Introduction to Consistency and oherence / Coherence Basics / Memory Consistency Motivation and Sequential Consistency / Total Store Order and the x86 Memory Model / Relaxed Memory Consistency / Coherence Protocols / Snooping Coherence Protocols / Directory Coherence Protocols / Advanced Topics in Coherence / Author Biographies]]></abstract>
+
+<isbn><![CDATA[1608455653]]></isbn>
+
+<coverImage><![CDATA[/ebooks/6813517/6813517.jpg]]></coverImage>
+
+<arnumber><![CDATA[PU-6813517]]></arnumber>
+
+<doi><![CDATA[10.2200/S00346ED1V01Y201104CAC016]]></doi>
+
+<publicationId><![CDATA[6813517]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=PU-6813517&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=PU-6813517]]></pdf>
+
+</document>
+
+<document>
+
+<rank>14</rank>
+
+<title><![CDATA[A Prototype OpenControl Platform for Reconfigurable Control Systems]]></title>
+
+<authors><![CDATA[Samad, T.;  Balas, G.]]></authors>
+
+<pubtitle><![CDATA[Software-Enabled Control:Information Technology for Dynamical Systems]]></pubtitle>
+
+<punumber><![CDATA[5237410]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Wiley-IEEE Press]]></publisher>
+
+<py><![CDATA[2003]]></py>
+
+<spage><![CDATA[63]]></spage>
+
+<epage><![CDATA[84]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: <br> Introduction <br> Current Practice in Control System Configurations <br> Open-Control Platform Design <br> A Prototype Open Control Platform <br> Ongoing Work and Open Issues <br> References]]></abstract>
+
+<isbn><![CDATA[9780471722885]]></isbn>
+
+<arnumber><![CDATA[5238327]]></arnumber>
+
+<doi><![CDATA[10.1002/047172288X.ch5]]></doi>
+
+<publicationId><![CDATA[5238327]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5238327&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5238327]]></pdf>
+
+</document>
+
+<document>
+
+<rank>15</rank>
+
+<title><![CDATA[A Quick Tour of Modelica]]></title>
+
+<authors><![CDATA[Fritzson, P.]]></authors>
+
+<pubtitle><![CDATA[Principles of Object-Oriented Modeling and Simulation with Modelica 2.1]]></pubtitle>
+
+<punumber><![CDATA[5264314]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Wiley-IEEE Press]]></publisher>
+
+<py><![CDATA[2004]]></py>
+
+<spage><![CDATA[19]]></spage>
+
+<epage><![CDATA[69]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: Getting Started with Modelica<br> Object-Oriented Mathematical Modeling<br> Classes and Instances<br> Inheritance<br> Generic Classes<br> Equations<br> Acausal Physical Modeling<br> The Modelica Software Component Model<br> Partial Classes<br> Component Library Design and Use<br> Example: Electrical Component Library<br> The Simple Circuit Model<br> Arrays<br> Algorithmic Constructs<br> Discrete Event and Hybrid Modeling<br> Packages<br> Annotations<br> Naming Conventions<br> Modelica Standard Libraries<br> Implementation and Execution of Modelica<br> History<br> Summary<br> Literature<br> Exercises<br> <br>]]></abstract>
+
+<isbn><![CDATA[9780470545669]]></isbn>
+
+<arnumber><![CDATA[5264354]]></arnumber>
+
+<doi><![CDATA[10.1109/9780470545669.ch2]]></doi>
+
+<publicationId><![CDATA[5264354]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5264354&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5264354]]></pdf>
+
+</document>
+
+<document>
+
+<rank>16</rank>
+
+<title><![CDATA[A Quick Tour of Modelica]]></title>
+
+<authors><![CDATA[Fritzson, P.]]></authors>
+
+<pubtitle><![CDATA[Introduction to Modeling and Simulation of Technical and Physical Systems with Modelica]]></pubtitle>
+
+<punumber><![CDATA[6047592]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Wiley-IEEE Press]]></publisher>
+
+<py><![CDATA[2011]]></py>
+
+<spage><![CDATA[29]]></spage>
+
+<epage><![CDATA[111]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: <br> Getting Started with Modelica <br> Object-Oriented Mathematical Modeling <br> Classes and Instances <br> Inheritance <br> Generic Classes <br> Equations <br> Acausal Physical Modeling <br> The Modelica Software Component Model <br> Partial Classes <br> Component Library Design and Use <br> Example: Electrical Component Library <br> Simple Circuit Model <br> Arrays <br> Algorithmic Constructs <br> Discrete Event and Hybrid Modeling <br> Packages <br> Annotations <br> Naming Conventions <br> Modelica Standard Libraries <br> Implementation and Execution of Modelica <br> History <br> Summary <br> Literature <br> Exercises]]></abstract>
+
+<isbn><![CDATA[9781118094259]]></isbn>
+
+<arnumber><![CDATA[6047627]]></arnumber>
+
+<doi><![CDATA[10.1002/9781118094259.ch2]]></doi>
+
+<publicationId><![CDATA[6047627]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6047627&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6047627]]></pdf>
+
+</document>
+
+<document>
+
+<rank>17</rank>
+
+<title><![CDATA[A Simple Translational Semantics of Objects and Classes]]></title>
+
+<authors><![CDATA[Bruce, K.]]></authors>
+
+<pubtitle><![CDATA[Foundations of Object-Oriented Languages:Types and Semantics]]></pubtitle>
+
+<punumber><![CDATA[6267232]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[MIT Press]]></publisher>
+
+<py><![CDATA[2002]]></py>
+
+<spage><![CDATA[201]]></spage>
+
+<epage><![CDATA[223]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: Representing objects at runtime, Modeling SOOL types in &#x039B;&#x003C;P, Modeling SOOL expressions in &#x039B;&#x003C;P, Modeling classes &#x2014; first try, Problems withmodeling subclasses, Summary]]></abstract>
+
+<isbn><![CDATA[9780262255851]]></isbn>
+
+<arnumber><![CDATA[6280067]]></arnumber>
+
+<publicationId><![CDATA[6280067]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6280067&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6280067]]></pdf>
+
+</document>
+
+<document>
+
+<rank>18</rank>
+
+<title><![CDATA[A Software Tools for Biological Modeling]]></title>
+
+<authors><![CDATA[Szallasi, Z.;  Stelling, J.;  Periwal, V.]]></authors>
+
+<pubtitle><![CDATA[System Modeling in Cellular Biology:From Concepts to Nuts and Bolts]]></pubtitle>
+
+<punumber><![CDATA[6267344]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[MIT Press]]></publisher>
+
+<py><![CDATA[2006]]></py>
+
+<spage><![CDATA[379]]></spage>
+
+<epage><![CDATA[384]]></epage>
+
+<abstract><![CDATA[This chapter contains section titled: A.1 Genetic Network Analyzer: GNA, A.2 Gene Interaction Network Simulator: GINsim, A.3 Discrete Dynamics Lab: DDLab, A.4 Cellerator, A.5 Sigmoid, A.6 Metatool, A.7 FluxAnalyzer, A.8 ScrumPy, A.9 Jarnac, A.10 Gepasi, A.11 MesoRD, A.12 Ingeneue, A.13 XPPAUT, A.14 BioSens, A.15 JigCell, A.16 Oscill8, A.17 Madonna, A.18 Systems Biology Workbench]]></abstract>
+
+<isbn><![CDATA[9780262257060]]></isbn>
+
+<arnumber><![CDATA[6283274]]></arnumber>
+
+<publicationId><![CDATA[6283274]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6283274&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6283274]]></pdf>
+
+</document>
+
+<document>
+
+<rank>19</rank>
+
+<title><![CDATA[A Tale of Five Challenges]]></title>
+
+<authors><![CDATA[Brown, M.;  Sovacool, B.]]></authors>
+
+<pubtitle><![CDATA[Climate Change and Global Energy Security:Technology and Policy Options]]></pubtitle>
+
+<punumber><![CDATA[6276863]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[MIT Press]]></publisher>
+
+<py><![CDATA[2011]]></py>
+
+<spage><![CDATA[13]]></spage>
+
+<epage><![CDATA[64]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: Electricity, Transportation, Forestry and Agriculture, Waste and Water, Climate Change, Conflicts and Complementarities]]></abstract>
+
+<isbn><![CDATA[9780262310659]]></isbn>
+
+<arnumber><![CDATA[6300091]]></arnumber>
+
+<publicationId><![CDATA[6300091]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6300091&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6300091]]></pdf>
+
+</document>
+
+<document>
+
+<rank>20</rank>
+
+<title><![CDATA[A Ubiquitous Fashionable Computer with an iThrow Device on a Locationbased Service Environment]]></title>
+
+<authors><![CDATA[Yang, L.]]></authors>
+
+<pubtitle><![CDATA[Mobile Intelligence]]></pubtitle>
+
+<punumber><![CDATA[5732776]]></punumber>
+
+<pubtype><![CDATA[Books & eBooks]]></pubtype>
+
+<publisher><![CDATA[Wiley-IEEE Press]]></publisher>
+
+<py><![CDATA[2010]]></py>
+
+<spage><![CDATA[510]]></spage>
+
+<epage><![CDATA[529]]></epage>
+
+<abstract><![CDATA[This chapter contains sections titled: <br> Introduction <br> Ubiquitous Fashionable Computer <br> Location-Based Service Environment <br> Application Example: User-Friendly Interaction with Ubiquitous Environment using I-Throw <br> Related Work <br> Conclusion <br> References]]></abstract>
+
+<isbn><![CDATA[9780470579398]]></isbn>
+
+<arnumber><![CDATA[5732832]]></arnumber>
+
+<doi><![CDATA[10.1002/9780470579398.ch22]]></doi>
+
+<publicationId><![CDATA[5732832]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5732832&contentType=Books+%26+eBooks]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5732832]]></pdf>
+
+</document>
+
+</root>

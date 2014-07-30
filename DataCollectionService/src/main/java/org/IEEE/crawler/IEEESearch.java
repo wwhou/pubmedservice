@@ -9,5 +9,4 @@ public class IEEESearch extends Search {
 	public IEEESearch(String query) {
 		super(ieeeSearchBase + query);
 	}
-
 }

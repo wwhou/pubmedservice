@@ -37,6 +37,7 @@ public class IEEESAXHandler extends DefaultHandler {
 	private KeywordList keywordList = null;
 	private String authorString = null;
 	private String startPage = null;
+	private boolean affiFlag = false;
 
 	public Collection<ArticleMeta> getArticleMetas() {
 		return articleMetas;
@@ -76,14 +77,14 @@ public class IEEESAXHandler extends DefaultHandler {
 	public void endElement(String uri, String localName, String qName)
 			throws SAXException {
 		switch (qName.toLowerCase()) {
-		case "documemt":
-			Calendar calendar=Calendar.getInstance();		
-			String id=calendar.get(Calendar.YEAR)+"-"+
-					calendar.get(Calendar.MONTH)+"-"+
-					calendar.get(Calendar.DATE)+"-"+
-					calendar.get(Calendar.HOUR)+"-"+
-					calendar.get(Calendar.MINUTE)+"-"+
-					calendar.get(Calendar.SECOND)+UUID.randomUUID();
+		case "document":
+			Calendar calendar = Calendar.getInstance();
+			String id = calendar.get(Calendar.YEAR) + "-"
+					+ calendar.get(Calendar.MONTH) + "-"
+					+ calendar.get(Calendar.DATE) + "-"
+					+ calendar.get(Calendar.HOUR) + "-"
+					+ calendar.get(Calendar.MINUTE) + "-"
+					+ calendar.get(Calendar.SECOND) + UUID.randomUUID();
 			articleMeta.setId(id);
 			if (conference != null) {
 				conference.setTitle(pubTitle);
@@ -97,6 +98,27 @@ public class IEEESAXHandler extends DefaultHandler {
 			}
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
+			if (authorString != null && !affiFlag) {
+				String[] authorNames = authorString.split(";");
+				for (String authorName : authorNames) {
+					Author author = new Author();
+					String[] namePair = authorName.trim().split(" ");
+					String name0 = namePair[0];
+					if (namePair.length == 3) {
+						author.setMiddleName(namePair[2]);
+					}
+					if (name0.contains(",")) {
+						author.setLastName(name0.replace(",", "").trim());
+						author.setFirstName(namePair[namePair.length - 1]);
+					} else {
+						author.setFirstName(name0);
+						author.setLastName(namePair[namePair.length - 1]);
+					}
+					article.getAuthors().add(author);
+					authors.add(author);
+				}
+				affiFlag = false;
+			}
 			articles.add(article);
 			break;
 		case "title":
@@ -162,7 +184,7 @@ public class IEEESAXHandler extends DefaultHandler {
 			if (startPage != null) {
 				articleMeta.setPagination(startPage + "-" + tmpValue);
 			}
-			
+
 			break;
 		case "volume":
 			if (conference != null) {
@@ -187,6 +209,7 @@ public class IEEESAXHandler extends DefaultHandler {
 			authorString = tmpValue;
 			break;
 		case "affiliations":
+			affiFlag = true;
 			if (authorString != null) {
 				String[] authorNames = authorString.split(";");
 				for (String authorName : authorNames) {
@@ -197,7 +220,7 @@ public class IEEESAXHandler extends DefaultHandler {
 						author.setMiddleName(namePair[2]);
 					}
 					if (name0.contains(",")) {
-						author.setLastName(name0);
+						author.setLastName(name0.replace(",", "").trim());
 						author.setFirstName(namePair[namePair.length - 1]);
 					} else {
 						author.setFirstName(name0);

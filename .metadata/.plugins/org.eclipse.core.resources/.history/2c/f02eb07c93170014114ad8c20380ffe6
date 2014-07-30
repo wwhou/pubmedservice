@@ -1,0 +1,15 @@
+package org.IEEE.utils.test;
+
+import static org.junit.Assert.assertNotNull;
+
+import org.IEEE.crawler.IEEESearch;
+import org.junit.Test;
+
+public class TestIEEESearch {
+
+	@Test
+	public void testIEEESearch(){
+		IEEESearch ieeeSearch=new IEEESearch("querytext=java&hc=1");
+		assertNotNull(ieeeSearch.getSearchResult());
+	}
+}

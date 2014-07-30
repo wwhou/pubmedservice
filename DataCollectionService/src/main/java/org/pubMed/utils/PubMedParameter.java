@@ -1,20 +1,18 @@
 package org.pubMed.utils;
 
-import org.utils.Parameter;
-
 //
 //import javax.xml.bind.annotation.XmlAccessType;
 //import javax.xml.bind.annotation.XmlAccessorType;
-//import javax.xml.bind.annotation.XmlElement;
 //import javax.xml.bind.annotation.XmlRootElement;
 //import javax.xml.bind.annotation.XmlType;
 
+import org.utils.Parameter;
+//
 //@XmlAccessorType(XmlAccessType.FIELD)
-//, propOrder = { "db", "term", "field", "retMax", "query_key",
+//@XmlType(name = "",propOrder = { "db", "term", "field", "retMax", "query_key",
 //"webEnv", "idList", "translationSet", "translationStack",
-//"queryTranslation", "error", "errorList", "warningList" }
-//@XmlType(name = "PubMedParameter")
-//@XmlRootElement
+//"queryTranslation", "error", "errorList", "warningList" })
+//@XmlRootElement(name = "PubMedParameter")
 public class PubMedParameter extends Parameter{
 
 	public PubMedParameter(){

@@ -1,0 +1,37 @@
+package org.IEEE.crawler;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.utils.Search;
+
+public class IEEESearch extends Search {
+
+	private static final String ieeeSearchBase = "http://ieeexplore.ieee.org/gateway/ipsSearch.jsp?";
+
+	String query;
+	public IEEESearch(String query) {
+		super(ieeeSearchBase + query);
+		System.out.print(ieeeSearchBase+query);
+		this.query=query;
+	}
+
+	public InputStream getSearchResult(){
+		try {
+			URL url=new URL(ieeeSearchBase+query);
+			try {
+				return url.openConnection().getInputStream();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+}

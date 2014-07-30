@@ -20,7 +20,7 @@ public class Search {
 			searchURL = new URL(url);
 			
 			try {
-				inputStream = searchURL.openStream();
+				inputStream = searchURL.openConnection().getInputStream();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
