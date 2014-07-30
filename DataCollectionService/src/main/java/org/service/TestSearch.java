@@ -1,6 +1,8 @@
 package org.service;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Collection;
 import java.util.Date;
 
@@ -26,26 +28,39 @@ public class TestSearch {
         config.getClasses().add(ObjectMapperProvider.class);
         final Client client = Client.create(config);
 		IEEEParameter pram = new IEEEParameter();
-		//PubMedParameter pram=new PubMedParameter();
-		pram.setTerm("Java");
-		pram.setRetMax(20);
-//		pram.setDatabase("pubmed");
-//		pram.setTerm("mouse");
-//		pram.setRetMax(5);
+	//PubMedParameter pram=new PubMedParameter();
+//		pram.setTerm("Java");
+//		pram.setRetMax(20);
+	//	pram.setDatabase("pubmed");
+		pram.setTerm("mouse");
+		pram.setRetMax(5);
+//		pram.setStartYear(2000);
+//		pram.setEndYear(2013);
 		Date date=new Date();
 		WebResource service = client
-				.resource("http://localhost:8080/DataCollectionService/rest/search/pubmed/article");
+				.resource("http://localhost:8080/DataCollectionService/rest/search/ieee/article");
 		System.out.print(pram.getTerm());
 		ClientResponse response = service.type(MediaType.APPLICATION_JSON)
 				.accept(MediaType.APPLICATION_JSON)
 				.post(ClientResponse.class, pram);
-		Collection<Article> articles = response.getEntity(new GenericType<Collection<Article>>() {});
+//	InputStream inputStream=	response.getEntityInputStream();
+		Collection<Article> articles = response.getEntity(new GenericType<Collection<Article>>() {});	
 		Date date1=new Date();
 		long time=date1.getTime()-date.getTime();
 		System.err.println(time);
-		for(Article article:articles){
+//		BufferedReader br=new BufferedReader(new InputStreamReader(inputStream));
+//		try {
+//			String s="";
+//			while((s=br.readLine())!=null){				
+//					System.out.println(s);
+//			}
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		for (Article article : articles) {
 			System.out.println(article.getAuthors().get(0).getFirstName());
 		}
-		System.out.print(articles.size());		
+		System.out.print(articles.size());	
 	}
 }

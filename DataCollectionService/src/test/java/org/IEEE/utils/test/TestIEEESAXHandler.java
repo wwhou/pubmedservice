@@ -7,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.IEEE.utils.IEEESAXHandler;
 import org.junit.Test;
@@ -18,7 +19,7 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 public class TestIEEESAXHandler {
-	private static final String TEST_XML = "src/test/files/ipsSearch.xml";
+	private static final String TEST_XML = "src/test/files/search5.xml";// "src/test/files/ipsSearch.xml";
 
 	@Test
 	public void testIEEESAXHandler() throws SAXException, IOException {
@@ -31,10 +32,11 @@ public class TestIEEESAXHandler {
 		final ArrayList<Article> articles = (ArrayList<Article>) handler
 				.getArtciles();
 		assertNotNull(articles);
-		assertEquals(10, articles.size());
-
+		assertEquals(5, articles.size());
+		 List<Author> authors=articles.get(0).getAuthors();
+		System.out.println( "size"+authors.size());	
 		Author author = articles.get(0).getAuthors().get(0);
-		assertEquals("Harty", author.getLastName());
+		assertEquals("Shen", author.getLastName());
 		
 		
 	}

@@ -1,7 +1,7 @@
 package org.utils;
 
 
-public abstract class  Parameter {
+public class  Parameter {
 	
 	protected int retMax = 20;
 	protected String term="";

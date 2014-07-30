@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+
+<totalfound>51127</totalfound>
+
+<totalsearched>3769160</totalsearched>
+
+<document>
+
+<rank>1</rank>
+
+<title><![CDATA[User Authentication Through Mouse Dynamics]]></title>
+
+<authors><![CDATA[Chao Shen;  Zhongmin Cai;  Xiaohong Guan;  Youtian Du;  Maxion, R.A.]]></authors>
+
+<affiliations><![CDATA[MOE Key Lab. for Intell. Networks & Network Security, Xi'an Jiaotong Univ., Xi'an, China]]></affiliations>
+
+<controlledterms>
+
+<term><![CDATA[biometrics (access control)]]></term>
+
+<term><![CDATA[feature extraction]]></term>
+
+<term><![CDATA[learning (artificial intelligence)]]></term>
+
+<term><![CDATA[mouse controllers (computers)]]></term>
+
+</controlledterms>
+
+<thesaurusterms>
+
+<term><![CDATA[Authentication]]></term>
+
+<term><![CDATA[Biometrics (access control)]]></term>
+
+<term><![CDATA[Computer peripherals]]></term>
+
+<term><![CDATA[Feature extraction]]></term>
+
+<term><![CDATA[Learning (artificial intelligence)]]></term>
+
+</thesaurusterms>
+
+<pubtitle><![CDATA[Information Forensics and Security, IEEE Transactions on]]></pubtitle>
+
+<punumber><![CDATA[10206]]></punumber>
+
+<pubtype><![CDATA[Journals & Magazines]]></pubtype>
+
+<publisher><![CDATA[IEEE]]></publisher>
+
+<volume><![CDATA[8]]></volume>
+
+<issue><![CDATA[1]]></issue>
+
+<py><![CDATA[2013]]></py>
+
+<spage><![CDATA[16]]></spage>
+
+<epage><![CDATA[30]]></epage>
+
+<abstract><![CDATA[Behavior-based user authentication with pointing devices, such as mice or touchpads, has been gaining attention. As an emerging behavioral biometric, mouse dynamics aims to address the authentication problem by verifying computer users on the basis of their mouse operating styles. This paper presents a simple and efficient user authentication approach based on a fixed mouse-operation task. For each sample of the mouse-operation task, both traditional holistic features and newly defined procedural features are extracted for accurate and fine-grained characterization of a user's unique mouse behavior. Distance-measurement and eigenspace-transformation techniques are applied to obtain feature components for efficiently representing the original mouse feature space. Then a one-class learning algorithm is employed in the distance-based feature eigenspace for the authentication task. The approach is evaluated on a dataset of 5550 mouse-operation samples from 37 subjects. Extensive experimental results are included to demonstrate the efficacy of the proposed approach, which achieves a false-acceptance rate of 8.74%, and a false-rejection rate of 7.69% with a corresponding authentication time of 11.8 seconds. Two additional experiments are provided to compare the current approach with other approaches in the literature. Our dataset is publicly available to facilitate future research.]]></abstract>
+
+<issn><![CDATA[1556-6013]]></issn>
+
+<htmlFlag><![CDATA[1]]></htmlFlag>
+
+<arnumber><![CDATA[6327662]]></arnumber>
+
+<doi><![CDATA[10.1109/TIFS.2012.2223677]]></doi>
+
+<publicationId><![CDATA[6327662]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6327662&contentType=Journals+%26+Magazines]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6327662]]></pdf>
+
+</document>
+
+<document>
+
+<rank>2</rank>
+
+<title><![CDATA[Continuous authentication for mouse dynamics: A pattern-growth approach]]></title>
+
+<authors><![CDATA[Chao Shen;  Zhongmin Cai;  Xiaohong Guan]]></authors>
+
+<affiliations><![CDATA[MOE KLNNIS Lab., Xi''an Jiaotong Univ., Xi''an, China]]></affiliations>
+
+<controlledterms>
+
+<term><![CDATA[data mining]]></term>
+
+<term><![CDATA[human computer interaction]]></term>
+
+<term><![CDATA[mouse controllers (computers)]]></term>
+
+<term><![CDATA[pattern classification]]></term>
+
+<term><![CDATA[security of data]]></term>
+
+</controlledterms>
+
+<thesaurusterms>
+
+<term><![CDATA[Computers]]></term>
+
+<term><![CDATA[Databases]]></term>
+
+<term><![CDATA[Encoding]]></term>
+
+<term><![CDATA[Mice]]></term>
+
+<term><![CDATA[Wheels]]></term>
+
+</thesaurusterms>
+
+<pubtitle><![CDATA[Dependable Systems and Networks (DSN), 2012 42nd Annual IEEE/IFIP International Conference on]]></pubtitle>
+
+<punumber><![CDATA[6253623]]></punumber>
+
+<pubtype><![CDATA[Conference Publications]]></pubtype>
+
+<publisher><![CDATA[IEEE]]></publisher>
+
+<py><![CDATA[2012]]></py>
+
+<spage><![CDATA[1]]></spage>
+
+<epage><![CDATA[12]]></epage>
+
+<abstract><![CDATA[Mouse dynamics is the process of identifying individual users based on their mouse operating characteristics. Although previous work has reported some promising results, mouse dynamics is still a newly emerging technique and has not reached an acceptable level of performance. One of the major reasons is intrinsic behavioral variability. This study presents a novel approach by using pattern-growth-based mining method to extract frequent-behavior segments in obtaining stable mouse characteristics, employing one-class classification algorithms to perform the task of continuous user authentication. Experimental results show that mouse characteristics extracted from frequent-behavior segments are much more stable than those from holistic behavior, and the approach achieves a practically useful level of performance with FAR of 0.37% and FRR of 1.12%. These findings suggest that mouse dynamics suffice to be a significant enhancement for a traditional authentication system. Our dataset is publicly available to facilitate future research.]]></abstract>
+
+<issn><![CDATA[1530-0889]]></issn>
+
+<isbn><![CDATA[978-1-4673-1624-8]]></isbn>
+
+<htmlFlag><![CDATA[1]]></htmlFlag>
+
+<arnumber><![CDATA[6263955]]></arnumber>
+
+<doi><![CDATA[10.1109/DSN.2012.6263955]]></doi>
+
+<publicationId><![CDATA[6263955]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6263955&contentType=Conference+Publications]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6263955]]></pdf>
+
+</document>
+
+<document>
+
+<rank>3</rank>
+
+<title><![CDATA[Mitigating Behavioral Variability for Mouse Dynamics: A Dimensionality-Reduction-Based Approach]]></title>
+
+<authors><![CDATA[Zhongmin Cai;  Chao Shen;  Xiaohong Guan]]></authors>
+
+<affiliations><![CDATA[Sch. of Electron. & Inf. Eng., Xi'an Jiaotong Univ., Xi'an, China]]></affiliations>
+
+<controlledterms>
+
+<term><![CDATA[biometrics (access control)]]></term>
+
+<term><![CDATA[data reduction]]></term>
+
+<term><![CDATA[feature extraction]]></term>
+
+<term><![CDATA[mouse controllers (computers)]]></term>
+
+<term><![CDATA[neural nets]]></term>
+
+<term><![CDATA[pattern classification]]></term>
+
+<term><![CDATA[support vector machines]]></term>
+
+</controlledterms>
+
+<thesaurusterms>
+
+<term><![CDATA[Authentication]]></term>
+
+<term><![CDATA[Biometrics (access control)]]></term>
+
+<term><![CDATA[Data collection]]></term>
+
+<term><![CDATA[Eigenvalues and eigenfunctions]]></term>
+
+<term><![CDATA[Feature extraction]]></term>
+
+<term><![CDATA[Mice]]></term>
+
+<term><![CDATA[Training]]></term>
+
+</thesaurusterms>
+
+<pubtitle><![CDATA[Human-Machine Systems, IEEE Transactions on]]></pubtitle>
+
+<punumber><![CDATA[6221037]]></punumber>
+
+<pubtype><![CDATA[Journals & Magazines]]></pubtype>
+
+<publisher><![CDATA[IEEE]]></publisher>
+
+<volume><![CDATA[44]]></volume>
+
+<issue><![CDATA[2]]></issue>
+
+<py><![CDATA[2014]]></py>
+
+<spage><![CDATA[244]]></spage>
+
+<epage><![CDATA[255]]></epage>
+
+<abstract><![CDATA[Mouse dynamics is the process of identifying individual users on the basis of their mouse operating behaviors. Mouse dynamics analysis techniques do not provide an acceptable level of accuracy, perhaps due to behavioral variability. This study presents a dimensionality-reduction-based approach to mitigate the behavioral variability of mouse dynamics and improve the performance of mouse-dynamics-based continuous authentication. Variability was measured over the schematic features and motor-skill features extracted from each mouse behavior data session. A unified framework of employing dimensionality reduction methods (Multidimensional Scaling, Laplacian Eigenmap, Isometric Feature Mapping, and Local Linear Embedding) was developed to reduce behavioral variability by obtaining predominant characteristics from the original feature space. Classification techniques (Random Forest, Support Vector Machine, Neural Network, and Nearest Neighbor) were applied to the transformed feature space to perform the authentication task. Analyses were conducted using data from 840 half-hour sessions of 28 participants. Results indicated that for sufficiently long sequences, the transformed feature spaces had much less variability and the corresponding authentication performance was better than the original feature space with improvements of the false-acceptance rate by 89.6% and of the false-rejection rate by 77.4% in some cases. Additionally, an investigation of the relationships between variability and authentication error rates and detection time indicated that the variability and authentication error rates reduce greatly with the increase of detection time. For the data collected, the approach fared better than the state-of-the-art approaches. These findings suggest that variability reduction could improve mouse dynamics, so it may enhance current authentication mechanisms.]]></abstract>
+
+<issn><![CDATA[2168-2291]]></issn>
+
+<htmlFlag><![CDATA[1]]></htmlFlag>
+
+<arnumber><![CDATA[6766265]]></arnumber>
+
+<doi><![CDATA[10.1109/THMS.2014.2302371]]></doi>
+
+<publicationId><![CDATA[6766265]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6766265&contentType=Journals+%26+Magazines]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6766265]]></pdf>
+
+</document>
+
+<document>
+
+<rank>4</rank>
+
+<title><![CDATA[The Best Laid Plans of Mice and Men: The Computer Mouse in the History of Computing]]></title>
+
+<authors><![CDATA[Atkinson, P]]></authors>
+
+<pubtitle><![CDATA[Design Issues]]></pubtitle>
+
+<punumber><![CDATA[6720221]]></punumber>
+
+<pubtype><![CDATA[Journals & Magazines]]></pubtype>
+
+<publisher><![CDATA[MIT Press]]></publisher>
+
+<volume><![CDATA[23]]></volume>
+
+<issue><![CDATA[3]]></issue>
+
+<py><![CDATA[2007]]></py>
+
+<spage><![CDATA[46]]></spage>
+
+<epage><![CDATA[61]]></epage>
+
+<issn><![CDATA[0747-9360]]></issn>
+
+<arnumber><![CDATA[6792655]]></arnumber>
+
+<doi><![CDATA[10.1162/desi.2007.23.3.46]]></doi>
+
+<publicationId><![CDATA[6792655]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6792655&contentType=Journals+%26+Magazines]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6792655]]></pdf>
+
+</document>
+
+<document>
+
+<rank>5</rank>
+
+<title><![CDATA[Automatic mouse state classification based on Markov model and event histograms of mouse activities]]></title>
+
+<authors><![CDATA[Aoki, K.]]></authors>
+
+<affiliations><![CDATA[Grad. Sch. of Eng., Utsunomiya Univ., Utsunomiya, Japan]]></affiliations>
+
+<controlledterms>
+
+<term><![CDATA[Markov processes]]></term>
+
+<term><![CDATA[behavioural sciences computing]]></term>
+
+<term><![CDATA[video signal processing]]></term>
+
+</controlledterms>
+
+<pubtitle><![CDATA[Computing and Convergence Technology (ICCCT), 2012 7th International Conference on]]></pubtitle>
+
+<punumber><![CDATA[6495744]]></punumber>
+
+<pubtype><![CDATA[Conference Publications]]></pubtype>
+
+<publisher><![CDATA[IEEE]]></publisher>
+
+<py><![CDATA[2012]]></py>
+
+<spage><![CDATA[267]]></spage>
+
+<epage><![CDATA[272]]></epage>
+
+<abstract><![CDATA[Mouse is well used as the test-bed of new drags. Very new psychotropic drugs are tested on mouse. However, the observation of a mouse is not precise enough and is not automatic enough. For ensuring the safety of the drags, we need relatively long observation of a mouse. This paper proposes the framework of automatic video observation of mouse activities. This includes mouse activity measurement method, the classification method of mouse activities, classification methods of mouse state and experimental implementation of the proposed method.]]></abstract>
+
+<isbn><![CDATA[978-1-4673-0894-6]]></isbn>
+
+<htmlFlag><![CDATA[1]]></htmlFlag>
+
+<arnumber><![CDATA[6530340]]></arnumber>
+
+<publicationId><![CDATA[6530340]]></publicationId>
+
+<mdurl><![CDATA[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6530340&contentType=Conference+Publications]]></mdurl>
+
+<pdf><![CDATA[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6530340]]></pdf>
+
+</document>
+
+</root>

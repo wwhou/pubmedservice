@@ -18,8 +18,8 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 
 public class PubMedClient {
 	private final WebResource service;
-	private static final String DEFAULT_BASE_URL="http://localhost:8080/pubMedCrawler/";
-	private static final String PUBMED_SERVICE_PATH="rest/search/articlemeta";
+	private static final String DEFAULT_BASE_URL="http://localhost:8080/DataCollectionService/";
+	private static final String PUBMED_SERVICE_PATH="rest/search/pubmed/article";
 	
 	public PubMedClient(){
 		this(DEFAULT_BASE_URL);

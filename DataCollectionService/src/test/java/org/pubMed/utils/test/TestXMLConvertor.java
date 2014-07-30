@@ -27,6 +27,7 @@ public class TestXMLConvertor {
 	public void testXMLConvertor() throws FileNotFoundException, JAXBException,
 			ParserConfigurationException, SAXException, XMLStreamException {
 		InputStream inputstream = new FileInputStream(TEST_XML);
+	
 		ESearchResult eSearchResult = new ESearchResult();
 		XMLConvertor<ESearchResult> xmlConvertor = new XMLConvertor<ESearchResult>(
 				eSearchResult, inputstream);

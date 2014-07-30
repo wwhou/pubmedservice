@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.ESearchResult"/>
 <fullyQualifiedTypeName name="org.pubMed.utils.XMLConvertor"/>
 <fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.Id"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.utils.Date"/>
 <fullyQualifiedTypeName name="org.utils.Month"/>
 <fullyQualifiedTypeName name="org.utils.Conference"/>
@@ -23,5 +22,10 @@
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="org.utils.Search"/>
 <fullyQualifiedTypeName name="org.utils.Parameter"/>
+<fullyQualifiedTypeName name="org.pubMed.utils.ObjectMapperProvider"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Article"/>
+<fullyQualifiedTypeName name="org.utils.Query"/>
+<fullyQualifiedTypeName name="com.sun.jersey.api.client.GenericType"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

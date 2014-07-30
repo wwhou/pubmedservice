@@ -99,10 +99,28 @@ public class IEEESAXHandler extends DefaultHandler {
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
 			if (authorString != null && !affiFlag) {
-				String[] authorNames = authorString.split(";");
-				for (String authorName : authorNames) {
+				if (authorString.contains(";")) {
+					String[] authorNames = authorString.split(";");
+					for (String authorName : authorNames) {
+						Author author = new Author();
+						String[] namePair = authorName.trim().split(" ");
+						String name0 = namePair[0];
+						if (namePair.length == 3) {
+							author.setMiddleName(namePair[2]);
+						}
+						if (name0.contains(",")) {
+							author.setLastName(name0.replace(",", "").trim());
+							author.setFirstName(namePair[namePair.length - 1]);
+						} else {
+							author.setFirstName(name0);
+							author.setLastName(namePair[namePair.length - 1]);
+						}
+						article.getAuthors().add(author);
+						authors.add(author);
+					}
+				} else {
 					Author author = new Author();
-					String[] namePair = authorName.trim().split(" ");
+					String[] namePair = authorString.split(" ");
 					String name0 = namePair[0];
 					if (namePair.length == 3) {
 						author.setMiddleName(namePair[2]);
@@ -117,6 +135,8 @@ public class IEEESAXHandler extends DefaultHandler {
 					article.getAuthors().add(author);
 					authors.add(author);
 				}
+				affiFlag = false;
+			} else {
 				affiFlag = false;
 			}
 			articles.add(article);
@@ -211,10 +231,29 @@ public class IEEESAXHandler extends DefaultHandler {
 		case "affiliations":
 			affiFlag = true;
 			if (authorString != null) {
-				String[] authorNames = authorString.split(";");
-				for (String authorName : authorNames) {
+				if (authorString.contains(";")) {
+					String[] authorNames = authorString.split(";");
+					for (String authorName : authorNames) {
+						Author author = new Author();
+						String[] namePair = authorName.trim().split(" ");
+						String name0 = namePair[0];
+						if (namePair.length == 3) {
+							author.setMiddleName(namePair[2]);
+						}
+						if (name0.contains(",")) {
+							author.setLastName(name0.replace(",", "").trim());
+							author.setFirstName(namePair[namePair.length - 1]);
+						} else {
+							author.setFirstName(name0);
+							author.setLastName(namePair[namePair.length - 1]);
+						}
+						author.setAffiliation(tmpValue);
+						article.getAuthors().add(author);
+						authors.add(author);
+					}
+				} else {
 					Author author = new Author();
-					String[] namePair = authorName.trim().split(" ");
+					String[] namePair = authorString.split(" ");
 					String name0 = namePair[0];
 					if (namePair.length == 3) {
 						author.setMiddleName(namePair[2]);
