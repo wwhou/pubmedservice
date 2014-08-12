@@ -1,0 +1,68 @@
+package org.lens.crawler;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import org.lens.utils.PatentJSONParser;
+
+public class MultithreadsJSONTextConnection {
+
+	/**
+	 * @param args
+	 */
+
+	
+	private int threads = 30;
+	// private List<String> results = new ArrayList<String>();
+	private ArrayList<Future<PatentJSONParser>> results;
+	
+	
+
+	public MultithreadsJSONTextConnection(List<String> docKeys) {
+
+		int size = docKeys.size();
+		if (size < threads) {
+			threads = size;
+		} else if (size / 10 < 30) {
+			threads = size / 10;
+		}
+
+			ExecutorService executor = Executors
+					.newFixedThreadPool(threads);
+			results = new ArrayList<Future<PatentJSONParser>>();
+			for (int i = 0; i < docKeys.size(); i++) {
+				String docKey=docKeys.get(i);
+				Future<PatentJSONParser> future = executor.submit(new PatentSearchCallable(docKey));
+				results.add(future);
+
+			}
+	}
+
+	public ArrayList<Future<PatentJSONParser>> getXMLList() {
+		return results;
+	}
+
+	class PatentSearchCallable implements Callable<PatentJSONParser> {
+		private String dockey;
+
+		PatentSearchCallable(String dockey){
+			this.dockey=dockey;
+		}
+
+		@Override
+		public PatentJSONParser call() throws Exception {
+			PatentSearch patentSearch=new PatentSearch(dockey);
+			PatentJSONParser patentJsonParser=new PatentJSONParser(patentSearch.getSearchResult());
+			return patentJsonParser;
+		}
+	}
+}

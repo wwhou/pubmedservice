@@ -10047,3 +10047,823 @@ Binding(COMMAND+SHIFT+F,
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2014-07-30 16:45:06.933
 !MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-05 09:25:39.864 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-08-05 09:26:14.426
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 09:26:45.113
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 09:26:45.120
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:43:32.773
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:43:32.796
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:43:58.638
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:43:58.642
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:45:12.609
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:45:12.612
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:45:57.072
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 10:45:57.076
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:41:54.584
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:41:54.594
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:41:54.786
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.sse.core 4 2 2014-08-05 11:41:59.154
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.sse.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2014-08-05 11:41:59.158
+!MESSAGE Error while performing an update to the index. Index may become invalid, incomplete, or enter some other inconsistent state.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-05 11:42:00.469
+!MESSAGE JSP Syntax Validator finished validating: file:/Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/main/webapp/index.jsp
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-05 11:42:00.470
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.performValidation(JSPJavaValidator.java:313)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.performValidation(JSPBatchValidator.java:386)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validateFile(JSPBatchValidator.java:437)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator$2.run(JSPBatchValidator.java:515)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validate(JSPBatchValidator.java:528)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:00.637
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:00.696
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:33.122
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:33.139
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:33.163
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.sse.core 4 2 2014-08-05 11:42:34.143
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.sse.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2014-08-05 11:42:34.144
+!MESSAGE Error while performing an update to the index. Index may become invalid, incomplete, or enter some other inconsistent state.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-05 11:42:36.399
+!MESSAGE JSP Syntax Validator finished validating: file:/Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/main/webapp/index.jsp
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-05 11:42:36.400
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.performValidation(JSPJavaValidator.java:313)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.performValidation(JSPBatchValidator.java:386)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validateFile(JSPBatchValidator.java:437)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator$2.run(JSPBatchValidator.java:515)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validate(JSPBatchValidator.java:528)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:36.627
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-05 11:42:36.631
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-06 12:51:42.305 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-08-06 12:53:27.117
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 12:55:00.395
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 12:55:00.416
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:05:31.495
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:05:31.539
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:06:56.620
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:06:56.627
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:07:21.843
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:07:21.847
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:08:02.342
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:08:02.352
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:08:17.395
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:08:17.399
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:09:53.412
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:09:53.415
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:19.922
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:19.933
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:30.914
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:30.931
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:39.687
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:12:39.690
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:13:19.619
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:13:19.622
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:13:57.854
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:13:57.857
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:15:18.967
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:15:18.970
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:15:42.103
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:15:42.106
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:17:21.448
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:17:21.452
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:17:29.577
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:17:29.588
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:20:33.557
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:20:33.562
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:22:11.121
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:22:11.129
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:22:54.207
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:22:54.211
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:23:19.975
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:23:19.978
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:23:53.086
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:23:53.091
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:24:54.631
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:24:54.634
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:08.799
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:08.802
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:21.172
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:21.175
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:27.838
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:25:27.842
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:29:18.138
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:29:18.140
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:19.436
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:19.439
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:30.469
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:30.472
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:31.802
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:31.804
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:46.514
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:31:46.517
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:32:02.755
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:32:02.762
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:55:10.521
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 14:55:10.525
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.sse.core 4 2 2014-08-06 14:55:11.093
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.wst.sse.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2014-08-06 14:55:11.094
+!MESSAGE Error while performing an update to the index. Index may become invalid, incomplete, or enter some other inconsistent state.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getJSPTranslator(JSPTranslatorPersister.java:231)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.persistTranslation(JSPTranslatorPersister.java:145)
+	at org.eclipse.jst.jsp.core.internal.java.search.JSPIndexManager.performAction(JSPIndexManager.java:109)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$1.run(AbstractIndexManager.java:1528)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.sse.core.indexing.AbstractIndexManager$ResourceEventProcessingJob.run(AbstractIndexManager.java:1526)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-06 14:55:11.095
+!MESSAGE JSP Syntax Validator finished validating: file:/Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/main/webapp/index.jsp
+
+!ENTRY org.eclipse.wst.validation 4 0 2014-08-06 14:55:11.096
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.createJSPProblem(JSPTranslator.java:504)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.buildResult(JSPTranslator.java:707)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslator.readExternal(JSPTranslator.java:3431)
+	at java.io.ObjectInputStream.readExternalData(ObjectInputStream.java:1837)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1796)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1350)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslatorPersister.getPersistedTranslator(JSPTranslatorPersister.java:105)
+	at org.eclipse.jst.jsp.core.internal.java.JSPTranslationAdapterFactory.createAdapter(JSPTranslationAdapterFactory.java:45)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adaptNew(AbstractAdapterFactory.java:120)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractAdapterFactory.adapt(AbstractAdapterFactory.java:64)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.getAdapterFor(AbstractNotifier.java:93)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPJavaValidator.performValidation(JSPJavaValidator.java:313)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.performValidation(JSPBatchValidator.java:386)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validateFile(JSPBatchValidator.java:437)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator$2.run(JSPBatchValidator.java:515)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validate(JSPBatchValidator.java:528)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:00:52.449
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:00:52.452
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:03:14.216
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:03:14.233
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:05.931
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:05.934
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:16.657
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:16.660
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:42.575
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:05:42.578
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:07:12.685
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:07:12.688
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:07:19.997
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:07:20.004
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:08:52.129
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:08:52.133
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:10:26.769
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:10:26.772
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:10:31.042
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:10:31.047
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:12:16.128
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:12:16.130
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:14:32.893
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:14:32.896
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:26:54.995
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:26:55.020
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:32:44.527
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:32:44.531
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:34:30.534
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:34:30.552
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:36:02.243
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:36:02.248
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:36:22.192
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:36:22.195
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:38:15.561
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:38:15.584
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:39:08.453
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 15:39:08.456
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:07:45.038
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:07:45.063
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:07:49.306
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:07:49.309
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:08:30.986
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:08:30.989
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:10:11.781
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:10:11.783
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:21:45.998
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:21:46.001
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:27:26.505
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:27:26.508
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:28:20.318
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:28:20.320
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:28:33.424
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:28:33.427
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:30:19.453
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:30:19.456
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:10.738
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:10.742
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:47.151
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:47.154
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:50.876
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:34:50.881
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:36:17.130
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:36:17.133
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:37:01.301
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:37:01.305
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:37:07.032
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:37:07.035
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:38:18.879
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:38:18.882
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:45:30.299
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:45:30.301
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:50:33.916
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-06 16:50:33.918
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-07 11:28:28.375 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-08-07 11:28:52.622
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:29:22.707
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:29:22.714
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:34:33.527
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:34:33.568
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:39:15.572
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-07 11:39:15.576
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2014-08-12 11:53:06.818 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/weiweihou/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-08-12 11:55:38.087
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-12 11:56:16.999
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-08-12 11:56:17.017
+!MESSAGE Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!

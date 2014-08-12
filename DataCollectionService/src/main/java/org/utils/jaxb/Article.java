@@ -25,12 +25,12 @@ public class Article {
 		this.articleMeta = articleMeta;
 	}
 
-	@XmlElement(name = "authors", required = true)
-	protected List<Author> authors;
+	@XmlElement(name = "people", required = true)
+	protected List<Person> people;
 
-	public List<Author> getAuthors() {
-		if (authors == null)
-			authors = new ArrayList<Author>();
-		return authors;
+	public List<Person> getPeople() {
+		if (people == null)
+			people = new ArrayList<Person>();
+		return people;
 	}
 }

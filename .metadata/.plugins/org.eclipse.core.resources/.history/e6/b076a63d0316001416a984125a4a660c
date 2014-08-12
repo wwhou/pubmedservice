@@ -1,6 +1,0 @@
-package org.IEEE.crawler;
-
-public class IEEESearch {
-
-	private final String ieeeSearchBase = "http://ieeexplore.ieee.org/gateway/ipsSearch.jsp?";
-}

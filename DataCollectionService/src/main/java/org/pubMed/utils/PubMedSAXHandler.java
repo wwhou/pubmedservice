@@ -5,16 +5,17 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.UUID;
 
+import org.utils.jaxb.Affiliation;
 import org.utils.jaxb.Article;
 import org.utils.jaxb.ArticleId;
 import org.utils.jaxb.ArticleIdList;
 import org.utils.jaxb.ArticleMeta;
-import org.utils.jaxb.Author;
 import org.utils.jaxb.Book;
 import org.utils.jaxb.Date;
 import org.utils.jaxb.ISBN;
 import org.utils.jaxb.Journal;
 import org.utils.jaxb.Month;
+import org.utils.jaxb.Person;
 import org.utils.jaxb.Publisher;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -24,10 +25,10 @@ public class PubMedSAXHandler extends DefaultHandler {
 
 	private Collection<ArticleMeta> articleMetas = null;
 	private Collection<Article> articles = null;
-	private Collection<Author> authors = null;
+	private Collection<Person> authors = null;
 	private ArticleMeta articleMeta = null;
 	private Article article = null;
-	private Author author = null;
+	private Person author = null;
 	private String tmpValue;
 	private Journal journal = null;
 	private Book book = null;
@@ -47,7 +48,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 		return articles;
 	}
 
-	public Collection<Author> getAuthors() {
+	public Collection<Person> getAuthors() {
 		return authors;
 	}
 
@@ -60,7 +61,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 			if (articleMetas == null)
 				articleMetas = new ArrayList<ArticleMeta>();
 			if (authors == null)
-				authors = new ArrayList<Author>();
+				authors = new ArrayList<Person>();
 			journal = new Journal();
 			articleMeta = new ArticleMeta();
 			if (articles == null)
@@ -71,7 +72,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 			if (articleMetas == null)
 				articleMetas = new ArrayList<ArticleMeta>();
 			if (authors == null)
-				authors = new ArrayList<Author>();
+				authors = new ArrayList<Person>();
 			book = new Book();
 
 			articleMeta = new ArticleMeta();
@@ -80,7 +81,8 @@ public class PubMedSAXHandler extends DefaultHandler {
 			article = new Article();
 			break;
 		case "author":
-			author = new Author();
+			author = new Person();
+			author.setType("author");
 			break;
 		case "abstracttext":
 			String label = attributes.getValue("NlmCategory");
@@ -123,13 +125,13 @@ public class PubMedSAXHandler extends DefaultHandler {
 			articleMeta.setId(id);
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
-			article.getAuthors().add(author);
+			article.getPeople().add(author);
 			articles.add(article);
 			break;
 		case "pubmedbookarticle":
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
-			article.getAuthors().add(author);
+			article.getPeople().add(author);
 			articles.add(article);
 			break;
 		case "journal":
@@ -143,7 +145,9 @@ public class PubMedSAXHandler extends DefaultHandler {
 			author.setFirstName(tmpValue);
 			break;
 		case "affiliation":
-			author.setAffiliation(tmpValue);
+			Affiliation affiliation=new Affiliation();
+			affiliation.setContent(tmpValue);
+			author.getAffiliation().add(affiliation);
 			break;
 		case "author":
 			authors.add(author);

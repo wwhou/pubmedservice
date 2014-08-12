@@ -1,0 +1,122 @@
+package patent;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import util.DocElement;
+
+public class MultithreadsJSONTextConnection {
+
+	/**
+	 * @param args
+	 */
+
+	String cmd_base = "http://www.lens.org/textserver/frontpage.json?patent=";
+	String cmd_base1 = "http://www.lens.org/textserver/claims.json?patent=";
+	
+	private int threads = 30;
+	// private List<String> results = new ArrayList<String>();
+	private ArrayList<Future<DocElement>> results;
+	
+	
+
+	public MultithreadsJSONTextConnection(List<String> docKeys) {
+
+		int size = docKeys.size();
+		if (size < threads) {
+			threads = size;
+		} else if (size / 10 < 30) {
+			threads = size / 10;
+		}
+
+			ExecutorService executor = Executors
+					.newFixedThreadPool(threads);
+			results = new ArrayList<Future<DocElement>>();
+			for (int i = 0; i < docKeys.size(); i++) {
+				String docKey=docKeys.get(i);
+				String url1 = cmd_base + docKey;
+				String url2 = cmd_base1 + docKey;
+				Future<DocElement> future = executor.submit(new MyCallable(
+						url1, url2, docKey));
+				results.add(future);
+
+			}
+	}
+
+	public ArrayList<Future<DocElement>> getXMLList() {
+		return results;
+	}
+
+	class MyCallable implements Callable<DocElement> {
+		private final String patentURLString;
+		private final String claimURLString;
+		private String result = "";
+		private DocElement docElement;
+		private String dockey;
+
+		MyCallable(String patentURLString, String claimURLString, String dockey) {
+			this.patentURLString = patentURLString;
+			this.claimURLString = claimURLString;
+			this.dockey=dockey;
+		}
+
+		@Override
+		public DocElement call() throws Exception {
+			try {
+				URL patentURL = new URL(patentURLString);
+				URL claimURL = new URL(claimURLString);
+				try {
+					LensJSONTextConnection lensConnection = new LensJSONTextConnection(dockey);
+					InputStream stream1 = patentURL.openStream();
+
+					try {
+						InputStream stream2 = claimURL.openStream();
+						result = lensConnection.parseToXML(stream1, stream2);
+						docElement=lensConnection.getDocElement();
+						docElement.SetXMLContent(result);
+					} catch (IOException e) {
+						result = lensConnection.parseToXML(stream1, null);
+						docElement=lensConnection.getDocElement();
+						docElement.SetXMLContent(result);
+					}
+
+				} catch (IOException e) {
+				}
+
+			} catch (MalformedURLException e) {
+
+			}
+			return docElement;
+		}
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> keys=new ArrayList<String>();
+		MultithreadsJSONTextConnection multi=new MultithreadsJSONTextConnection(keys);
+		List<Future<DocElement>> docEls= multi.getXMLList();
+		for(Future<DocElement> docFuture:docEls){
+			try {
+				DocElement docEl=docFuture.get();
+				docEl.getXMLContent();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} 
+	}
+
+}

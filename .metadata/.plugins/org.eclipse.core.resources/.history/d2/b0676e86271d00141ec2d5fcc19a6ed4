@@ -1,0 +1,11 @@
+package org.lens.crawler;
+
+import org.utils.Search;
+
+public class PatentSearch extends Search{
+
+	public PatentSearch(String url) {
+		super(url);
+	}
+
+}

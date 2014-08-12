@@ -59,7 +59,7 @@ public class TestSearch {
 //			e.printStackTrace();
 //		}
 		for (Article article : articles) {
-			System.out.println(article.getAuthors().get(0).getFirstName());
+			System.out.println(article.getPeople().get(0).getFirstName());
 		}
 		System.out.print(articles.size());	
 	}

@@ -12,7 +12,7 @@ import java.util.List;
 import org.IEEE.utils.IEEESAXHandler;
 import org.junit.Test;
 import org.utils.jaxb.Article;
-import org.utils.jaxb.Author;
+import org.utils.jaxb.Person;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -33,9 +33,9 @@ public class TestIEEESAXHandler {
 				.getArtciles();
 		assertNotNull(articles);
 		assertEquals(5, articles.size());
-		 List<Author> authors=articles.get(0).getAuthors();
+		 List<Person> authors=articles.get(0).getPeople();
 		System.out.println( "size"+authors.size());	
-		Author author = articles.get(0).getAuthors().get(0);
+		Person author = articles.get(0).getPeople().get(0);
 		assertEquals("Shen", author.getLastName());
 		
 		

@@ -1,0 +1,45 @@
+package org.lens.utils;
+
+import java.io.InputStream;
+
+import javax.json.Json;
+import javax.json.stream.JsonParser;
+
+public class PatentJSONParser {
+
+	private InputStream inputStream;
+
+	public PatentJSONParser(InputStream inputStream) {
+		this.inputStream = inputStream;
+	}
+
+	public void parseJSON(){
+		JsonParser jsonParser=Json.createParser(inputStream);
+		while(jsonParser.hasNext()){
+
+			   JsonParser.Event event = jsonParser.next();
+			   switch(event) {
+			      case START_ARRAY:
+			      case END_ARRAY:
+			      case START_OBJECT:
+			      case END_OBJECT:
+			      case VALUE_FALSE:
+			      case VALUE_NULL:
+			      case VALUE_TRUE:
+			         System.out.println(event.toString());
+			         break;
+			      case KEY_NAME:
+			         System.out.print(event.toString() + " " +
+			                          jsonParser.getString() + " - ");
+			         break;
+			      case VALUE_STRING:
+			      case VALUE_NUMBER:
+			         System.out.println(event.toString() + " " +
+			                            jsonParser.getString());
+			         break;
+			   }
+			   
+		}
+		
+	}
+}

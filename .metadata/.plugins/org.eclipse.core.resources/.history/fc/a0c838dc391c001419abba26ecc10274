@@ -1,0 +1,71 @@
+package org.lens.utils;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collection;
+import java.util.UUID;
+
+import org.utils.jaxb.Article;
+import org.utils.jaxb.ArticleId;
+import org.utils.jaxb.ArticleIdList;
+import org.utils.jaxb.ArticleMeta;
+import org.utils.jaxb.Author;
+import org.utils.jaxb.Book;
+import org.utils.jaxb.Conference;
+import org.utils.jaxb.Date;
+import org.utils.jaxb.Journal;
+import org.utils.jaxb.Keyword;
+import org.utils.jaxb.KeywordList;
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+public class LensSAXHandler extends DefaultHandler  {
+	private Collection<ArticleMeta> articleMetas = null;
+	private Collection<Article> articles = null;
+	private Collection<Author> authors = null;
+	private ArticleMeta articleMeta = null;
+	private Article article = null;
+	private String tmpValue;
+	private Journal journal = null;
+	private Conference conference = null;
+	private Book book = null;
+	private Date articlePubDate;
+	private ArticleIdList articleIdList;
+	private String pubTitle;
+	private KeywordList keywordList = null;
+	private String authorString = null;
+	private String startPage = null;
+	private boolean affiFlag = false;
+
+	public Collection<ArticleMeta> getArticleMetas() {
+		return articleMetas;
+	}
+
+	public Collection<Article> getArtciles() {
+		return articles;
+	}
+
+	public Collection<Author> getAuthors() {
+		return authors;
+	}
+
+	@Override
+	public void startElement(String uri, String localName, String qName,
+			Attributes attributes) throws SAXException {
+		
+	}
+
+	@Override
+	public void endElement(String uri, String localName, String qName)
+			throws SAXException {
+		
+	}
+
+	@Override
+	public void characters(char[] ac, int i, int j) throws SAXException {
+
+		tmpValue = new String(ac, i, j);
+
+	}
+}

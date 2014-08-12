@@ -69,13 +69,24 @@
 			<artifactId>sax</artifactId>
 			<version>2.0.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<scope>provided</scope>
+			<version>1.0</version>
+		</dependency>
 	</dependencies>
 	<build>
-		
+
 		<sourceDirectory>src/main/java</sourceDirectory>
-        <!--<testSourceDirectory>src/test/java</testSourceDirectory>-->
-        <defaultGoal>install</defaultGoal>
-        <finalName>DataCollectionServices</finalName>
+		<!--<testSourceDirectory>src/test/java</testSourceDirectory> -->
+		<defaultGoal>install</defaultGoal>
+		<finalName>DataCollectionServices</finalName>
 		<plugins>
 			<plugin>
 				<!-- jaxb plugin -->
@@ -101,7 +112,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			  
+
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
@@ -109,23 +120,23 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-			 <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.4</version>
-                <configuration>
-                    <webResources>
-                        <resource>
-                            <directory>src/main/resources</directory>
-                        </resource>
-                    </webResources>
-                    <archive>
-                        <manifest>
-                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                        </manifest>
-                    </archive>
-                </configuration>
-            </plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<webResources>
+						<resource>
+							<directory>src/main/resources</directory>
+						</resource>
+					</webResources>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
 		</plugins>
 		<resources>
 			<resource>

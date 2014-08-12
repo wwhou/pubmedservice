@@ -5,17 +5,18 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.UUID;
 
+import org.utils.jaxb.Affiliation;
 import org.utils.jaxb.Article;
 import org.utils.jaxb.ArticleId;
 import org.utils.jaxb.ArticleIdList;
 import org.utils.jaxb.ArticleMeta;
-import org.utils.jaxb.Author;
 import org.utils.jaxb.Book;
 import org.utils.jaxb.Conference;
 import org.utils.jaxb.Date;
 import org.utils.jaxb.Journal;
 import org.utils.jaxb.Keyword;
 import org.utils.jaxb.KeywordList;
+import org.utils.jaxb.Person;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -24,7 +25,7 @@ public class IEEESAXHandler extends DefaultHandler {
 
 	private Collection<ArticleMeta> articleMetas = null;
 	private Collection<Article> articles = null;
-	private Collection<Author> authors = null;
+	private Collection<Person> authors = null;
 	private ArticleMeta articleMeta = null;
 	private Article article = null;
 	private String tmpValue;
@@ -47,7 +48,7 @@ public class IEEESAXHandler extends DefaultHandler {
 		return articles;
 	}
 
-	public Collection<Author> getAuthors() {
+	public Collection<Person> getAuthors() {
 		return authors;
 	}
 
@@ -59,7 +60,7 @@ public class IEEESAXHandler extends DefaultHandler {
 			if (articleMetas == null)
 				articleMetas = new ArrayList<ArticleMeta>();
 			if (authors == null)
-				authors = new ArrayList<Author>();
+				authors = new ArrayList<Person>();
 			articleMeta = new ArticleMeta();
 			if (articles == null)
 				articles = new ArrayList<Article>();
@@ -102,7 +103,8 @@ public class IEEESAXHandler extends DefaultHandler {
 				if (authorString.contains(";")) {
 					String[] authorNames = authorString.split(";");
 					for (String authorName : authorNames) {
-						Author author = new Author();
+						Person author = new Person();
+						author.setType("author");
 						String[] namePair = authorName.trim().split(" ");
 						String name0 = namePair[0];
 						if (namePair.length == 3) {
@@ -115,11 +117,11 @@ public class IEEESAXHandler extends DefaultHandler {
 							author.setFirstName(name0);
 							author.setLastName(namePair[namePair.length - 1]);
 						}
-						article.getAuthors().add(author);
+						article.getPeople().add(author);
 						authors.add(author);
 					}
 				} else {
-					Author author = new Author();
+					Person author = new Person();
 					String[] namePair = authorString.split(" ");
 					String name0 = namePair[0];
 					if (namePair.length == 3) {
@@ -132,7 +134,7 @@ public class IEEESAXHandler extends DefaultHandler {
 						author.setFirstName(name0);
 						author.setLastName(namePair[namePair.length - 1]);
 					}
-					article.getAuthors().add(author);
+					article.getPeople().add(author);
 					authors.add(author);
 				}
 				affiFlag = false;
@@ -234,7 +236,8 @@ public class IEEESAXHandler extends DefaultHandler {
 				if (authorString.contains(";")) {
 					String[] authorNames = authorString.split(";");
 					for (String authorName : authorNames) {
-						Author author = new Author();
+						Person author = new Person();
+						author.setType("author");
 						String[] namePair = authorName.trim().split(" ");
 						String name0 = namePair[0];
 						if (namePair.length == 3) {
@@ -247,12 +250,14 @@ public class IEEESAXHandler extends DefaultHandler {
 							author.setFirstName(name0);
 							author.setLastName(namePair[namePair.length - 1]);
 						}
-						author.setAffiliation(tmpValue);
-						article.getAuthors().add(author);
+						Affiliation affiliation=new Affiliation();
+						affiliation.setContent(tmpValue);
+						author.getAffiliation().add(affiliation);
+						article.getPeople().add(author);
 						authors.add(author);
 					}
 				} else {
-					Author author = new Author();
+					Person author = new Person();
 					String[] namePair = authorString.split(" ");
 					String name0 = namePair[0];
 					if (namePair.length == 3) {
@@ -265,8 +270,10 @@ public class IEEESAXHandler extends DefaultHandler {
 						author.setFirstName(name0);
 						author.setLastName(namePair[namePair.length - 1]);
 					}
-					author.setAffiliation(tmpValue);
-					article.getAuthors().add(author);
+					Affiliation affiliation=new Affiliation();
+					affiliation.setContent(tmpValue);
+					author.getAffiliation().add(affiliation);
+					article.getPeople().add(author);
 					authors.add(author);
 				}
 			}

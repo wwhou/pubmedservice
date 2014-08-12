@@ -3,28 +3,29 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="163" key="DIALOG_Y_ORIGIN"/>
-		<item value="822" key="DIALOG_X_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="822" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="FirstName" key="selection"/>
+		<item value="keywordList" key="selection"/>
 		<list key="findhistory">
+			<item value="keywordList"/>
+			<item value="keyword"/>
+			<item value="author"/>
+			<item value="DocElement"/>
 			<item value="firstname"/>
 			<item value="pubTitle"/>
 			<item value="articleIdList"/>
 			<item value="articlePubDate"/>
-			<item value="book"/>
-			<item value="conference"/>
-			<item value="journal"/>
-			<item value="article"/>
 		</list>
 		<list key="replacehistory">
+			<item value="PatentJSONParser"/>
 		</list>
 	</section>
 </section>
