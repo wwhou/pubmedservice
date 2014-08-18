@@ -39,8 +39,13 @@
 <fullyQualifiedTypeName name="org.utils.Search"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.utils.Parameter"/>
 <fullyQualifiedTypeName name="org.lens.utils.PatentParameter"/>
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Patent"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Priority"/>
+<fullyQualifiedTypeName name="org.utils.UnifiedID"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Publisher"/>
+<fullyQualifiedTypeName name="org.utils.UniversalClient"/>
 </qualifiedTypeNameHistroy>
