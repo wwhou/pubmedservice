@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.UUID;
 
+import org.utils.UnifiedID;
 import org.utils.jaxb.Affiliation;
 import org.utils.jaxb.Article;
 import org.utils.jaxb.ArticleId;
@@ -17,6 +18,7 @@ import org.utils.jaxb.Journal;
 import org.utils.jaxb.Keyword;
 import org.utils.jaxb.KeywordList;
 import org.utils.jaxb.Person;
+import org.utils.jaxb.Publisher;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -79,14 +81,7 @@ public class IEEESAXHandler extends DefaultHandler {
 			throws SAXException {
 		switch (qName.toLowerCase()) {
 		case "document":
-			Calendar calendar = Calendar.getInstance();
-			String id = calendar.get(Calendar.YEAR) + "-"
-					+ calendar.get(Calendar.MONTH) + "-"
-					+ calendar.get(Calendar.DATE) + "-"
-					+ calendar.get(Calendar.HOUR) + "-"
-					+ calendar.get(Calendar.MINUTE) + "-"
-					+ calendar.get(Calendar.SECOND) + UUID.randomUUID();
-			articleMeta.setId(id);
+			articleMeta.setId(UnifiedID.generateID("IE"));
 			if (conference != null) {
 				conference.setTitle(pubTitle);
 				conference.setPubDate(articlePubDate);
@@ -105,6 +100,7 @@ public class IEEESAXHandler extends DefaultHandler {
 					for (String authorName : authorNames) {
 						Person author = new Person();
 						author.setType("author");
+						author.setId(UnifiedID.generateID("AU"));
 						String[] namePair = authorName.trim().split(" ");
 						String name0 = namePair[0];
 						if (namePair.length == 3) {
@@ -190,10 +186,12 @@ public class IEEESAXHandler extends DefaultHandler {
 			articleMeta.setArticleAbstract(tmpValue);
 			break;
 		case "publisher":
+			Publisher publisher=new Publisher();
+			publisher.setPublisherName(tmpValue);
 			if (conference != null) {
-				conference.setPublisher(tmpValue);
-			} else if (book != null) {
-				book.setPublisher(tmpValue);
+				conference.setPublisher(publisher);
+			} else if (book != null) {			
+				book.setPublisher(publisher);
 			}
 			break;
 		case "py":
@@ -237,6 +235,7 @@ public class IEEESAXHandler extends DefaultHandler {
 					String[] authorNames = authorString.split(";");
 					for (String authorName : authorNames) {
 						Person author = new Person();
+						author.setFullName(authorName);
 						author.setType("author");
 						String[] namePair = authorName.trim().split(" ");
 						String name0 = namePair[0];

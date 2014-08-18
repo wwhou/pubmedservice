@@ -3,6 +3,7 @@ package org.lens.crawler;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -40,7 +41,7 @@ public class MultithreadsJSONTextConnection {
 		}
 	}
 
-	public ArrayList<Future<PatentJSONParser>> getXMLList() {
+	public ArrayList<Future<PatentJSONParser>> getFutureList() {
 		return results;
 	}
 
@@ -55,8 +56,22 @@ public class MultithreadsJSONTextConnection {
 		public PatentJSONParser call() throws Exception {
 			PatentSearch patentSearch = new PatentSearch(dockey);
 			PatentJSONParser patentJsonParser = new PatentJSONParser(
-					patentSearch.getSearchResult());
+					patentSearch.getSearchResult(), dockey);
 			return patentJsonParser;
+		}
+	}
+
+	public static void main(String[] args) throws InterruptedException,
+			ExecutionException {
+		List<String> docKeys = new ArrayList<String>();
+		docKeys.add("AU_A1_2009344196");
+		MultithreadsJSONTextConnection con = new MultithreadsJSONTextConnection(
+				docKeys);
+		ArrayList<Future<PatentJSONParser>> xxx = con.getFutureList();
+		for (Future<PatentJSONParser> x : xxx) {
+			PatentJSONParser p = x.get();
+			p.parse();
+			System.out.print(p.getArticle().getArticleMeta().getTitle());
 		}
 	}
 }

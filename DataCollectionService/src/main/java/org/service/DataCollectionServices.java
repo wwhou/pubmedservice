@@ -23,6 +23,10 @@ import org.IEEE.crawler.IEEESearch;
 import org.IEEE.utils.IEEEParameter;
 import org.IEEE.utils.IEEESAXHandler;
 import org.IEEE.utils.IEEESearchQuery;
+import org.lens.crawler.LensCujoConnection;
+import org.lens.crawler.MultithreadsJSONTextConnection;
+import org.lens.utils.PatentJSONParser;
+import org.lens.utils.PatentParameter;
 import org.pubMed.crawlers.EFetch;
 import org.pubMed.jaxb.eSearch.Id;
 import org.pubMed.utils.ESearchResult;
@@ -37,6 +41,33 @@ import org.xml.sax.helpers.XMLReaderFactory;
 
 @Path("/search")
 public class DataCollectionServices {
+
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces({ MediaType.APPLICATION_JSON, MediaType.TEXT_XML })
+	@Path("patent/article")
+	public Collection<Article> getPatentArticles(
+			final PatentParameter patentParam) {
+			List<Article> articleList=new ArrayList<Article>();
+			LensCujoConnection connection = new LensCujoConnection(patentParam.toString());
+			List<String> keys=connection.getKeys();
+			MultithreadsJSONTextConnection multiConnection=new MultithreadsJSONTextConnection(keys);
+			ArrayList<Future<PatentJSONParser>> futures=multiConnection.getFutureList();
+			for (Future<PatentJSONParser> future : futures) {
+				PatentJSONParser patentJSONParser;
+				try {
+					patentJSONParser = future.get();
+					patentJSONParser.parse();
+					articleList.add(patentJSONParser.getArticle());
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				} catch (ExecutionException e) {
+					e.printStackTrace();
+				}
+			}
+			return articleList;
+			
+	}
 
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)

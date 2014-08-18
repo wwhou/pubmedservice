@@ -16,14 +16,14 @@ public class Book {
 
 	@XmlElement(name = "bookTitle", required = true)
 	protected String title;
-	@XmlElement(name = "publisher", required = true)
-	protected String publisher;
+	@XmlElement(name = "publisher", required = false)
+	protected Publisher publisher;
 
-	public String getPublisher() {
+	public Publisher getPublisher() {
 		return publisher;
 	}
 
-	public void setPublisher(String publisher) {
+	public void setPublisher(Publisher publisher) {
 		this.publisher = publisher;
 	}
 
@@ -34,7 +34,7 @@ public class Book {
 	}
 
 
-	@XmlElement(name = "ISBN", required = true)
+	@XmlElement(name = "ISBN", required = false)
 	protected List<ISBN>isbn;
 
 	public String getTitle() {

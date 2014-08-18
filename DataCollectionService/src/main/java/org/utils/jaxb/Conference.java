@@ -12,10 +12,10 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = { "title", "city", "country", "volume", "publisher"})
 public class Conference {
 
-	@XmlElement(name="volume")
+	@XmlElement(name="volume", required=false)
 	protected String volume;
-	@XmlElement(name="publisher")
-	protected String publisher;
+	@XmlElement(name="publisher",required=false)
+	protected Publisher publisher;
 	public String getVolume() {
 		return volume;
 	}
@@ -24,11 +24,11 @@ public class Conference {
 		this.volume = volume;
 	}
 
-	public String getPublisher() {
+	public Publisher getPublisher() {
 		return publisher;
 	}
 
-	public void setPublisher(String publisher) {
+	public void setPublisher(Publisher publisher) {
 		this.publisher = publisher;
 	}
 
@@ -59,9 +59,9 @@ public class Conference {
 		this.country = country;
 	}
 
-	@XmlElement(name = "city", required = true)
+	@XmlElement(name = "city", required = false)
 	protected String city;
-	@XmlElement(name = "country", required = true)
+	@XmlElement(name = "country", required = false)
 	protected String country;
 	@XmlElement(name = "pubDate", required = true)
 	protected Date pubDate;

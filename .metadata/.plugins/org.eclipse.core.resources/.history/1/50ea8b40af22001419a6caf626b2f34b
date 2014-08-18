@@ -1,0 +1,5 @@
+package org.lens.client;
+
+public class PatentClient {
+
+}

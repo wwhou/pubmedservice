@@ -34,9 +34,9 @@ public class Date {
 	public void setDay(int day) {
 		this.day = day;
 	}
-	@XmlElement(name="MONTH", required=true)
+	@XmlElement(name="MONTH", required=false)
 	protected int month;
-	@XmlElement(name="DAY", required=true)
+	@XmlElement(name="DAY", required=false)
 	protected int day;
 	
 	

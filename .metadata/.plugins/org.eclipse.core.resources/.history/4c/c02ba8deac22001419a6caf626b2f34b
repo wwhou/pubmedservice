@@ -1,0 +1,16 @@
+package org.lens.utils;
+
+import org.utils.Parameter;
+
+public class PatentParameter extends Parameter{
+
+	private String sortField;
+
+	public String getSortField() {
+		return sortField;
+	}
+
+	public void setSortField(String sortField) {
+		this.sortField = sortField;
+	}
+}

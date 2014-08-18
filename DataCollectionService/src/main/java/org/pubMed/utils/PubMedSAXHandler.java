@@ -5,6 +5,7 @@ import java.util.Calendar;
 import java.util.Collection;
 import java.util.UUID;
 
+import org.utils.UnifiedID;
 import org.utils.jaxb.Affiliation;
 import org.utils.jaxb.Article;
 import org.utils.jaxb.ArticleId;
@@ -67,6 +68,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 			if (articles == null)
 				articles = new ArrayList<Article>();
 			article = new Article();
+			articleMeta.setId(UnifiedID.generateID("PM"));
 			break;
 		case "pubmedbookarticle":
 			if (articleMetas == null)
@@ -82,6 +84,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 			break;
 		case "author":
 			author = new Person();
+			author.setId(UnifiedID.generateID("AU"));
 			author.setType("author");
 			break;
 		case "abstracttext":
@@ -129,6 +132,9 @@ public class PubMedSAXHandler extends DefaultHandler {
 			articles.add(article);
 			break;
 		case "pubmedbookarticle":
+			if(publisher!=null)
+				book.setPublisher(publisher);
+			articleMeta.setArticleType(book);
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
 			article.getPeople().add(author);
@@ -151,14 +157,14 @@ public class PubMedSAXHandler extends DefaultHandler {
 			break;
 		case "author":
 			authors.add(author);
-//			Calendar calendar1 = Calendar.getInstance();
-//			String id1 = calendar1.get(Calendar.YEAR) + "-"
-//					+ calendar1.get(Calendar.MONTH) + "-"
-//					+ calendar1.get(Calendar.DATE) + "-"
-//					+ calendar1.get(Calendar.HOUR) + "-"
-//					+ calendar1.get(Calendar.MINUTE) + "-"
-//					+ calendar1.get(Calendar.SECOND) + UUID.randomUUID();
-//			author.setId();
+			Calendar calendar1 = Calendar.getInstance();
+			String id1 = "AU"+calendar1.get(Calendar.YEAR) + "-"
+					+ calendar1.get(Calendar.MONTH) + "-"
+					+ calendar1.get(Calendar.DATE) + "-"
+					+ calendar1.get(Calendar.HOUR) + "-"
+					+ calendar1.get(Calendar.MINUTE) + "-"
+					+ calendar1.get(Calendar.SECOND) + UUID.randomUUID();
+			author.setId(id1);
 			break;
 		case "title":
 			if (journal != null)
@@ -202,14 +208,8 @@ public class PubMedSAXHandler extends DefaultHandler {
 				articleDateFlag = false;
 			}
 			break;
-		case "pagination":
-			articleMeta.setPagination(tmpValue);
-			break;
 		case "booktitle":
 			book.setTitle(tmpValue);
-			break;
-		case "publisher":
-			book.setPublisher(tmpValue);
 			break;
 		case "publishername":
 			publisher.setPublisherName(tmpValue);
@@ -230,6 +230,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 		case "articleidlist":
 			articleMeta.setArticleIdList(articleIdList);
 			break;
+		
 		}
 	}
 

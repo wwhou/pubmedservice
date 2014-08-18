@@ -20,7 +20,7 @@ public class Publisher {
 
  @XmlElement(name = "PublisherName", required = true)
  protected String publisherName;
- @XmlElement(name = "PublisherLocation")
+ @XmlElement(name = "PublisherLocation", required=false)
  protected String publisherLocation;
 
  /**

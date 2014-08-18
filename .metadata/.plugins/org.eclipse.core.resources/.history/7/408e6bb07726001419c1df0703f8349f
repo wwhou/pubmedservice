@@ -1,0 +1,18 @@
+package org.lens.utils;
+
+public class PatentCodeFinder {
+
+	public static String findCodeType(String typeString) {
+		switch (typeString) {
+		case "US":
+			return "USPC";
+		case "IPC":
+			return "IPC";
+		case "CPC":
+			return "CPC";
+		default:
+			return null;
+		}
+
+	}
+}

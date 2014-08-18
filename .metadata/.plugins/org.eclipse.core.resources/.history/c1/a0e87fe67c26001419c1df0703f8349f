@@ -1,0 +1,31 @@
+package org.lens.utils;
+
+public class PatentCodeFinder {
+
+	private String type=null;
+	private String code=null;
+	public PatentCodeFinder(String type, String code){
+		switch (type) {
+		case "US":
+			type="USPC";
+			this.code=code;
+			break;
+		case "IPC":
+			this.type=type;
+			this.code=IpcCodeParser.parseCode(code);
+			break;
+		case "CPC":
+			this.type=type;
+			this.code=code;
+			break;
+		}
+	} 
+	public String getCode() {
+		
+		return this.code;
+	}
+	
+	public String getType(){
+		return this.type;
+	}
+}

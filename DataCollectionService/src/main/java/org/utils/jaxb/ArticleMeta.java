@@ -11,13 +11,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "id","title", "articleAbstract", "keywords", "pagination",
-		"articleType", "pubDate", "articleIdList" })
+@XmlType(name = "", propOrder = { "id", "title", "articleAbstract", "keywords",
+		"pagination", "articleType", "pubDate", "articleIdList" })
 @XmlRootElement(name = "articleMeta")
 public class ArticleMeta {
 
-	@XmlElement(name="id", required=true)
+	@XmlElement(name = "id", required = true)
 	protected String id;
+
 	public String getId() {
 		return id;
 	}
@@ -32,9 +33,10 @@ public class ArticleMeta {
 	protected String articleAbstract;
 	// here has three types Book, Conference and Journal
 	@XmlElements(value = {
-			@XmlElement(name = "book", required = true, type = Book.class),
-			@XmlElement(name = "journal", required = true, type = Journal.class),
-			@XmlElement(name = "conference", required = true, type = Conference.class) })
+			@XmlElement(name = "book", required = false, type = Book.class),
+			@XmlElement(name = "journal", required = false, type = Journal.class),
+			@XmlElement(name = "conference", required = false, type = Conference.class),
+			@XmlElement(name = "patent", required = false, type = Patent.class) })
 	private Object articleType;
 	@XmlElement(name = "pagination", required = false)
 	protected String pagination;
@@ -51,6 +53,7 @@ public class ArticleMeta {
 	protected KeywordList keywords;
 	@XmlElement(name = "articleIdList", required = false)
 	protected ArticleIdList articleIdList;
+
 	public ArticleIdList getArticleIdList() {
 		return articleIdList;
 	}
@@ -69,8 +72,6 @@ public class ArticleMeta {
 	public void setPubDate(Date pubDate) {
 		this.pubDate = pubDate;
 	}
-
-	
 
 	public String getTitle() {
 		return title;
@@ -103,6 +104,5 @@ public class ArticleMeta {
 	public void setKeywords(KeywordList keywords) {
 		this.keywords = keywords;
 	}
-	
 
 }

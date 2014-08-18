@@ -1,0 +1,14 @@
+package org.lens.utils;
+
+public class IcpCodeParser {
+
+	public static String parseCode(String code){
+		  int pos=code.indexOf("/");
+		  if (pos >= 0) {
+		      return s.slice(0, 4) + String("0000" + s.slice(4, pos)).slice(-4) + String(s.slice(pos + 1) + "000000").slice(0, 6);
+		    } else if (s.length > 4) {
+		      return s.slice(0, 4) + String("0000" + s.slice(4, pos)).slice(-4) + "000000";
+		    } else
+		      return s
+	    }
+}
