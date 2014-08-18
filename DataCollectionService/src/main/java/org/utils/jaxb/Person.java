@@ -11,7 +11,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "id", "firstName", "middleName", "LastName"
+@XmlType(name = "", propOrder = { "type", "id", "firstName", "middleName",
+		"LastName", "fullName", ""
 // "usedPakage", do I need to add this now? or defined in other class later?
 })
 /*
@@ -33,12 +34,34 @@ public class Person {
 
 	@XmlElement(name = "ID", required = true)
 	protected String id;
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
 	@XmlElement(name = "firstName", required = true)
-	protected String firstName;
-	@XmlElement(name = "middleName", required = true)
-	protected String middleName;
+	protected String firstName = "";
+	@XmlElement(name = "middleName", required = false)
+	protected String middleName = "";
 	@XmlElement(name = "lastName", required = true)
-	protected String lastName;
+	protected String lastName = "";
+	@XmlElement(name = "fullName", required = true)
+	protected String fullName = "";
+
+	public String getFullName() {
+		if (fullName.equals(""))
+			return firstName + middleName + lastName;
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
 	@XmlElement(name = "affiliation", required = false)
 	protected List<Affiliation> affiliation;
 

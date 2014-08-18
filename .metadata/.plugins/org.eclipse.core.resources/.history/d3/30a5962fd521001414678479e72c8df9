@@ -1,0 +1,45 @@
+package org.service;
+
+import java.io.IOException;
+import java.util.Collection;
+
+import org.IEEE.client.IEEEClient;
+import org.IEEE.utils.IEEEParameter;
+import org.pubMed.client.PubMedClient;
+import org.pubMed.utils.PubMedParameter;
+import org.utils.jaxb.Article;
+
+
+public class TestSearch {
+
+	public static void main(String[] args) throws IOException {
+		
+		IEEEParameter pram = new IEEEParameter();
+	//PubMedParameter pram=new PubMedParameter();
+//		pram.setTerm("Java");
+//		pram.setRetMax(20);
+	//	pram.setDatabase("pubmed");
+		pram.setTerm("mouse");
+		pram.setRetMax(5);
+//		pram.setStartYear(2000);
+//		pram.setEndYear(2013);
+
+		IEEEClient ieeeClient=new IEEEClient();
+		Collection<Article> articles1=ieeeClient.call(pram);
+		for (Article article : articles1) {
+			System.out.println(article.getArticleMeta().getTitle());
+			System.out.println(article.getPeople().get(0).getFirstName());
+		}
+		
+		PubMedParameter pubmedParam=new PubMedParameter();
+		pubmedParam.setDatabase("pubmed");
+		pram.setTerm("mouse");
+		pram.setRetMax(5);
+		PubMedClient pubmedClient=new PubMedClient();
+		Collection<Article> articles=pubmedClient.call(pubmedParam);
+		for (Article article : articles) {
+			System.out.println(article.getArticleMeta().getTitle());
+			System.out.println(article.getPeople().get(0).getFirstName());
+		}
+	}
+}
