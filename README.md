@@ -4,14 +4,16 @@ This project contains web services, for crawling document metadata from ([lens](
 
 ![alt tag](https://github.com/wwhou/pubmedservice/blob/master/articleStructure.png)
 
-Use the web services
-=============
+# Use the web services
+
 There are three clients being provided for using the services. The default URL is "http://localhost:8080/DataCollectionService"
 
-[1. Patent crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/IEEE/client/IEEEClient.java) 
+1. [ Patent crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/IEEE/client/IEEEClient.java) 
+2. [IEEE crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/lens/client/PatentClient.java)
+3. [Pubmed crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/pubMed/client/PubMedClient.java)
 
-[2. IEEE crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/lens/client/PatentClient.java)
+# Building
 
-[3. Pubmed crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/pubMed/client/PubMedClient.java)
+Simply run Maven without arguments in the top level directory:
 
-
+    mvn
