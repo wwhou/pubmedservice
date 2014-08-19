@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = { "articleMeta", "authors" })
+@XmlType(name = "", propOrder = { "articleMeta", "people" })
 @XmlRootElement(name = "article")
 public class Article {
 

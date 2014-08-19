@@ -1,0 +1,50 @@
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["NICTA IPR PTY LTD"]
+  },
+  "applicationNumber": "AU_2006_243809_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["H04B10/08"]
+  }],
+  "filingDate": "2006-04-28",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ANDERSON TREVOR",
+      "DODS SARAH"
+    ]
+  },
+  "jurisdiction": "AU",
+  "kind": "B2",
+  "opiDate": "2009-04-23",
+  "priorities": [
+    {
+      "countryCode": "AU",
+      "documentDate": "2005-04-29",
+      "documentNumber": "2005902178",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "AU",
+      "documentDate": "2006-04-28",
+      "documentNumber": "2006000560",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "AU",
+      "documentDate": "2006-04-28",
+      "documentNumber": "2006243809",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2009-04-23",
+  "publicationNumber": "2006243809",
+  "title": {
+    "language": "en",
+    "text": "Method and device for in-band optical performance monitoring"
+  }
+}

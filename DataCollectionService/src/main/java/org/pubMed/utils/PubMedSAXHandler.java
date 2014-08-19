@@ -33,13 +33,14 @@ public class PubMedSAXHandler extends DefaultHandler {
 	private String tmpValue;
 	private Journal journal = null;
 	private Book book = null;
-	private String abstractText;
+	private String abstractText="";
 	private boolean articleDateFlag = false;
 	private boolean journalDateFlag = false;
 	private Date articlePubDate;
 	private Publisher publisher = null;
 	private ArticleIdList articleIdList;
 	private Date journalPubDate;
+	private ArticleId articleId;
 
 	public Collection<ArticleMeta> getArticleMetas() {
 		return articleMetas;
@@ -76,7 +77,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 			if (authors == null)
 				authors = new ArrayList<Person>();
 			book = new Book();
-
+			articleMeta.setId(UnifiedID.generateID("PM"));
 			articleMeta = new ArticleMeta();
 			if (articles == null)
 				articles = new ArrayList<Article>();
@@ -90,7 +91,7 @@ public class PubMedSAXHandler extends DefaultHandler {
 		case "abstracttext":
 			String label = attributes.getValue("NlmCategory");
 			if (label != null && !label.equals("UNLABELLED"))
-				abstractText += label;
+				abstractText += label+" ";
 			break;
 		case "pubmedpubdate":
 			if (attributes.getValue("PubStatus").equals("pubmed")) {
@@ -108,6 +109,10 @@ public class PubMedSAXHandler extends DefaultHandler {
 		case "articleidlist":
 			articleIdList = new ArticleIdList();
 			break;
+		case "articleid":
+			articleId = new ArticleId();
+			articleId.setIdType(attributes.getValue("IdType"));
+			break;
 
 		}
 
@@ -118,21 +123,14 @@ public class PubMedSAXHandler extends DefaultHandler {
 
 		switch (qName.toLowerCase()) {
 		case "pubmedarticle":
-			Calendar calendar = Calendar.getInstance();
-			String id = calendar.get(Calendar.YEAR) + "-"
-					+ calendar.get(Calendar.MONTH) + "-"
-					+ calendar.get(Calendar.DATE) + "-"
-					+ calendar.get(Calendar.HOUR) + "-"
-					+ calendar.get(Calendar.MINUTE) + "-"
-					+ calendar.get(Calendar.SECOND) + UUID.randomUUID();
-			articleMeta.setId(id);
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
 			article.getPeople().add(author);
 			articles.add(article);
+			
 			break;
 		case "pubmedbookarticle":
-			if(publisher!=null)
+			if (publisher != null)
 				book.setPublisher(publisher);
 			articleMeta.setArticleType(book);
 			articleMetas.add(articleMeta);
@@ -143,7 +141,6 @@ public class PubMedSAXHandler extends DefaultHandler {
 		case "journal":
 			articleMeta.setArticleType(journal);
 			break;
-
 		case "lastname":
 			author.setLastName(tmpValue);
 			break;
@@ -151,20 +148,14 @@ public class PubMedSAXHandler extends DefaultHandler {
 			author.setFirstName(tmpValue);
 			break;
 		case "affiliation":
-			Affiliation affiliation=new Affiliation();
+			Affiliation affiliation = new Affiliation();
 			affiliation.setContent(tmpValue);
 			author.getAffiliation().add(affiliation);
 			break;
 		case "author":
+			author.setId(UnifiedID.generateID("AU"));
+			author.setFullName();
 			authors.add(author);
-			Calendar calendar1 = Calendar.getInstance();
-			String id1 = "AU"+calendar1.get(Calendar.YEAR) + "-"
-					+ calendar1.get(Calendar.MONTH) + "-"
-					+ calendar1.get(Calendar.DATE) + "-"
-					+ calendar1.get(Calendar.HOUR) + "-"
-					+ calendar1.get(Calendar.MINUTE) + "-"
-					+ calendar1.get(Calendar.SECOND) + UUID.randomUUID();
-			author.setId(id1);
 			break;
 		case "title":
 			if (journal != null)
@@ -181,10 +172,12 @@ public class PubMedSAXHandler extends DefaultHandler {
 			articleMeta.setTitle(tmpValue);
 			break;
 		case "abstracttext":
+			if(tmpValue!=null)
 			abstractText += tmpValue + "/n";
 			break;
 		case "abstract":
 			articleMeta.setArticleAbstract(abstractText);
+			abstractText="";
 			break;
 		case "year":
 			if (journalDateFlag)
@@ -223,14 +216,13 @@ public class PubMedSAXHandler extends DefaultHandler {
 			book.getIsbn().add(isbn);
 			break;
 		case "articleid":
-			ArticleId articleId = new ArticleId();
 			articleId.setContent(tmpValue);
 			articleIdList.getArticleId().add(articleId);
 			break;
 		case "articleidlist":
 			articleMeta.setArticleIdList(articleIdList);
 			break;
-		
+
 		}
 	}
 

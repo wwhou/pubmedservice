@@ -85,13 +85,17 @@ public class IEEESAXHandler extends DefaultHandler {
 			if (conference != null) {
 				conference.setTitle(pubTitle);
 				conference.setPubDate(articlePubDate);
+				articleMeta.setArticleType(conference);
 			} else if (book != null) {
 				book.setTitle(pubTitle);
 				book.setPubDate(articlePubDate);
+				articleMeta.setArticleType(book);
 			} else if (journal != null) {
 				journal.setTitle(pubTitle);
 				journal.setPubDate(articlePubDate);
+				articleMeta.setArticleType(journal);
 			}
+			articleMeta.setPubDate(articlePubDate);
 			articleMetas.add(articleMeta);
 			article.setArticleMeta(articleMeta);
 			if (authorString != null && !affiFlag) {
@@ -237,6 +241,7 @@ public class IEEESAXHandler extends DefaultHandler {
 						Person author = new Person();
 						author.setFullName(authorName);
 						author.setType("author");
+						author.setId(UnifiedID.generateID("AU"));
 						String[] namePair = authorName.trim().split(" ");
 						String name0 = namePair[0];
 						if (namePair.length == 3) {

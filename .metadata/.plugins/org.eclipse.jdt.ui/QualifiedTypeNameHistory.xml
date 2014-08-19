@@ -21,7 +21,6 @@
 <fullyQualifiedTypeName name="org.xml.sax.SAXException"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="org.pubMed.utils.ObjectMapperProvider"/>
-<fullyQualifiedTypeName name="org.utils.jaxb.Article"/>
 <fullyQualifiedTypeName name="org.utils.Query"/>
 <fullyQualifiedTypeName name="com.sun.jersey.api.client.GenericType"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -37,15 +36,17 @@
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="org.utils.Search"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="org.json.JSONArray"/>
 <fullyQualifiedTypeName name="org.utils.Parameter"/>
 <fullyQualifiedTypeName name="org.lens.utils.PatentParameter"/>
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
-<fullyQualifiedTypeName name="org.utils.jaxb.Patent"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.utils.jaxb.Priority"/>
 <fullyQualifiedTypeName name="org.utils.UnifiedID"/>
 <fullyQualifiedTypeName name="org.utils.jaxb.Publisher"/>
 <fullyQualifiedTypeName name="org.utils.UniversalClient"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Patent"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Priority"/>
+<fullyQualifiedTypeName name="org.utils.jaxb.Article"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="org.IEEE.utils.IEEESAXHandler"/>
 </qualifiedTypeNameHistroy>

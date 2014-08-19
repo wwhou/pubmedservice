@@ -33,7 +33,7 @@ public class UniversalClient {
 	}
 	
 	
-	 public Collection<Article> call(final Object request) {
+	protected Collection<Article> call(final Object request) {
 	        ClientResponse response = null;
 	        try {
 	            response = service.type(MediaType.APPLICATION_JSON)

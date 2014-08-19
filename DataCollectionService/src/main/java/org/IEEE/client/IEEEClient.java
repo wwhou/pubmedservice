@@ -1,7 +1,11 @@
 package org.IEEE.client;
 
 
+import java.util.Collection;
+
+import org.IEEE.utils.IEEEParameter;
 import org.utils.UniversalClient;
+import org.utils.jaxb.Article;
 
 
 public class IEEEClient extends UniversalClient{
@@ -17,4 +21,7 @@ public class IEEEClient extends UniversalClient{
 		super(IEEE_SERVICE_PATH);
 	}
 
+	public Collection<Article> callIEEEService(final IEEEParameter IeeeParam){
+		return call(IeeeParam);
+	}
 }

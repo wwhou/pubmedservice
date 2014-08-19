@@ -1,0 +1,18 @@
+package org.patent.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+import org.junit.Test;
+import org.lens.utils.PatentJSONParser;
+
+public class TestPatentJSONParser {
+
+	@Test
+	public void testPatentJSONParser() throws FileNotFoundException{
+		InputStream in=new  FileInputStream("src/test/files/frontpage.json");
+		PatentJSONParser pa=new PatentJSONParser(in, "AU_A_2006243809");
+		
+	}
+}

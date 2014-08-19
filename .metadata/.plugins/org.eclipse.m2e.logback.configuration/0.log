@@ -8775,3 +8775,889 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact stax:stax-api
 2014-08-18 15:31:04,044 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
 2014-08-18 15:31:04,045 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
 2014-08-18 15:31:04,046 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:21:41,094 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:21:42,842 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:21:42,849 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:21:42,849 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:21:42,853 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:21:42,853 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:27:12,522 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:27:12,530 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:27:12,544 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:27:12,544 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:27:12,548 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:27:12,548 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:28:18,612 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:28:18,614 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:28:18,615 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:28:18,615 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:28:18,617 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:28:18,618 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:28:22,773 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:28:22,775 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:28:22,776 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:28:22,777 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:28:22,778 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:28:22,779 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:29:15,460 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:29:15,468 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:29:15,469 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:29:15,469 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:29:15,471 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:29:15,472 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:30:29,582 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:30:29,583 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:30:29,585 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:30:29,585 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:30:29,587 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:30:29,587 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:31:34,656 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:31:34,658 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:31:34,659 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:31:34,659 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:31:34,661 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:31:34,662 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:31:48,910 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:31:48,912 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:31:48,913 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:31:48,913 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:31:48,916 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:31:48,917 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:32:28,785 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:32:28,790 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:32:28,791 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:32:28,791 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:32:28,793 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:32:28,794 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:33:26,885 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:33:26,897 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:33:26,898 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:33:26,899 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:33:26,901 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:33:26,901 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:34:28,493 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:34:28,495 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:34:28,496 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:34:28,496 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:34:28,498 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:34:28,499 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:35:13,864 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:35:13,866 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:35:13,867 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:35:13,868 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:35:13,870 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:35:13,870 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:35:39,505 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:35:39,517 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:35:39,519 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:35:39,519 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:35:39,521 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:35:39,521 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:36:00,137 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:36:00,139 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:36:00,140 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:36:00,140 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:36:00,142 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:36:00,143 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:36:29,286 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:36:29,288 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:36:29,289 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:36:29,289 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:36:29,291 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:36:29,292 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:37:15,590 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:37:15,594 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:37:15,596 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:37:15,596 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:37:15,599 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:37:15,602 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:37:48,503 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:37:48,505 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:37:48,506 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:37:48,506 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:37:48,509 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:37:48,510 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:38:58,300 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:38:58,302 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:38:58,303 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:38:58,303 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:38:58,305 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:38:58,431 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:39:32,786 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:39:32,788 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:39:32,789 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:39:32,789 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:39:32,791 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:39:32,791 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:44:52,620 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:44:52,622 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:44:52,624 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:44:52,624 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:44:52,626 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:44:52,626 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:51:33,151 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:51:33,154 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:51:33,156 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:51:33,156 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:51:33,158 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:51:33,158 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:52:01,081 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:52:01,084 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:52:01,085 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:52:01,086 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:52:01,087 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:52:01,088 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:53:25,604 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:53:25,606 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:53:25,607 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:53:25,608 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:53:25,609 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:53:25,610 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:55:39,189 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:55:39,190 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:55:39,192 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:55:39,192 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:55:39,193 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:55:39,194 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 09:58:37,917 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 09:58:37,919 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:58:37,920 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 09:58:37,920 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 09:58:37,922 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 09:58:37,923 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:02:02,468 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:02:02,471 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:02:02,472 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:02:02,472 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:02:02,474 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:02:02,475 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:06:52,308 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:06:52,326 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:06:52,336 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:06:52,336 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:06:52,338 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:06:52,338 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:08:05,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:08:05,016 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:08:05,018 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:08:05,018 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:08:05,020 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:08:05,020 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:19:36,141 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:19:36,162 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:19:36,225 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:19:36,225 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:19:36,227 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:19:36,243 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:19:58,307 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:19:58,309 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:19:58,310 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:19:58,310 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:19:58,313 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:19:58,313 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:23:48,364 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:23:48,366 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:23:48,388 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:23:48,388 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:23:48,390 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:23:48,391 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:25:41,656 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:25:41,658 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:25:41,663 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:25:41,663 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:25:41,665 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:25:41,666 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:26:17,547 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:26:17,549 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:26:17,550 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:26:17,550 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:26:17,552 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:26:17,553 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:26:24,315 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:26:24,317 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:26:24,361 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:26:24,361 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:26:24,379 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:26:24,382 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:27:58,586 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:27:58,608 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:27:58,662 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:27:58,662 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:27:58,665 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:27:58,665 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:28:14,556 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:28:14,559 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:28:14,561 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:28:14,561 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:28:14,563 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:28:14,569 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:28:35,698 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:28:35,723 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:28:35,744 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:28:35,744 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:28:35,746 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:28:35,747 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:29:13,230 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:29:13,232 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:29:13,233 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:29:13,234 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:29:13,235 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:29:13,236 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:29:25,994 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:29:25,997 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:29:25,998 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:29:25,998 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:29:26,000 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:29:26,001 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:30:46,957 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:30:46,959 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:30:46,960 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:30:46,960 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:30:46,962 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:30:46,962 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:32:20,068 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:32:20,069 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:20,136 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:32:20,137 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:32:20,139 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:20,139 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:32:27,062 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:32:27,063 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:27,077 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:32:27,078 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:32:27,080 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:27,080 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:32:39,607 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:32:39,609 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:39,610 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:32:39,610 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:32:39,612 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:32:39,612 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:34:33,501 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:34:33,510 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:34:33,519 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:34:33,520 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:34:33,522 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:34:33,522 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:36:24,463 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:36:24,490 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:36:24,492 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:36:24,492 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:36:24,494 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:36:24,494 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:36:36,363 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:36:36,365 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:36:36,366 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:36:36,366 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:36:36,368 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:36:36,368 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:38:13,590 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:38:13,613 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:38:13,623 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:38:13,623 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:38:13,626 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:38:13,627 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:40:11,026 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:40:11,028 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:40:11,029 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:40:11,029 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:40:11,031 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:40:11,032 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:43:54,661 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:43:54,687 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:43:54,697 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:43:54,697 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:43:54,699 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:43:54,699 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:45:26,332 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:45:26,353 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:45:26,407 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:45:26,408 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:45:26,410 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:45:26,411 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:46:33,547 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:46:33,549 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:46:33,550 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:46:33,550 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:46:33,552 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:46:33,552 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:47:03,167 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:47:03,170 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:47:03,186 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:47:03,186 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:47:03,188 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:47:03,188 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:47:53,653 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 10:47:53,654 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-08-19 10:48:01,172 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:48:01,194 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:48:01,215 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:48:01,215 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:48:01,217 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:48:01,217 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:48:35,552 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 10:48:35,553 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-08-19 10:48:50,739 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:48:50,756 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:48:50,787 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:48:50,788 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:48:50,790 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:48:50,806 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:49:49,867 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:49:49,868 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:49:49,869 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:49:49,869 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:49:49,873 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:49:49,874 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:50:16,384 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:50:16,386 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:16,397 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:50:16,398 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:50:16,401 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:16,402 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:50:32,488 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:50:32,490 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:32,491 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:50:32,491 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:50:32,493 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:32,493 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:50:46,299 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:50:46,300 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:46,301 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:50:46,302 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:50:46,303 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:46,304 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:50:48,561 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:50:48,563 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:48,564 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:50:48,564 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:50:48,568 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:50:48,569 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:51:36,597 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:51:36,598 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:36,610 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:51:36,610 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:51:36,612 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:36,613 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:51:50,216 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:51:50,218 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:50,219 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:51:50,219 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:51:50,221 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:50,221 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:51:54,729 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:51:54,731 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:54,732 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:51:54,732 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:51:54,734 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:51:54,734 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:52:07,070 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:52:07,072 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:07,073 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:52:07,074 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:52:07,076 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:07,077 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:52:14,773 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:52:14,775 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:14,776 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:52:14,776 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:52:14,778 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:14,779 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:52:27,852 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:52:27,853 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:27,855 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:52:27,855 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:52:27,856 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:27,857 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:52:30,339 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:52:30,341 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:30,343 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:52:30,343 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:52:30,344 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:30,345 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:52:58,333 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:52:58,335 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:58,336 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:52:58,336 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:52:58,338 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:52:58,338 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:53:19,841 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:53:19,843 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:53:19,844 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:53:19,844 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:53:19,847 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:53:19,847 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:55:36,716 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:55:36,718 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:55:36,719 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:55:36,719 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:55:36,721 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:55:36,722 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:55:50,470 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 10:55:50,470 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-08-19 10:55:55,265 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:55:55,267 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:55:55,268 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:55:55,269 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:55:55,270 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:55:55,271 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:56:04,070 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:56:04,072 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:04,073 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:56:04,074 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:56:04,075 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:04,076 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:56:09,644 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:56:09,646 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:09,653 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:56:09,653 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:56:09,654 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:09,655 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:56:12,234 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:56:12,236 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:12,237 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:56:12,237 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:56:12,238 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:56:12,239 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:57:21,392 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:57:21,394 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:21,395 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:57:21,396 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:57:21,398 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:21,398 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:57:42,695 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:57:42,727 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:42,728 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:57:42,728 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:57:42,730 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:42,730 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:57:54,918 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:57:54,919 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:54,920 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:57:54,920 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:57:54,922 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:57:54,923 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:58:03,558 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:58:03,560 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:03,561 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:58:03,561 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:58:03,563 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:03,564 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:58:06,982 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:58:06,984 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:06,987 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:58:06,987 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:58:06,989 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:06,990 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:58:15,919 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:58:15,921 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:15,922 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:58:15,922 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:58:15,924 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:58:15,924 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 10:59:10,836 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 10:59:10,836 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-08-19 10:59:22,627 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 10:59:22,652 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:59:22,672 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 10:59:22,673 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 10:59:22,674 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 10:59:22,675 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:00:27,633 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 11:00:27,633 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-08-19 11:00:31,547 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:00:31,550 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:00:31,551 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:00:31,551 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:00:31,560 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:00:31,561 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:00:41,187 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 11:00:41,187 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-08-19 11:00:52,389 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:00:52,408 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:00:52,449 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:00:52,450 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:00:52,452 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:00:52,452 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:01:47,442 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:01:47,443 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:01:47,445 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:01:47,445 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:01:47,447 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:01:47,447 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:02:07,930 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:02:07,932 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:07,932 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:02:07,933 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:02:07,934 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:07,935 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:02:25,268 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:02:25,270 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:25,271 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:02:25,271 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:02:25,273 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:25,274 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:02:41,360 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:02:41,362 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:41,363 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:02:41,364 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:02:41,365 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:41,366 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:02:51,793 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:02:51,794 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:51,819 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:02:51,819 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:02:51,821 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:51,822 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:02:55,368 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:02:55,370 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:55,371 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:02:55,371 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:02:55,372 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:02:55,373 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:03:03,568 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 11:03:03,568 [Worker-15] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2014-08-19 11:03:07,660 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:03:07,665 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:03:07,666 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:03:07,666 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:03:07,668 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:03:07,669 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:04:25,373 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:04:26,584 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:26,586 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:04:26,586 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:04:26,589 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:26,590 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:04:37,248 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:04:37,250 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:37,296 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:04:37,296 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:04:37,298 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:37,317 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:04:41,706 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:04:41,712 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:41,714 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:04:41,714 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:04:41,716 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:41,716 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:04:51,987 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:04:51,989 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:51,990 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:04:51,990 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:04:51,992 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:04:51,993 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:05:22,305 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:05:22,307 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:05:22,307 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:05:22,308 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:05:22,309 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:05:22,310 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:05:42,063 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:05:42,065 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:05:42,066 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:05:42,067 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:05:42,068 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:05:42,069 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:07:11,408 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:07:11,409 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:11,410 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:07:11,411 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:07:11,433 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:11,433 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:07:26,078 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:07:26,080 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:26,081 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:07:26,082 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:07:26,096 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:26,097 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:07:28,329 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:07:28,331 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:28,332 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:07:28,333 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:07:28,334 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:28,335 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:07:41,336 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:07:41,338 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:41,339 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:07:41,340 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:07:41,342 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:07:41,342 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:08:33,268 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:08:33,272 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:08:33,273 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:08:33,273 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:08:33,275 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:08:33,276 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:11:37,888 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/weiweihou/Desktop/pubmedservice/DataCollectionService
+2014-08-19 11:11:37,889 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-08-19 11:12:31,303 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:12:31,334 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:12:31,335 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:12:31,335 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:12:31,337 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:12:31,338 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:14:06,218 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:14:06,220 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:14:06,221 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:14:06,221 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:14:06,223 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:14:06,223 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:14:29,651 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:14:29,653 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:14:29,654 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:14:29,654 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:14:29,656 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:14:29,656 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:16:28,121 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:16:28,122 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:16:28,123 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:16:28,124 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:16:28,125 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:16:28,126 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:16:31,980 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:16:31,984 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:16:31,985 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:16:31,985 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:16:31,989 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:16:31,990 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:17:07,073 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:17:07,075 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:17:07,076 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:17:07,077 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:17:07,079 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:17:07,080 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:17:35,460 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:17:35,462 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:17:35,463 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:17:35,463 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:17:35,465 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:17:35,465 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:23:08,519 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:23:08,521 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:23:08,522 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:23:08,523 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:23:08,525 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:23:08,526 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:30:29,291 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:30:29,293 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:30:29,294 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:30:29,294 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:30:29,314 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:30:29,315 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:31:58,365 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:31:58,367 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:31:58,368 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:31:58,368 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:31:58,370 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:31:58,371 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:32:02,227 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:32:02,229 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:32:02,230 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:32:02,230 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:32:02,232 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:32:02,233 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:39:32,371 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:39:32,380 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:39:32,381 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:39:32,381 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:39:32,383 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:39:32,383 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:40:06,282 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:40:06,284 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:40:06,285 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:40:06,285 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:40:06,287 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:40:06,288 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:42:37,647 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:42:37,679 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:42:37,681 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:42:37,681 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:42:37,682 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:42:37,699 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:44:45,750 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:44:45,752 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:44:45,753 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:44:45,753 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:44:45,770 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:44:45,771 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:45:13,531 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:45:13,534 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:45:13,535 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:45:13,535 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:45:13,537 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:45:13,537 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:47:38,291 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:47:38,293 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:47:38,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:47:38,294 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:47:38,296 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:47:38,296 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:49:45,066 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:49:45,068 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:49:45,069 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:49:45,069 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:49:45,070 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:49:45,071 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:50:24,985 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:50:24,987 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:50:25,007 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:50:25,007 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:50:25,009 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:50:25,010 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:50:57,426 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:50:57,428 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:50:57,429 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:50:57,430 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:50:57,431 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:50:57,432 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:51:02,761 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:51:02,762 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:51:02,763 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:51:02,764 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:51:02,765 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:51:02,766 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:51:07,025 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:51:07,068 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:51:07,069 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:51:07,070 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:51:07,072 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:51:07,072 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:52:10,775 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:52:10,777 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:10,778 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:52:10,778 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:52:10,789 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:10,790 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:52:17,034 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:52:17,036 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:17,037 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:52:17,038 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:52:17,040 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:17,040 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:52:35,685 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:52:35,687 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:35,688 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:52:35,688 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:52:35,691 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:35,692 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:52:55,146 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:52:55,147 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:55,148 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:52:55,148 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:52:55,150 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:55,150 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:52:59,326 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:52:59,328 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:59,329 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:52:59,329 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:52:59,331 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:52:59,331 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:53:57,084 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:53:57,085 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:53:57,087 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:53:57,087 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:53:57,089 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:53:57,092 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:54:00,195 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:54:00,197 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:54:00,198 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:54:00,198 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:54:00,200 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:54:00,200 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:54:41,353 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:54:41,368 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:54:41,369 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:54:41,369 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:54:41,371 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:54:41,371 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 11:59:45,725 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 11:59:45,727 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:59:45,728 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 11:59:45,728 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 11:59:45,730 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 11:59:45,731 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:00:15,701 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:00:15,705 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:00:15,706 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:00:15,706 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:00:15,707 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:00:15,708 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:01:48,408 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:01:48,410 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:01:48,411 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:01:48,411 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:01:48,412 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:01:48,413 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:01:52,544 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:01:52,546 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:01:52,547 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:01:52,547 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:01:52,549 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:01:52,549 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:02:05,922 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:02:05,923 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:05,924 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:02:05,924 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:02:05,927 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:05,928 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:02:08,097 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:02:08,098 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:08,099 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:02:08,099 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:02:08,101 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:08,101 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:02:14,049 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:02:14,051 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:14,052 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:02:14,052 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:02:14,054 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:02:14,055 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:03:03,606 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:03:03,608 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:03,609 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:03:03,609 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:03:03,610 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:03,611 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:03:45,705 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:03:45,711 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:45,712 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:03:45,715 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:03:45,717 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:45,718 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:03:50,082 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:03:50,084 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:50,085 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:03:50,085 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:03:50,087 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:03:50,087 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:06:29,309 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:06:29,337 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:06:29,433 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:06:29,433 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:06:29,435 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:06:29,435 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:06:31,669 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:06:31,671 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:06:31,672 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:06:31,672 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:06:31,674 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:06:31,674 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:07:30,010 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:07:30,012 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:07:30,013 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:07:30,013 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:07:30,015 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:07:30,015 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:09:21,755 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:09:21,780 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:09:21,798 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:09:21,798 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:09:21,801 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:09:21,801 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources
+2014-08-19 12:17:52,890 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Skipped XJC execution. No schemas to compile.
+2014-08-19 12:17:52,918 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:17:52,947 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to WEB-INF
+2014-08-19 12:17:52,947 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/target/generated-sources/xjc
+2014-08-19 12:17:52,949 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-08-19 12:17:52,950 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/weiweihou/Desktop/pubmedservice/DataCollectionService/src/test/resources

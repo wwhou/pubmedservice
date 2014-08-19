@@ -12,7 +12,7 @@ import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "type", "id", "firstName", "middleName",
-		"LastName", "fullName", ""
+		"LastName", "fullName", "affiliation"
 // "usedPakage", do I need to add this now? or defined in other class later?
 })
 /*
@@ -53,9 +53,14 @@ public class Person {
 	protected String fullName = "";
 
 	public String getFullName() {
-		if (fullName.equals(""))
-			return firstName + middleName + lastName;
-		return fullName;
+		return this.fullName;
+	}
+
+	public void setFullName() {
+		if (!middleName.equals(""))
+			this.fullName = firstName + " " + middleName + " " + lastName;
+		else
+			this.fullName = firstName + " " + lastName;
 	}
 
 	public void setFullName(String fullName) {

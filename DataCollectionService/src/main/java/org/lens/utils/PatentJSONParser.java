@@ -1,18 +1,15 @@
 package org.lens.utils;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.json.Json;
-import javax.json.stream.JsonParser;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.utils.UnifiedID;
+import org.utils.jaxb.Affiliation;
 import org.utils.jaxb.Article;
 import org.utils.jaxb.ArticleId;
 import org.utils.jaxb.ArticleIdList;
@@ -31,6 +28,7 @@ public class PatentJSONParser {
 	private Article article;
 	private ArticleMeta articleMeta;
 	private List<Person> inventors;
+	private List<Affiliation> applicantsList;
 
 	public PatentJSONParser(InputStream inputStream, String dockey) {
 		this.inputStream = inputStream;
@@ -68,7 +66,6 @@ public class PatentJSONParser {
 		articleId.setIdType("patent");
 		articleId.setContent(dockey);
 		Patent patent = new Patent();
-		articleId.setContent(dockey);
 		articleIdList.getArticleId().add(articleId);	
 		if (jsonObject1.has("title")) {
 			articleMeta.setTitle(jsonObject1.getJSONObject("title").getString(
@@ -78,12 +75,14 @@ public class PatentJSONParser {
 
 			JSONObject jsonApplicants = jsonObject1.getJSONObject("applicants");
 			JSONArray jsonApplicantArray = jsonApplicants.getJSONArray("texts");
-			List<String> applicantsList = new ArrayList<String>();
+			applicantsList= new ArrayList<Affiliation>();
 			for (int i = 0; i < jsonApplicantArray.length(); i++) {
-
 				String applicantText = jsonApplicantArray.getString(i);
-				applicantsList.add(applicantText);
+				Affiliation aff=new Affiliation();
+				aff.setContent(applicantText);
+				applicantsList.add(aff);
 			}
+			
 		}
 		if (jsonObject1.has("inventors")) {
 			JSONObject jsonInventors = jsonObject1.getJSONObject("inventors");
@@ -102,6 +101,9 @@ public class PatentJSONParser {
 				}
 				person.setFullName(inventorText);
 				person.setType("inventor");
+				if(applicantsList!=null){
+					person.getAffiliation().addAll(applicantsList);
+				}
 				person.setId(UnifiedID.generateID("IN"));
 				inventors.add(person);
 				article.getPeople().add(person);
@@ -176,6 +178,8 @@ public class PatentJSONParser {
 
 		if (jsonObject1.has("jurisdiction"))
 			patent.setJuristiction(jsonObject1.get("jurisdiction").toString());
+		if(jsonObject1.has("opiDate"))
+			patent.setOpiDate(jsonObject1.getString("opiDate").toString());
 		if (jsonObject1.has("priorities")) {
 			JSONArray priorities = jsonObject1.getJSONArray("priorities");
 			for (int index = 0; index < priorities.length(); index++) {
@@ -194,42 +198,5 @@ public class PatentJSONParser {
 		articleMeta.setId(UnifiedID.generateID("PA"));
 		articleMeta.setArticleType(patent);
 		article.setArticleMeta(articleMeta);
-	}
-
-	public void parseJSON() {
-		JsonParser jsonParser = Json.createParser(inputStream);
-		while (jsonParser.hasNext()) {
-
-			JsonParser.Event event = jsonParser.next();
-			switch (event) {
-			case START_ARRAY:
-			case END_ARRAY:
-			case START_OBJECT:
-			case END_OBJECT:
-			case VALUE_FALSE:
-			case VALUE_NULL:
-			case VALUE_TRUE:
-				System.out.println(event.toString());
-				break;
-			case KEY_NAME:
-				System.out.print(event.toString() + " "
-						+ jsonParser.getString() + " - ");
-				break;
-			case VALUE_STRING:
-			case VALUE_NUMBER:
-				System.out.println(event.toString() + " "
-						+ jsonParser.getString());
-				break;
-			}
-
-		}
-
-	}
-	
-	public static void main(String[] args) throws FileNotFoundException{
-		InputStream in=new  FileInputStream("src/test/files/frontpage.json");
-		PatentJSONParser pa=new PatentJSONParser(in, "US_A1_2010258342");
-		System.out.print(pa.getArticle().getArticleMeta().getKeywords().getKeyword().get(0));
-		
-	}
+	}	
 }

@@ -1,0 +1,31 @@
+package org.patent.test;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.junit.Test;
+import org.lens.utils.PatentJSONParser;
+import org.utils.jaxb.Article;
+import org.utils.jaxb.ArticleMeta;
+import org.utils.jaxb.Person;
+
+public class TestPatentJSONParser {
+
+	@Test
+	public void testPatentJSONParser() throws FileNotFoundException{
+		InputStream in=new  FileInputStream("src/test/files/frontpage.json");
+		PatentJSONParser pa=new PatentJSONParser(in, "AU_A_2006243809");
+		final Article article=pa.getArticle();
+		assertNotNull(article);
+		final ArticleMeta articleMeta=article.getArticleMeta();
+		assertNotNull(articleMeta);
+		final List<Person> people=article.getPeople();
+		assertEquals(2, people.size());
+		
+	}
+}
