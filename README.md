@@ -6,7 +6,7 @@ This project contains web services, for crawling document metadata from ([lens](
 
 # Use the web services
 
-There are three clients being provided for using the services. The default URL is "http://localhost:8080/DataCollectionService"
+There are three clients being provided for using the services. The default URL is "http://localhost:8080/DataCollectionService"[See example](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/service/TestSearch.java)
 
 1. [ Patent crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/IEEE/client/IEEEClient.java) 
 2. [IEEE crawler](https://github.com/wwhou/pubmedservice/blob/master/DataCollectionService/src/main/java/org/lens/client/PatentClient.java)
