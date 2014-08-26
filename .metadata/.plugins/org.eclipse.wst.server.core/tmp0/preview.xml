@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
-  <module context="DataCollectionService" name="DataCollectionService" path="/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/DataCollectionService" type="j2ee"/>
+  <module context="pubmed" name="pubmed" path="/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/pubmed" type="j2ee"/>
 </server>

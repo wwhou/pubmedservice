@@ -1,0 +1,116 @@
+package org.service;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.attribute.FileAttribute;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.crawlers.EFetch;
+import org.jaxb.eSearch.Id;
+import org.utils.ESearchResult;
+import org.utils.PubMedParameter;
+import org.utils.PubmedPackage;
+import javax.ws.rs.core.Response;
+
+@Path("/search")
+public class PubMedService {
+
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path("stream")
+	public Response getStream(final PubMedParameter pubMedParam) {
+		ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+		List<Id> idList1 = eSearchResult.getIdList();
+		String idString1 = "db=" + pubMedParam.getDatabase() + "&id=";
+		int index1 = 0;
+		for (Id id : idList1) {
+			if (index1 > 0)
+				idString1 += ",";
+			idString1 += id.getContent();
+			index1++;
+		}
+		EFetch efetch = new EFetch(idString1, true);
+
+		InputStream inputStream = efetch.getSearchResult();
+		if (inputStream != null) {
+
+			
+			try {
+				File tempDir = new File(System.getProperty("java.io.tmpdir", null),
+						"tempdir-old");
+				File temp = File.createTempFile("pubmed", ".xml", tempDir);
+				Response res = Response.ok(tempDir, "application/zip").build();
+				temp.delete();
+				tempDir.delete();
+				return res;
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		return null;
+	}
+
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces({ MediaType.APPLICATION_JSON })
+	@Path("article")
+	public Collection<PubmedPackage> getArticle(
+			final PubMedParameter pubMedParam) {
+		ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+		List<Id> idList1 = eSearchResult.getIdList();
+		if (idList1 != null) {
+			if (idList1.size() > 100) {
+				org.utils.PubMedMultiThreadsCall mCall = new org.utils.PubMedMultiThreadsCall(
+						idList1, pubMedParam.getDatabase());
+				List<Future<PubmedPackage>> futures = mCall.getFutures();
+				Collection<PubmedPackage> articleList = new ArrayList<PubmedPackage>();
+				for (Future<PubmedPackage> future : futures) {
+					try {
+						articleList.add(future.get());
+					} catch (InterruptedException | ExecutionException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				return articleList;
+			} else {
+				String idString1 = "db=" + pubMedParam.getDatabase() + "&id=";
+				int index1 = 0;
+				for (Id id : idList1) {
+					if (index1 > 0)
+						idString1 += ",";
+					idString1 += id.getContent();
+					index1++;
+				}
+				EFetch efetch = new EFetch(idString1, true);
+
+				InputStream inputStream = efetch.getSearchResult();
+				if (inputStream != null) {
+					PubmedPackage pack = new PubmedPackage();
+					pack.setContent(inputStream);
+					pack.setType("pubmed");
+					Collection<PubmedPackage> collection = new ArrayList<PubmedPackage>();
+					collection.add(pack);
+					return collection;
+				}
+			}
+		} else {
+			throw new IllegalArgumentException("No Result");
+		}
+		return null;
+	}
+}

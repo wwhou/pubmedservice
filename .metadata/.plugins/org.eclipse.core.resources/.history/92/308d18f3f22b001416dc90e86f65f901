@@ -1,0 +1,79 @@
+package org.utils;
+
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import org.crawlers.EFetch;
+import org.jaxb.eSearch.Id;
+import org.xml.sax.InputSource;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.XMLReaderFactory;
+
+public class PubMedMultiThreadsCall {
+
+	private List<Future<PubmedPackage>> results;
+
+	public PubMedMultiThreadsCall(List<Id> idList, String db) {
+
+		results = new ArrayList<Future<PubmedPackage>>();
+		if (idList.size() > 0) {
+			int length = idList.size();
+			int threads =length/100;
+			if(length%100!=0){
+				threads++;
+			}
+			ExecutorService executor = Executors.newFixedThreadPool(threads);
+			
+			int i=0;
+			String fetchIds="db="+db+"&id="+idList.get(0).getContent()+",";
+			while (i < length) {
+				if ((i + 1) % 100 == 0) {	
+					Future<PubmedPackage> future = executor
+							.submit(new MyCallable(fetchIds));			
+					results.add(future);
+				//	System.out.println(fetchIds);
+					fetchIds ="db="+db+"&id="+ idList.get(i).getContent();
+				} else {
+					if (i > 0)
+						fetchIds += ",";
+					String id = idList.get(i).getContent();
+					fetchIds += id;					
+				}
+				i++;
+			}
+			executor.shutdown();
+			
+		}
+
+	}
+
+	public List<Future<PubmedPackage>> getFutures() {
+		return results;
+	}
+
+	class MyCallable implements Callable<PubmedPackage> {
+
+		private String query;
+
+		public MyCallable(String query) {
+			this.query = query;
+		}
+
+		@Override
+		public PubmedPackage call() throws Exception {
+
+			EFetch efetch = new EFetch(query, true);
+			InputStream inputStream = efetch.getSearchResult();
+			PubmedPackage pack=new PubmedPackage();
+			pack.setContent(inputStream);
+			pack.setType("pubmed");
+			return pack;
+		}
+
+	}
+}

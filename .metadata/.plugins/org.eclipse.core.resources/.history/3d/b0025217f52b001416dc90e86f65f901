@@ -1,0 +1,29 @@
+package org.service;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+import org.client.PubMedClient;
+import org.utils.PubMedParameter;
+import org.utils.PubmedPackage;
+
+public class TestSearch {
+
+	public static void main(String[] args){
+		PubMedClient pubmedClient=new PubMedClient();
+		PubMedParameter param=new PubMedParameter();
+		param.setRetMax(1);
+		param.setDatabase("pubmed");
+		param.setTerm("mouse");
+		pubmedClient.c(param);
+		
+//		ArrayList<PubmedPackage> pack=(ArrayList<PubmedPackage>)pubmedClient.call(param);
+//		
+//		for(int i=0;i<pack.size();i++){
+//			System.out.print(pack.get(i).getType()+"\n");
+//		}
+	}
+}

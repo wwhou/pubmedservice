@@ -1,0 +1,22 @@
+package org.utils;
+
+import java.io.InputStream;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = { "type", "content" })
+@XmlRootElement(name = "package")
+public class Package {
+
+	@XmlElement(name="type", required=true)
+	protected String type;
+
+	@XmlElement(name="content", required=true)
+	protected InputStream content;
+
+}

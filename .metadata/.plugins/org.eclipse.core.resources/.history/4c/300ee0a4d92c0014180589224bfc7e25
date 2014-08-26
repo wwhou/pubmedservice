@@ -1,0 +1,76 @@
+package org.service;
+
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+
+import org.apache.http.entity.InputStreamEntity;
+import org.crawlers.EFetch;
+import org.jaxb.eSearch.Id;
+import org.utils.ESearchResult;
+import org.utils.PubMedParameter;
+
+@Path("/search")
+public class PubmedService {
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path("s")
+	public InputStream getX(final PubMedParameter pubMedParam){
+		if (pubMedParam.getRetMax() > 500) {
+			throw new WebApplicationException(Response
+					.status(Status.BAD_REQUEST)
+					.entity("the maximum retival number is 500").build());
+		} else {
+			ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+			List<Id> idList = eSearchResult.getIdList();
+			String idString = "db=" + pubMedParam.getDatabase() + "&id=";
+			int index = 0;
+
+			for (Id id : idList) {
+				if (index > 0)
+					idString += ",";
+				idString += id.getContent();
+				index++;
+			}
+			EFetch efetch = new EFetch(idString);
+			
+			return efetch.getSearchResult();
+
+		}
+	}
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path("article")
+	public List<InputStreamEntity> getentity(final PubMedParameter pubMedParam){
+		if (pubMedParam.getRetMax() > 500) {
+			throw new WebApplicationException(Response
+					.status(Status.BAD_REQUEST)
+					.entity("the maximum retival number is 500").build());
+		} else {
+			ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+			List<Id> idList = eSearchResult.getIdList();
+			String idString = "db=" + pubMedParam.getDatabase() + "&id=";
+			int index = 0;
+
+			for (Id id : idList) {
+				if (index > 0)
+					idString += ",";
+				idString += id.getContent();
+				index++;
+			}
+			EFetch efetch = new EFetch(idString);
+			 List<InputStreamEntity> e=new  ArrayList<InputStreamEntity>();
+			 e.add(new InputStreamEntity(efetch.getSearchResult()));
+			return e ;
+
+		}
+	}
+}

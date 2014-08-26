@@ -1,0 +1,49 @@
+package org.service;
+
+import java.io.InputStream;
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.WebApplicationException;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
+
+import org.crawlers.EFetch;
+import org.jaxb.eSearch.Id;
+import org.utils.ESearchResult;
+import org.utils.PubMedParameter;
+
+public class PubMedService {
+
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces({ MediaType.APPLICATION_JSON })
+	@Path("pubmed/inputstream")
+	// the satrtDate and endDate must be in format of YYYY/MM/DD
+	public InputStream getPubMedSearchResult(final PubMedParameter pubMedParam) {
+		if (pubMedParam.getRetMax() > 500) {
+			throw new WebApplicationException(Response
+					.status(Status.BAD_REQUEST)
+					.entity("the maximum retival number is 500").build());
+		} else {
+			ESearchResult eSearchResult = new ESearchResult(pubMedParam);
+			List<Id> idList = eSearchResult.getIdList();
+			String idString = "db=" + pubMedParam.getDatabase() + "&id=";
+			int index = 0;
+
+			for (Id id : idList) {
+				if (index > 0)
+					idString += ",";
+				idString += id.getContent();
+				index++;
+			}
+			EFetch efetch = new EFetch(idString);
+			return efetch.getSearchResult();
+
+		}
+	}
+}

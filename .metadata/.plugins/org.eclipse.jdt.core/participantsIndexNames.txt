@@ -1,6 +1,10 @@
 INDEX VERSION 1.127
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2168560814.index
+/pubmed/src/main/java
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3290375344.index
 /DataCollectionService/src/main/resources
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1644174501.index
+/pubmed/src/main/java
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/881283617.index
 /DataCollectionService/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1065368943.index
@@ -9,3 +13,5 @@ INDEX VERSION 1.127
 /pubMedCrawler/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1547552820.index
 /DataCollectionService/src/main/resources
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3885081109.index
+/pubmed/src/main/resources

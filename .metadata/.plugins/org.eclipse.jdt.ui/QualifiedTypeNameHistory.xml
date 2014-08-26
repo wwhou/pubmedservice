@@ -40,13 +40,18 @@
 <fullyQualifiedTypeName name="org.utils.Parameter"/>
 <fullyQualifiedTypeName name="org.lens.utils.PatentParameter"/>
 <fullyQualifiedTypeName name="org.json.JSONObject"/>
-<fullyQualifiedTypeName name="org.utils.UnifiedID"/>
 <fullyQualifiedTypeName name="org.utils.jaxb.Publisher"/>
 <fullyQualifiedTypeName name="org.utils.UniversalClient"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.utils.jaxb.Patent"/>
 <fullyQualifiedTypeName name="org.utils.jaxb.Priority"/>
 <fullyQualifiedTypeName name="org.utils.jaxb.Article"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="org.IEEE.utils.IEEESAXHandler"/>
+<fullyQualifiedTypeName name="org.utils.UnifiedID"/>
+<fullyQualifiedTypeName name="org.jaxb.eSearch.Id"/>
+<fullyQualifiedTypeName name="org.utils.pubmedPackage"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="org.utils.ObjectMapperProvider"/>
+<fullyQualifiedTypeName name="org.utils.PubmedPackage"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
 </qualifiedTypeNameHistroy>
