@@ -1,0 +1,28 @@
+package org.IEEE.client;
+
+
+import java.io.InputStream;
+import java.util.Collection;
+
+import org.IEEE.utils.IEEEParameter;
+import org.utils.IeeeClient;
+import org.utils.jaxb.Article;
+
+
+public class IEEEClient extends IeeeClient{
+	//private final WebResource service;
+//	private static final String DEFAULT_BASE_URL="http://localhost:8080/DataCollectionService/";
+	private static final String IEEE_SERVICE_PATH="rest/search/ieee/stream";
+	
+	public IEEEClient(final String url){
+		super( url, IEEE_SERVICE_PATH);
+	}
+	// use default url
+	public IEEEClient(){
+		super(IEEE_SERVICE_PATH);
+	}
+
+	public InputStream callIEEEService(final IEEEParameter IeeeParam){
+		return call(IeeeParam);
+	}
+}

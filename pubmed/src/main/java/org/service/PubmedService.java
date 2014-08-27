@@ -37,7 +37,7 @@ public class PubmedService {
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("s")
+	@Path("stream")
 	public InputStream getX(final PubMedParameter pubMedParam) {
 		ESearchResult eSearchResult = new ESearchResult(pubMedParam);
 		final List<Id> idList = eSearchResult.getIdList();
@@ -143,33 +143,5 @@ public class PubmedService {
 
 		return null;
 
-	}
-
-	@POST
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Path("article")
-	public List<InputStreamEntity> getentity(final PubMedParameter pubMedParam) {
-		if (pubMedParam.getRetMax() > 500) {
-			throw new WebApplicationException(Response
-					.status(Status.BAD_REQUEST)
-					.entity("the maximum retival number is 500").build());
-		} else {
-			ESearchResult eSearchResult = new ESearchResult(pubMedParam);
-			List<Id> idList = eSearchResult.getIdList();
-			String idString = "db=" + pubMedParam.getDatabase() + "&id=";
-			int index = 0;
-
-			for (Id id : idList) {
-				if (index > 0)
-					idString += ",";
-				idString += id.getContent();
-				index++;
-			}
-			EFetch efetch = new EFetch(idString);
-			List<InputStreamEntity> e = new ArrayList<InputStreamEntity>();
-			e.add(new InputStreamEntity(efetch.getSearchResult()));
-			return e;
-
-		}
 	}
 }

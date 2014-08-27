@@ -1,0 +1,23 @@
+package org.service;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.IEEE.client.IEEEClient;
+import org.IEEE.utils.IEEEParameter;
+
+public class TestSearch {
+
+	public static void main(String[] args) throws IOException {
+		IEEEClient ieeeClient = new IEEEClient();
+		IEEEParameter param = new IEEEParameter();
+		param.setRetMax(100);
+		param.setTerm("java");
+
+		BufferedReader br1 = new BufferedReader(new InputStreamReader(
+				ieeeClient.callIEEEService(param)));
+		System.out.print(br1.readLine());
+
+	}
+}

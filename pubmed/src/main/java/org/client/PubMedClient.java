@@ -27,7 +27,7 @@ import com.sun.jersey.api.client.config.DefaultClientConfig;
 public class PubMedClient {
 	private final WebResource service;
 	private static final String DEFAULT_BASE_URL = "http://localhost:8080/pubmed/";
-	private static final String PUBMED_SERVICE_PATH = "rest/search/s";
+	private static final String PUBMED_SERVICE_PATH = "rest/search/stream";
 
 	public PubMedClient() {
 		this(DEFAULT_BASE_URL);
@@ -87,7 +87,7 @@ public class PubMedClient {
 		     try{
 		 
 		    	//create output directory is not exists
-		    	File folder = new File("User/weiweihou/Desktop/testFolder");
+		    	File folder = new File("testFolder");
 		    	if(!folder.exists()){
 		    		folder.mkdir();
 		    	}

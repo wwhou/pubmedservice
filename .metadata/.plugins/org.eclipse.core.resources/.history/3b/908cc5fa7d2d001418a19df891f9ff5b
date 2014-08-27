@@ -1,0 +1,27 @@
+package org.service;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.UUID;
+import java.util.zip.ZipEntry;
+
+import org.IEEE.client.IEEEClient;
+import org.IEEE.utils.IEEEParameter;
+
+public class TestSearch {
+
+	public static void main(String[] args) {
+		IEEEClient ieeeClient = new IEEEClient();
+		IEEEParameter param = new IEEEParameter();
+		param.setRetMax(1000);
+		param.setTerm("java");
+
+		BufferedReader br1 = new BufferedReader(new InputStreamReader(
+				ieeeClient.callIEEEService(param)));
+
+		String s1 = "";
+
+		System.out.print(br1.readLine());
+
+	}
+}

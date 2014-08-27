@@ -1,0 +1,16 @@
+package org.service;
+
+import org.IEEE.client.IEEEClient;
+import org.IEEE.utils.IEEEParameter;
+
+public class TestSearch {
+
+	public static void main(String[] args){
+		IEEEClient ieeeClient=new IEEEClient();
+		IEEEParameter param=new IEEEParameter();
+		param.setRetMax(1000);
+		param.setTerm("java");
+		ieeeClient.callIEEEService(param);
+		
+	}
+}

@@ -1,0 +1,154 @@
+package org.client;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.Collection;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+import javax.ws.rs.core.MediaType;
+
+import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
+import org.utils.ObjectMapperProvider;
+import org.utils.PubMedParameter;
+import org.utils.PubmedPackage;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.config.ClientConfig;
+import com.sun.jersey.api.client.config.DefaultClientConfig;
+
+public class PubMedClient {
+	private final WebResource service;
+	private static final String DEFAULT_BASE_URL = "http://localhost:8080/pubmed/";
+	private static final String PUBMED_SERVICE_PATH = "rest/search/s";
+
+	public PubMedClient() {
+		this(DEFAULT_BASE_URL);
+	}
+
+	public PubMedClient(final String url) {
+		final ClientConfig config = new DefaultClientConfig();
+		config.getClasses().add(JacksonJsonProvider.class);
+		config.getClasses().add(ObjectMapperProvider.class);
+		final Client client = Client.create(config);
+		service = client.resource(url + PUBMED_SERVICE_PATH);
+	}
+
+	public void c(final PubMedParameter request) {
+		ClientResponse response = null;
+		try {
+			response = service.type(MediaType.APPLICATION_JSON)
+					.accept(MediaType.APPLICATION_JSON)
+					.post(ClientResponse.class, request);
+			
+			InputStream inputStream1 = response.getEntityInputStream();
+			BufferedReader br1 = new BufferedReader(new InputStreamReader(
+					inputStream1));
+			try {
+				String s1 = "";
+				while ((s1 = br1.readLine()) != null) {
+					System.out.println(s1 + "\n");
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} finally {
+			// belt and braces
+			if (response != null) {
+				// noinspection OverlyBroadCatchBlock
+				try {
+					response.close();
+				} catch (final Throwable ignored) { /* do nothing */
+				}
+			}
+		}
+	}
+
+	public Collection<PubmedPackage>  call(final PubMedParameter request) {
+		ClientResponse response = null;
+		try {
+			response = service.type(MediaType.APPLICATION_JSON)
+					.accept(MediaType.APPLICATION_JSON)
+					.post(ClientResponse.class, request);
+			InputStream inputStream1 = response.getEntityInputStream();
+			BufferedReader br1 = new BufferedReader(new InputStreamReader(
+					inputStream1));
+			
+			byte[] buffer = new byte[1024];
+			 
+		     try{
+		 
+		    	//create output directory is not exists
+		    	File folder = new File("testFolder");
+		    	if(!folder.exists()){
+		    		folder.mkdir();
+		    	}
+		 
+		    	//get the zip file content
+		    	ZipInputStream zis = 
+			    		new ZipInputStream(inputStream1);
+		    	//get the zipped file list entry
+		    	ZipEntry ze = zis.getNextEntry();
+		 
+		    	while(ze!=null){
+		 
+		    	   String fileName = ze.getName();
+		           File newFile = new File(folder+ File.separator + fileName);
+		 
+		           System.out.println("file unzip : "+ newFile.getAbsoluteFile());
+		 
+		            //create all non exists folders
+		            //else you will hit FileNotFoundException for compressed folder
+		            new File(newFile.getParent()).mkdirs();
+		 
+		            FileOutputStream fos = new FileOutputStream(newFile);             
+		 
+		            int len;
+		            while ((len = zis.read(buffer)) > 0) {
+		       		fos.write(buffer, 0, len);
+		            }
+		 
+		            fos.close();   
+		            ze = zis.getNextEntry();
+		    	}
+		 
+		        zis.closeEntry();
+		    	zis.close();
+		 
+		    	System.out.println("Done");
+		 
+		    }catch(IOException ex){
+		       ex.printStackTrace(); 
+		    }
+//		   
+//				String s1 = "";
+//				try {
+//					while ((s1 = br1.readLine()) != null) {
+//						System.out.println(s1 + "\n");
+//					}
+//				} catch (IOException e) {
+//					// TODO Auto-generated catch block
+//					e.printStackTrace();
+//				}
+				return null;
+		//	return response.getEntity(new GenericType<Collection<PubmedPackage>  >() {});
+		} finally {
+			// belt and braces
+			if (response != null) {
+				// noinspection OverlyBroadCatchBlock
+				try {
+					response.close();
+				} catch (final Throwable ignored) { /* do nothing */
+				}
+			}
+		}
+	}
+}
