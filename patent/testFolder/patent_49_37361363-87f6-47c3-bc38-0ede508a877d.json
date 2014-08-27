@@ -1,0 +1,261 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A method for forming a keyboard with a mouse function capable of replacing the mouse function by moving a pointer on a screen to an X axis (horizontal axis) and a Y axis (vertical axis) freely, by switching an operation mode of the keyboard and using a cursor key of the keyboard instead of a mouse. This method includes the following steps: a step for detecting whether a mouse driver is enabled when an external mouse is not connected to the computer system after determining whether the external mouse is connected to the computer system if an emulation for a mouse command is finished; a step for carrying out a corresponding process to each command of a mouse, and detecting whether the mouse hot key is enabled in the above-mentioned conditions when a mouse driver is enabled; a step for forming a mouse data frame if an input operation of the cursor key is carried out in the case where the mouse hot key is enabled; a step for detecting whether the mouse is disabled in the case where a present operation mode is a stream mode after the detection is carried out whether the present operation mode is the stream mode; a step for transmitting the mouse data frame to a central processing unit (CPU) in the case where the mouse is not disabled; and a step for returning."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["SAMSUNG ELECTRONICS CO LTD"]
+  },
+  "applicationNumber": "US_34684394_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/157.000",
+        "345/163.000",
+        "703024000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "395/500",
+        "345/157",
+        "345/163"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/023",
+        "G06F3/038",
+        "G06F13/105"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/02",
+        "G06F3/023",
+        "G06F3/038",
+        "G06F13/10"
+      ]
+    }
+  ],
+  "filingDate": "1994-11-30",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LEE KWANHO"]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "nonPatentCitations": [
+    "Research Disclosure article; Compatible Mouse and Mouseless User Interface; Apr. 1986; No. 264 article 26411; p. 176.",
+    "Bimodal Mouse IBM T.D.B.; vol. 29, No. 1; Jun. 1986; pp. 421 422.",
+    "Method for Concurrent Support of Keyboard and Mouse IBM T.D.B.; vol. 30, No. 11; Apr. 1988; p. 110."
+  ],
+  "opiDate": "1997-03-04",
+  "patentCitations": [
+    "US_4760386_A",
+    "US_5049863_A",
+    "US_5058046_A",
+    "US_5124689_A",
+    "US_5189403_A",
+    "US_5198802_A",
+    "US_5305449_A",
+    "US_5479192_A",
+    "EP_0433206_A2",
+    "JP_H04625_A"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1994-11-30",
+      "documentNumber": "34684394",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "1992-06-13",
+      "documentNumber": "920010300",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1992-12-15",
+      "documentNumber": "99109692",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "1997-03-04",
+  "publicationNumber": "5608895",
+  "title": {
+    "language": "en",
+    "text": "Method for providing mouse functionality using either the keyboard or an external mouse input device"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The upper surface of a mouse pad is formed with grooves of width substantially smaller than the diameter of the mouse ball, whereby particles that fall in the grooves do not adhere to the mouse ball when the mouse is moved over the mouse pad."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C."]
+  },
+  "applicationNumber": "US_65598800_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163.000",
+        "428156000O",
+        "428/167.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "428/156",
+        "428/156",
+        "428/167",
+        "345/163"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/0395"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "B32B3/00",
+        "G06F3/039",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2000-09-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C"]
+  },
+  "jurisdiction": "US",
+  "kind": "B1",
+  "opiDate": "2002-12-31",
+  "patentCitations": [
+    "US_4799054_A",
+    "US_6143395_A",
+    "US_4485919_A",
+    "US_4868940_A",
+    "US_5360653_A",
+    "US_5508084_A"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2000-09-06",
+      "documentNumber": "65598800",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1998-12-09",
+      "documentNumber": "20905098",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1999-11-05",
+      "documentNumber": "9926216",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2002-12-31",
+  "publicationNumber": "6500522",
+  "title": {
+    "language": "en",
+    "text": "Pointing device including a computer mouse pad"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["APPLE INC"]
+  },
+  "applicationNumber": "EP_02761784_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/0362"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F1/16"
+      ]
+    }
+  ],
+  "filingDate": "2002-09-19",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUPPI BRIAN"]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2013-07-03",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2002-09-19",
+      "documentNumber": "0230042",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2001-10-22",
+      "documentNumber": "34532501",
+      "documentKind": "P"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2001-10-22",
+      "documentNumber": "34623701",
+      "documentKind": "P"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2002-02-07",
+      "documentNumber": "7276502",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2013-07-03",
+  "publicationNumber": "1440430",
+  "title": {
+    "language": "en",
+    "text": "MOUSE HAVING A ROTARY DIAL"
+  }
+}
+]

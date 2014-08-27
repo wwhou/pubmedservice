@@ -1,0 +1,177 @@
+[
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["OTSUKA PHARMA CO LTD"]
+  },
+  "applicationNumber": "EP_97933860_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["A01K67/027"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["A01K67/027"]
+    }
+  ],
+  "filingDate": "1997-07-30",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "KONDO TAIZO",
+      "KONDO TOSHIO",
+      "SHIOMOTO YASUHISA"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2007-06-27",
+  "priorities": [
+    {
+      "countryCode": "JP",
+      "documentDate": "1997-07-30",
+      "documentNumber": "9702661",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "1996-08-05",
+      "documentNumber": "22309396",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2007-06-27",
+  "publicationNumber": "0937388",
+  "title": {
+    "language": "en",
+    "text": "NUDE MOUSE"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A biometric intrusion detection system based on mouse dynamics analysis, the analysis of mouse dynamics for a specific user generates a number of factors (Mouse Dynamics Signature) which can be used to ensure the identity of the user, an intelligent detection technique is developed to recognize differences in behaviors and detect intrusion."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "AHMED AHMED AWAD E.",
+      "TRAORE ISSA"
+    ]
+  },
+  "applicationNumber": "US_42781003_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["726023000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["7132"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F21/36",
+        "G06F21/316"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F21/00"]
+    }
+  ],
+  "filingDate": "2003-05-02",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "AHMED AHMED AWAD E",
+      "TRAORE ISSA"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2004-11-04",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-05-02",
+    "documentNumber": "42781003",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2004-11-04",
+  "publicationNumber": "2004221171",
+  "title": {
+    "language": "en",
+    "text": "Intrusion detector based on mouse dynamics analysis"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse cord stowing mechanism mainly includes a groove provided on a mouse for a mouse cord to wind therearound when the mouse is not in use, a locating member provided closely behind a connector connected to a free end of the mouse cord, an engaging portion provided on the locating member, and a receiving portion provided on the mouse corresponding to the engaging portion. With the locating member attached to the mouse through engagement of the engaging portion with the receiving portion, a loosened and space-occupying mouse cord and a damaged mouse cord connector may be avoided to extend the usable life of the mouse. The engaging and receiving portions may be differently designed and provided at different positions on the mouse."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["ASIA VITAL COMPONENTS CO LTD"]
+  },
+  "applicationNumber": "US_44590203_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2003-05-28",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "MA TIEM SHUN",
+      "LIN JAO CHING",
+      "HUANG CHIEN CHENG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2004-12-02",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-05-28",
+    "documentNumber": "44590203",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2004-12-02",
+  "publicationNumber": "2004239627",
+  "title": {
+    "language": "en",
+    "text": "Mouse cord stowing mechanism"
+  }
+}
+]

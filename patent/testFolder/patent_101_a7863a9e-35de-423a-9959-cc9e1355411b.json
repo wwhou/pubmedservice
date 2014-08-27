@@ -1,0 +1,4299 @@
+[
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse may include an internal fingerprint identification unit. The fingerprint identification unit may be arranged to capture the user&#039;s fingerprint when the user&#039;s finger is positioned over a mouse button which is substantially radiation transmissive. Radiation directed at the user&#039;s finger through the mouse button may be captured for image analysis and ultimately for fingerprint identification. Thus, the mouse may be used to identify users who wish to access a computer system."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["INTEL CORP"]
+  },
+  "applicationNumber": "US_30117299_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163.000",
+        "382124000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "382/124",
+        "345/163"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F21/32",
+        "G06F2203/0336",
+        "G06K9/00013"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F21/00",
+        "G06K9/00"
+      ]
+    }
+  ],
+  "filingDate": "1999-04-28",
+  "inventors": {
+    "language": "ot",
+    "texts": ["DUNTON RANDY R"]
+  },
+  "jurisdiction": "US",
+  "kind": "B1",
+  "opiDate": "2002-01-08",
+  "patentCitations": [
+    "US_5838306_A",
+    "US_5848231_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1999-04-28",
+    "documentNumber": "30117299",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2002-01-08",
+  "publicationNumber": "6337919",
+  "title": {
+    "language": "en",
+    "text": "Fingerprint detecting mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A wireless mouse structure with illumination has a wireless mouse body and an illumination system. The wireless mouse body has an upper case, a lower case and a switch. The illumination system is disposed in the mouse body and has a plurality of light emitting devices and a battery. The battery is electrically connected to the plurality of light emitting devices, while the switch is electrically connected to both the plurality of light emitting devices and the battery. The illumination system is operable independently of an internal circuit of the mouse."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHEN CLIFF"]
+  },
+  "applicationNumber": "US_75905004_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/0383",
+        "G06F2203/0337"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/038",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2004-01-20",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHEN CLIFF"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2005-07-21",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-01-20",
+    "documentNumber": "75905004",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-07-21",
+  "publicationNumber": "2005156887",
+  "title": {
+    "language": "en",
+    "text": "Wireless mouse structure with illumination"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse cable holder (mouse hook) includes a base heavy enough to support a mast that suspends a computer mouse cable over a separate mouse pad. The mast is made of a single steel wire with an integral cable feed loop at its lower end and an integral mouse cable gripper at its upper end. The base can be slid over a table top to move the mouse cable holder to a desired position relative to the mouse pad. The base also serves as a spool to take up any excess cable between a computer and the mouse cable holder."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["KULJIS; ZORAN R."]
+  },
+  "applicationNumber": "US_81176797_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "174135000O",
+        "248/51.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "174/135",
+        "248/51"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/039",
+        "H02G11/003"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/039",
+        "H02G11/00"
+      ]
+    }
+  ],
+  "filingDate": "1997-03-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["KULJIS ZORAN R"]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "opiDate": "1998-05-12",
+  "patentCitations": [
+    "US_2695762_A",
+    "US_4215529_A",
+    "US_5398895_A",
+    "US_5472157_A",
+    "US_5556061_A",
+    "US_5579657_A",
+    "US_5593128_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1997-03-06",
+    "documentNumber": "81176797",
+    "documentKind": "A"
+  }],
+  "publicationDate": "1998-05-12",
+  "publicationNumber": "5750934",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse hook"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An optical induction/trackball dual-mode mouse is disclosed to include a mouse body, a trackball module installed in the top of the mouse body, a cursor control optical induction module installed in the bottom of the mouse body, and an induction switch mounted inside the mouse body, the induction switch adapted to switch to use the cursor control optical induction module when the mouse body is put on a flat surface, and the induction switch adapted to switch to use the trackball module when the user holding the mouse body in midair."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["FORWARD ELECTRONICS CO LTD"]
+  },
+  "applicationNumber": "US_82516004_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "341031000P",
+        "341/31.000",
+        "345157000O",
+        "345/161.000",
+        "345163000S",
+        "345/167.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "341/31",
+        "345/163"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0317",
+        "G06F3/03543",
+        "G06F3/03549",
+        "G06F3/0383"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/03",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-04-16",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "YEN KUEI-JEN",
+      "PENG XIW-JIE",
+      "CHEN DONG-LIANG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2004-10-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-04-18",
+    "documentNumber": "92206186",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2004-10-21",
+  "publicationNumber": "2004207543",
+  "title": {
+    "language": "en",
+    "text": "Optical induction/trackball dual-mode mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A process for transplanting into an immunodeficient mouse, which is deficient in T-cells and B-cells, human cells to form a chimeric mouse is provided. The transplanted human cells proliferate and thereby permit in vivo study of the human cells. The human cells are isolated from a human tissue source. The process comprises: i) irradiating an immunodeficient mouse deficient in T-cells and B-cells with radiation to condition the mouse for transplant: ii) transplanting into the irradiated mouse, the isolated human cells; and iii) maintaining the mouse to proliferate the human cells in and permit the human cells to spread in the mouse, to provide thereby a chimeric mouse incorporating the human cells in appropriate murine tissue."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["HSC RES DEV CORP"]
+  },
+  "applicationNumber": "US_32358794_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "424/93.100",
+        "424/529.000",
+        "424/573.000",
+        "424/577.000",
+        "800008000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "800/8",
+        "424/93.1",
+        "424/529",
+        "424/573",
+        "424/577"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["A01K67/0271"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["A01K67/027"]
+    }
+  ],
+  "filingDate": "1994-10-17",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "DICK JOHN E",
+      "KAMEL-REID SUZANNE"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "nonPatentCitations": [
+    "Cesano et al., Homing and Progression Patterns of Childhood Acute Lymphoblastic Leukemias in Severe Combined Immunodeficiency Mice, Blood, vol. 77, No. 11 (Jun. 1), 1991:pp. 2463 2474.",
+    "Sawyers, et al., Propagation of Human Blastic Myeloid Leukemias in the SCID Mouse, Blood, vol. 79, No. 8 (Apr. 15), 1992:pp. 2089 2098.",
+    "Lozzio, et al., Brief Communication: Human Myelogenous (Ph 1 ) Leukemia Cell Line: Transplantation Into Athymic Mice, Journal of National Cancer Institute, vol. 56, No. 3, Mar. 1976.",
+    "Reddy et al., Human Lung Tumor Growth Established in the Lung and Subcutaneous Tissue of Mice with Severe Combined Immunodeficiency, Cancer Research 47, 2456 2460, May 1, 1987.",
+    "Fodstad et al., Lack of Correlation between Natural Killer Activity and Tumor Growth Control in Nude Mice with Different Immune Defects, Cancer Research 44, 4403 4408, Oct. 1984.",
+    "Zietman et al., A Comparative Study on the Xenotransplantability of Human Solid Tumors Into Mice with Different Genetic Immune Deficiencies, Int. J. Cancer: 47, 755 759 (1991).",
+    "Fischberg et al., Colony Formation on Spleens of Irradiated Mice Injected with Human Marrow Cells, Session III, Experimental Hematology, Biology Division Oak Ridge National Laboratory, No. 13:1967.",
+    "Mosier et al., Transfer of a Functional Human System to Mice with Severe Combined Immunodeficiency, Nature, vol. 335, Sep. 15, 1988.",
+    "Huppes et al., Acute Human vs. Mouse Graft vs. Host Disease in Normal and Immunodeficient Mice, Eur. J. Immunol., 197 206 (1992).",
+    "Mond, et al., Role of the Thymus in Directing the Development of a Subset of Lymphocytes, J. Exp. Med., vol. 155, Mar. 1982, 924 936.",
+    "Kamel Reid, et al., Bone Marrow From Children in Relapse with Pre B Acute Lymphoblastic Leukemia Proliferates and Disseminates Rapidly in scid Mice, Blood, vol. 78, No. 11 (Dec. 1);pp. 2973 2981.",
+    "Lapidot, et al., Cytokine Stimulation of Multilineage Hematopoiesis from Immature Human Cells Engrafted in SCID Mice, Science, Reprint Series, Feb. 28, 1992, vol. 255, pp. 1137 1141.",
+    "Guyer, This Week In Science: Scid Mice and Childhood Leukemia, Science 246: 1539 (Dec. 22, 1989).",
+    "Guyer, This Week In Science: Mouse Models and Human Diseases, Science 242: 1619 (Dec. 23, 1988).",
+    "Marx. Science: Progress Reported on Mouse Models for AIDS, Science 242: 1638 (Dec. 23, 1988).",
+    "D. Golde Sci. Amer. Dec. 91 pp. 86 93.",
+    "S. Watanabe et al. Cancer Res. 38:3494 8 (Oct. 1978).",
+    "S. Kamel Reid Science 242:1706 9 (Dec. 23, 1988).",
+    "I. Fohlmeister et al. Nat. Immun. Cell Growth Reg. 4:221 8 ( 85).",
+    "A. Wade et al. Transplantation 44(1):88 92 ( 87).",
+    "Bosma et al., Nature 301: 527 530 (1983).",
+    "Reddy et al., Cancer Research 47:2456 2460 (1987).",
+    "Dare et al., J. Immunol. Meth. 85:353 361 (1985).",
+    "McCune et al., Science 241:1632 1639 (1988)."
+  ],
+  "opiDate": "1999-11-30",
+  "patentCitations": ["US_5476996_A"],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1994-10-17",
+      "documentNumber": "32358794",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "GB",
+      "documentDate": "1988-09-19",
+      "documentNumber": "8821922",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1989-12-21",
+      "documentNumber": "45419389",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1989-09-19",
+      "documentNumber": "40915489",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "1999-11-30",
+  "publicationNumber": "5994617",
+  "title": {
+    "language": "en",
+    "text": "Engraftment of immune-deficient mice with human cells"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A wireless mouse induction power supply comprises a wireless mouse and a mouse pad. The wireless mouse is installed with a first induction coil which is connected to a first capacitor of a power supply circuit in parallel as an oscillating circuit. The oscillating circuit is connected to a charging capacitor through a diode. A second coil is embedded in the mouse pad; the second coil being connected to a power wire. When power is inputted into the second coil in the mouse pad for generating electromagnetic wave, the electromagnetic wave is received by the first induction coil in the wireless mouse. The induction coil will generate an electromotive potential so as to oscillate with the first capacitor; then the potential will charge the capacitor through the diode. Then, power is outputted to a transmitter in an interior of the wireless mouse; thereby, the wireless mouse remotely controlling a computer.&lt;/PTEXT&gt;"
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LIANG HUI-PIN"]
+  },
+  "applicationNumber": "US_13883002_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "307/109.000",
+        "320166000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "320/166",
+        "307/109"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "H02J7/025",
+        "G06F3/03543",
+        "G06F3/0395"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["H02J7/02"]
+    }
+  ],
+  "filingDate": "2002-05-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIANG HUI-PIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "B1",
+  "opiDate": "2003-10-14",
+  "patentCitations": [
+    "US_5644108_A",
+    "US_5724028_A",
+    "US_5764402_A",
+    "US_6239389_B1",
+    "US_6476799_B1"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-05-06",
+    "documentNumber": "13883002",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-10-14",
+  "publicationNumber": "6633155",
+  "title": {
+    "language": "en",
+    "text": "Wireless mouse induction power supply"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "Cognitive biometrics comprises augmenting the richness of biometric signatures that can be extracted from mouse dynamics by introducing perturbations in the response of the computer mouse and measuring the motor responses of the individual user. User responses to unexpected and subtle perturbations (e.g., small changes in mouse velocity, position and/or acceleration) reveal new unique sources of information in the mouse movement signal that reflect the user&#039;s cognitive strategies and are inaccessible via existing mouse biometric technologies. A user&#039;s response to these perturbations contains information about intrinsic cognitive qualities that can be used as a robust biometric for personal authentication and to support profiling of the individual (e.g., gender, cultural background, cognitive or emotional state, cognitive quality etc.)."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["TELEDYNE SCIENT & IMAGING LLC"]
+  },
+  "applicationNumber": "US_201314011351_A",
+  "classifications": [
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/0354"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "2013-08-27",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SIMONS STEPHEN",
+      "ZHOU JIANGYING",
+      "LIAO YUWEI",
+      "BRADWAY LAURA",
+      "AGUILAR MARIO",
+      "CONNOLLY PATRICK M"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2014-03-20",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2013-08-27",
+      "documentNumber": "201314011351",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2012-09-20",
+      "documentNumber": "201261703694",
+      "documentKind": "P"
+    }
+  ],
+  "publicationDate": "2014-03-20",
+  "publicationNumber": "2014078061",
+  "title": {
+    "language": "en",
+    "text": "COGNITIVE BIOMETRICS USING MOUSE PERTURBATION"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "ONO PHARMACEUTICAL CO",
+      "HONJO TASUKU"
+    ]
+  },
+  "applicationNumber": "EP_01996311_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "C12N15/8509",
+        "A01K67/0276",
+        "A01K2217/075",
+        "A01K2227/105",
+        "A01K2267/0325",
+        "A01K2267/0375",
+        "C07K14/47",
+        "C07K14/70503",
+        "C07K16/18"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A01K67/027",
+        "C07K14/47",
+        "C07K14/705",
+        "C07K16/18",
+        "C07K16/42",
+        "C12N15/12",
+        "C12N15/85",
+        "G01N33/15",
+        "G01N33/50"
+      ]
+    }
+  ],
+  "filingDate": "2001-11-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HONJO TASUKU",
+      "NISHIMURA HIROYUKI"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2012-01-11",
+  "priorities": [
+    {
+      "countryCode": "JP",
+      "documentDate": "2001-11-14",
+      "documentNumber": "0109951",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "2000-11-15",
+      "documentNumber": "2000347392",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2012-01-11",
+  "publicationNumber": "1334659",
+  "title": {
+    "language": "en",
+    "text": "PD-1-LACKING MOUSE AND USE THEREOF"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An optical mouse employs an optical mouse controller and an optical mouse sensor. In operation, the optical mouse sensor generates an image sensing report signal indicative of a movement of the optical mouse over a surface of an object and communicates the image sensing report signal to the optical mouse controller based on a CPI resolution setting of the optical mouse sensor. To be responsive to varying applications, the optical mouse sensor detects a dynamic movement variable associated with the movement of the optical mouse over the surface of the object and controls a switching of the CPI resolution setting among at least two different CPI resolutions based on a detection of the dynamic movement variable."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "HOCK BERNARD CHAN L",
+      "YONG MAU M"
+    ]
+  },
+  "applicationNumber": "US_40840706_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156.000",
+        "345166000O",
+        "345166000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/166.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0317",
+        "G06F3/0383"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G09G5/08"]
+    }
+  ],
+  "filingDate": "2006-04-21",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HOCK BERNARD CHAN L",
+      "YONG MAU M"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2007-10-25",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2006-04-21",
+    "documentNumber": "40840706",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-10-25",
+  "publicationNumber": "2007247428",
+  "title": {
+    "language": "en",
+    "text": "Dynamic self-switchable CPI resolution for an optical mouse sensor"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHANG-YONG HAN"]
+  },
+  "applicationNumber": "CN_200480015615_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHANG-YONG HAN"]
+  },
+  "jurisdiction": "CN",
+  "kind": "A",
+  "opiDate": "2006-07-12",
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2004-04-22",
+    "documentNumber": "20040027785",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2006-07-12",
+  "publicationNumber": "1802624",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "HONGFUJIN PREC IND SHENZHEN",
+      "HON HAI PREC IND CO LTD"
+    ]
+  },
+  "applicationNumber": "CN_200910301534_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "2009-04-13",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HUANG LIANCHENG",
+      "WANG JINXIN"
+    ]
+  },
+  "jurisdiction": "CN",
+  "kind": "B",
+  "opiDate": "2013-04-24",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2009-04-13",
+    "documentNumber": "200910301534",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-04-24",
+  "publicationNumber": "101859193",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SHENZHEN FUTAIHONG PREC IND CO"]
+  },
+  "applicationNumber": "CN_200910301535_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "2009-04-13",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "WU KUNCAN",
+      "TIAN LIWEI"
+    ]
+  },
+  "jurisdiction": "CN",
+  "kind": "B",
+  "opiDate": "2013-09-25",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2009-04-13",
+    "documentNumber": "200910301535",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-09-25",
+  "publicationNumber": "101859194",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "HONGFUJIN PREC IND SHENZHEN",
+      "HON HAI PREC IND CO LTD"
+    ]
+  },
+  "applicationNumber": "CN_200910302874_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "2009-06-03",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "MA XIANWEI",
+      "TANG YUHAO"
+    ]
+  },
+  "jurisdiction": "CN",
+  "kind": "B",
+  "opiDate": "2013-01-09",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2009-06-03",
+    "documentNumber": "200910302874",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-01-09",
+  "publicationNumber": "101907935",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["BENG CORP"]
+  },
+  "applicationNumber": "CN_00123637_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2000-08-24",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ZHANG JINGXU"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2007-10-24",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2000-08-24",
+    "documentNumber": "00123637",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-10-24",
+  "publicationNumber": "100345092",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["JIANLI HE"]
+  },
+  "applicationNumber": "CN_200510088061_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2005-08-01",
+  "inventors": {
+    "language": "ot",
+    "texts": ["JIANLI HE"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2007-12-05",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2005-08-01",
+    "documentNumber": "200510088061",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-12-05",
+  "publicationNumber": "100353304",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ASUSTEK COMP INC"]
+  },
+  "applicationNumber": "CN_200510063507_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2005-04-08",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LINGYU JIANG"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2008-02-06",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2005-04-08",
+    "documentNumber": "200510063507",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-02-06",
+  "publicationNumber": "100367174",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAN CHANG YONG"]
+  },
+  "applicationNumber": "CN_200480015615_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2008-04-16",
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2004-04-22",
+    "documentNumber": "20040027785",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-04-16",
+  "publicationNumber": "100381990",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LENOVO BEIJING LTD"]
+  },
+  "applicationNumber": "CN_200610057330_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2006-03-08",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "PENG BAI",
+      "GUANGQIANG ZHANG",
+      "TING LUO",
+      "YUANYI ZHANG"
+    ]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2009-07-22",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2006-03-08",
+    "documentNumber": "200610057330",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-07-22",
+  "publicationNumber": "100517197",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["JIN HE"]
+  },
+  "applicationNumber": "CN_200610098665_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2006-07-11",
+  "inventors": {
+    "language": "ot",
+    "texts": ["JIN HE"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2009-07-01",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2006-07-11",
+    "documentNumber": "200610098665",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-07-01",
+  "publicationNumber": "100507817",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LI QUN"]
+  },
+  "applicationNumber": "CN_95109765_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "1995-08-21",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LI QUN"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2001-05-23",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "1995-08-21",
+    "documentNumber": "95109765",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2001-05-23",
+  "publicationNumber": "1066273",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "CN_200410036848_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2004-04-21",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHEN JIANZONG"]
+  },
+  "jurisdiction": "CN",
+  "kind": "C",
+  "opiDate": "2007-06-13",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2004-04-21",
+    "documentNumber": "200410036848",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-06-13",
+  "publicationNumber": "1321363",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["YUCHANG E & S CO LTD"]
+  },
+  "applicationNumber": "EP_04808480_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A1",
+  "nonPatentCitations": ["See references of WO 2005103871A1"],
+  "opiDate": "2007-01-03",
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-12-17",
+      "documentNumber": "2004003349",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-04-22",
+      "documentNumber": "20040027785",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2007-01-03",
+  "publicationNumber": "1738249",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ERGOWERX INTERNATIONAL LLC"]
+  },
+  "applicationNumber": "EP_10729616_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2010-01-11",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ATZMON JACK A"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A1",
+  "nonPatentCitations": ["See also references of WO 2010081074A1"],
+  "opiDate": "2011-10-19",
+  "patentCitations": [
+    "US_2006_0007151_A1",
+    "WO_2008_016204_A1",
+    "US_2005_0117130_A1"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2010-01-11",
+      "documentNumber": "2010020622",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2009-01-09",
+      "documentNumber": "14370209",
+      "documentKind": "P"
+    }
+  ],
+  "publicationDate": "2011-10-19",
+  "publicationNumber": "2377002",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ERGOWERX INTERNATIONAL LLC"]
+  },
+  "applicationNumber": "EP_10753984_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0338",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2010-03-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ATZMON JACK"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A1",
+  "nonPatentCitations": ["See references of WO 2010107800A1"],
+  "opiDate": "2012-01-25",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2010-03-16",
+      "documentNumber": "2010027492",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2009-03-16",
+      "documentNumber": "16062409",
+      "documentKind": "P"
+    }
+  ],
+  "publicationDate": "2012-01-25",
+  "publicationNumber": "2409212",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["KIM YOUN SOO"]
+  },
+  "applicationNumber": "EP_08753318_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03548",
+        "G06F1/1616",
+        "G06F1/1632",
+        "G06F1/169",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2008-05-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["KIM YOUN SOO"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A2",
+  "nonPatentCitations": ["See also references of WO 2008136626A2"],
+  "opiDate": "2010-01-20",
+  "patentCitations": [
+    "FR_2713793_A1",
+    "EP_0640937_A1",
+    "US_2003_0058219_A1",
+    "JP_H05158610_A",
+    "DE_20314713_U1",
+    "US_2003_0214484_A1"
+  ],
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-05-06",
+      "documentNumber": "2008002521",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2007-05-07",
+      "documentNumber": "20070044112",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-01-30",
+      "documentNumber": "20080009414",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-01-30",
+      "documentNumber": "20080009415",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2010-01-20",
+  "publicationNumber": "2145244",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["KIM YOUN SOO"]
+  },
+  "applicationNumber": "EP_08753318_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03548",
+        "G06F1/1616",
+        "G06F1/1632",
+        "G06F1/169",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2008-05-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["KIM YOUN SOO"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A4",
+  "opiDate": "2012-08-08",
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-05-06",
+      "documentNumber": "2008002521",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2007-05-07",
+      "documentNumber": "20070044112",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-01-30",
+      "documentNumber": "20080009414",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2008-01-30",
+      "documentNumber": "20080009415",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2012-08-08",
+  "publicationNumber": "2145244",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ERGOWERX INTERNATIONAL LLC"]
+  },
+  "applicationNumber": "EP_10729616_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2010-01-11",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ATZMON JACK A"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A4",
+  "opiDate": "2013-06-05",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2010-01-11",
+      "documentNumber": "2010020622",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2009-01-09",
+      "documentNumber": "14370209",
+      "documentKind": "P"
+    }
+  ],
+  "publicationDate": "2013-06-05",
+  "publicationNumber": "2377002",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "AIGO DIGITAL TECHNOLOGY CO LTD",
+      "LIN WILLIAM"
+    ]
+  },
+  "applicationNumber": "EP_09827173_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2009-11-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIN WILLIAM"]
+  },
+  "jurisdiction": "EP",
+  "kind": "A4",
+  "opiDate": "2012-06-06",
+  "priorities": [
+    {
+      "countryCode": "CN",
+      "documentDate": "2009-11-17",
+      "documentNumber": "2009074971",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "CN",
+      "documentDate": "2008-11-18",
+      "documentNumber": "200810217480",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2012-06-06",
+  "publicationNumber": "2360554",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["TOLCHINSKY ILYA"]
+  },
+  "applicationNumber": "GB_0426880_A",
+  "filingDate": "2004-12-08",
+  "jurisdiction": "GB",
+  "kind": "D0",
+  "opiDate": "2005-01-12",
+  "priorities": [{
+    "countryCode": "GB",
+    "documentDate": "2004-12-08",
+    "documentNumber": "0426880",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-01-12",
+  "publicationNumber": "0426880",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SMITH LARRY"]
+  },
+  "applicationNumber": "GB_9925936_A",
+  "filingDate": "1999-10-03",
+  "jurisdiction": "GB",
+  "kind": "D0",
+  "opiDate": "1999-12-29",
+  "priorities": [{
+    "countryCode": "GB",
+    "documentDate": "1999-10-03",
+    "documentNumber": "9925936",
+    "documentKind": "A"
+  }],
+  "publicationDate": "1999-12-29",
+  "publicationNumber": "9925936",
+  "title": {
+    "language": "en",
+    "text": "The mouse"
+  }
+}
+,
+
+{
+  "applicationNumber": "HK_09110066_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F"]
+    }
+  ],
+  "filingDate": "2009-10-29",
+  "jurisdiction": "HK",
+  "kind": "A1",
+  "opiDate": "2011-06-03",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2008-11-18",
+    "documentNumber": "200810217480",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2011-06-03",
+  "publicationNumber": "1131451",
+  "title": {
+    "language": "en",
+    "text": "A MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ERGOWERX INTERNATIONAL LLC"]
+  },
+  "applicationNumber": "IL_21388211_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F",
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2011-06-30",
+  "jurisdiction": "IL",
+  "kind": "D0",
+  "opiDate": "2011-07-31",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2009-01-09",
+      "documentNumber": "14370209",
+      "documentKind": "P"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2010-01-11",
+      "documentNumber": "2010020622",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2011-07-31",
+  "publicationNumber": "213882",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAN CHANG YONG"]
+  },
+  "applicationNumber": "KR_20040106781_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HAN CHANG YONG"]
+  },
+  "jurisdiction": "KR",
+  "kind": "A",
+  "opiDate": "2005-10-26",
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2004-04-22",
+    "documentNumber": "20040027785",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-10-26",
+  "publicationNumber": "20050102585",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ERGOWERX INTERNAT LLC"]
+  },
+  "applicationNumber": "KR_20117015953_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354",
+        "G06F3/14"
+      ]
+    }
+  ],
+  "filingDate": "2010-01-11",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ATZMON JACK A"]
+  },
+  "jurisdiction": "KR",
+  "kind": "A",
+  "opiDate": "2011-11-02",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2009-01-09",
+    "documentNumber": "14370209",
+    "documentKind": "P"
+  }],
+  "publicationDate": "2011-11-02",
+  "publicationNumber": "20110119639",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicationNumber": "KR_20040106781_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-16",
+  "jurisdiction": "KR",
+  "kind": "B1",
+  "opiDate": "2006-06-07",
+  "patentCitations": [
+    "KR_20000058684_A",
+    "KR_20040066986_A",
+    "US_6166721_A"
+  ],
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2004-04-22",
+    "documentNumber": "20040027785",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2006-06-07",
+  "publicationNumber": "100585492",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicationNumber": "KR_20060028364_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2006-03-29",
+  "jurisdiction": "KR",
+  "kind": "B1",
+  "opiDate": "2007-08-29",
+  "patentCitations": [
+    "KR_0302550_Y1",
+    "KR_0319971_Y1"
+  ],
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2005-05-09",
+    "documentNumber": "2005136127",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-08-29",
+  "publicationNumber": "100753320",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "applicationNumber": "KR_20090015319_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03547",
+        "G06F3/03543",
+        "G06F3/038",
+        "G06F3/04855",
+        "G06F3/0488",
+        "G06F3/04886"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/038",
+        "G06F3/041",
+        "H03K17/96"
+      ]
+    }
+  ],
+  "filingDate": "2009-02-24",
+  "jurisdiction": "KR",
+  "kind": "B1",
+  "opiDate": "2011-03-04",
+  "patentCitations": [
+    "KR_20030082968_A",
+    "KR_20070072754_A"
+  ],
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2009-02-24",
+    "documentNumber": "20090015319",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2011-03-04",
+  "publicationNumber": "101019163",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicationNumber": "KR_20050007083_U",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2005-03-16",
+  "jurisdiction": "KR",
+  "kind": "Y1",
+  "opiDate": "2005-05-31",
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2005-03-16",
+    "documentNumber": "20050007083",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2005-05-31",
+  "publicationNumber": "200385574",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "TW_95134004_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2006-09-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHEN JIHUANG",
+      "LU SHAO AN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2009-06-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-09-14",
+    "documentNumber": "95134004",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-06-01",
+  "publicationNumber": "I310510",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_95108164_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": [
+      "G06F3/038",
+      "G05D27/02"
+    ]
+  }],
+  "filingDate": "2006-03-10",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "WONG SHIH FANG",
+      "YE ZHI-YUAN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2009-05-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-03-10",
+    "documentNumber": "95108164",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-05-11",
+  "publicationNumber": "I309796",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["PRIMAX ELECTRONICS LTD"]
+  },
+  "applicationNumber": "TW_95147862_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2006-12-20",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "YU MING HSI",
+      "YEN HONG CHE",
+      "LU MING HSUN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2010-10-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-12-20",
+    "documentNumber": "95147862",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2010-10-01",
+  "publicationNumber": "I331295",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "TW_95134424_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/0312",
+        "G06F3/0362"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2006-09-18",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HUANG CHUN-CHUNG",
+      "LIAO WEN CHUN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2009-06-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-09-18",
+    "documentNumber": "95134424",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-06-21",
+  "publicationNumber": "I311278",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["PRIMAX ELECTRONICS LTD"]
+  },
+  "applicationNumber": "TW_96100426_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2007-01-05",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHENG YU CHIH",
+      "WANG CHENG WEN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2012-03-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2007-01-05",
+    "documentNumber": "96100426",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-03-11",
+  "publicationNumber": "I360065",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONIC CORPORATIO"]
+  },
+  "applicationNumber": "TW_94144244_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2005-12-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHEN JIHUANG",
+      "LIAO PIN-CHIEN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2009-08-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2005-12-14",
+    "documentNumber": "94144244",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-08-11",
+  "publicationNumber": "I313428",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["BENQ CORP"]
+  },
+  "applicationNumber": "TW_95109052_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2006-03-16",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LO CHIH KANG",
+      "LIN YING HUNG",
+      "TSENG HUA CHUNG"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2009-04-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-03-16",
+    "documentNumber": "95109052",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-04-11",
+  "publicationNumber": "I308714",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_95100588_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2006-01-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIN KUO LUNG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2011-12-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-01-06",
+    "documentNumber": "95100588",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2011-12-21",
+  "publicationNumber": "I354915",
+  "title": {
+    "language": "en",
+    "text": "A mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_97134123_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2008-09-05",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WANG TING-YU"]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2012-03-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-09-05",
+    "documentNumber": "97134123",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-03-21",
+  "publicationNumber": "I360765",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_97132133_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2008-08-22",
+  "inventors": {
+    "language": "ot",
+    "texts": ["XIAO YUN-SHAN"]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2012-05-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-08-22",
+    "documentNumber": "97132133",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-05-21",
+  "publicationNumber": "I364692",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_97148731_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/0354"]
+  }],
+  "filingDate": "2008-12-15",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHEN LI-BING",
+      "ZHAO JING-HE",
+      "SU PING SHENG"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "B",
+  "opiDate": "2013-08-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-12-15",
+    "documentNumber": "97148731",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-08-11",
+  "publicationNumber": "I405098",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHEN JENG-SHIUNG"]
+  },
+  "applicationNumber": "TW_92213957_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2003-07-31",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHEN JENG-SHIUNG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2004-09-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-07-31",
+    "documentNumber": "92213957",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2004-09-01",
+  "publicationNumber": "M242792",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "SHIH YVONNE",
+      "HUANG HUA-LING"
+    ]
+  },
+  "applicationNumber": "TW_92203877_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/02"]
+  }],
+  "filingDate": "2003-03-12",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SHIH YVONNE",
+      "HUANG HUA-LING"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2004-06-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-03-12",
+    "documentNumber": "92203877",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2004-06-21",
+  "publicationNumber": "595778",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "ROCKS TECHNOLOGY CO LTD I",
+      "ADOMAX TECHNOLOGY CO LTD"
+    ]
+  },
+  "applicationNumber": "TW_93217068_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2004-10-27",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIN YU-DENG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2005-05-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-10-27",
+    "documentNumber": "93217068",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2005-05-11",
+  "publicationNumber": "M264582",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAHNTEK TECHNOLOGY CORP"]
+  },
+  "applicationNumber": "TW_93200826_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2004-01-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WU KUEN-JENG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2004-11-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-01-16",
+    "documentNumber": "93200826",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2004-11-21",
+  "publicationNumber": "M251211",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HON HAI PREC IND CO LTD"]
+  },
+  "applicationNumber": "TW_95213311_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2006-07-28",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SUN ZHENG-HENG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2007-01-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2006-07-28",
+    "documentNumber": "95213311",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2007-01-11",
+  "publicationNumber": "M304726",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["WANG WEI-TING"]
+  },
+  "applicationNumber": "TW_93218697_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2004-11-22",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WANG WEI-TING"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2005-06-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-11-22",
+    "documentNumber": "93218697",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2005-06-01",
+  "publicationNumber": "M266499",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ACROX TECHNOLOGIES CO LTD"]
+  },
+  "applicationNumber": "TW_92218221_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2003-10-13",
+  "inventors": {
+    "language": "ot",
+    "texts": ["ORE-YANG STEVE"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2004-09-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-10-13",
+    "documentNumber": "92218221",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2004-09-01",
+  "publicationNumber": "M242796",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "JIAU SHIAN-CHI",
+      "LIOU JEN-CHEN"
+    ]
+  },
+  "applicationNumber": "TW_96210817_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2007-07-03",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "JIAU SHIAN-CHI",
+      "LIOU JEN-CHEN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2007-12-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2007-07-03",
+    "documentNumber": "96210817",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2007-12-11",
+  "publicationNumber": "M323653",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["YANG TZUNG-YU"]
+  },
+  "applicationNumber": "TW_96212822_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2007-08-03",
+  "inventors": {
+    "language": "ot",
+    "texts": ["YANG TZUNG-YU"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2008-01-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2007-08-03",
+    "documentNumber": "96212822",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2008-01-11",
+  "publicationNumber": "M325558",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["JIANG MING-HUANG"]
+  },
+  "applicationNumber": "TW_93207741_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2004-05-18",
+  "inventors": {
+    "language": "ot",
+    "texts": ["JIANG MING-HUANG"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2005-04-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-05-18",
+    "documentNumber": "93207741",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2005-04-21",
+  "publicationNumber": "M262766",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["JIANG JIAN-HUA"]
+  },
+  "applicationNumber": "TW_97215505_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2008-08-29",
+  "inventors": {
+    "language": "ot",
+    "texts": ["JIANG JIAN-HUA"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2009-01-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-08-29",
+    "documentNumber": "97215505",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2009-01-01",
+  "publicationNumber": "M348279",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "CHEN XIAN-WEI",
+      "JIANG ZI-QIAN"
+    ]
+  },
+  "applicationNumber": "TW_97222978_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2008-12-22",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHEN XIAN-WEI",
+      "JIANG ZI-QIAN"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2009-05-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-12-22",
+    "documentNumber": "97222978",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2009-05-11",
+  "publicationNumber": "M356966",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ELITEGROUP COMPUTER SYS CO LTD"]
+  },
+  "applicationNumber": "TW_96221547_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2007-12-18",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ZHOU HAN",
+      "LIN CHANG-FU"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2008-10-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2007-12-18",
+    "documentNumber": "96221547",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2008-10-11",
+  "publicationNumber": "M342549",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LIU ZI-YI"]
+  },
+  "applicationNumber": "TW_97209940_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2008-06-06",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIU ZI-YI"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2008-11-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2008-06-06",
+    "documentNumber": "97209940",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2008-11-01",
+  "publicationNumber": "M343869",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["GOLDEN EMPEROR INTERNAT LTD"]
+  },
+  "applicationNumber": "TW_99219750_U",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0317",
+        "G06F3/03543",
+        "G06F3/03544"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2010-10-13",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ZHANG PO",
+      "XU YI-ZHONG"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2011-08-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2010-10-13",
+    "documentNumber": "99219750",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2011-08-11",
+  "publicationNumber": "M409479",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHUNG CHOU UNIVERSITY OF SCIENCE AND TECHNOLOGY"]
+  },
+  "applicationNumber": "TW_102210392_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/0354"]
+  }],
+  "filingDate": "2013-06-03",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LAI WEI-DIAN",
+      "LIOU TING-PU"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2013-09-21",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2013-06-03",
+    "documentNumber": "102210392",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2013-09-21",
+  "publicationNumber": "M462402",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["UNIV FAR EAST"]
+  },
+  "applicationNumber": "TW_99223981_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2010-12-10",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHEN CHUN-LIANG",
+      "CHEN CHIH-CHENG",
+      "KATSURADA AI",
+      "HUANG CING-CHENG",
+      "ZHANG ZHE-WEI",
+      "CHEN PO-CHOU",
+      "LIAO JIAN-HONG"
+    ]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2011-06-11",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2010-12-10",
+    "documentNumber": "99223981",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2011-06-11",
+  "publicationNumber": "M405598",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LU HONG-ZHI"]
+  },
+  "applicationNumber": "TW_100204248_U",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["G06F3/033"]
+  }],
+  "filingDate": "2011-03-10",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LU HONG-ZHI"]
+  },
+  "jurisdiction": "TW",
+  "kind": "U",
+  "opiDate": "2011-08-01",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2011-03-10",
+    "documentNumber": "100204248",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2011-08-01",
+  "publicationNumber": "M408739",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LOGITECH EUROP SA"]
+  },
+  "applicationNumber": "US_12356000_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2000-05-17",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LOUGHNANE CATHAL",
+      "SHEEHAN PETER"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2001-06-05",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-05-17",
+    "documentNumber": "12356000",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2001-06-05",
+  "publicationNumber": "D443274",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["APPLE COMPUTER"]
+  },
+  "applicationNumber": "US_12645900_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2000-07-17",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ANDRE BARTLEY K",
+      "COSTER DANIEL J",
+      "DE IULIIS DANIELE",
+      "HOWARTH RICHARD P",
+      "IVE JONATHAN P",
+      "KERR DUNCAN ROBERT",
+      "ROHRBACH MATTHEW DEAN",
+      "SATZGER DOUGLAS B",
+      "SEID CALVIN Q",
+      "STRINGER CHRISTOPHER J",
+      "WHANG EUGENE ANTHONY"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2002-03-19",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-07-17",
+    "documentNumber": "12645900",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2002-03-19",
+  "publicationNumber": "D454568",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LOGITECH EUROP SA"]
+  },
+  "applicationNumber": "US_13289900_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14408"]
+  }],
+  "filingDate": "2000-11-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SHEEHAN PETER"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2002-07-09",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-11-16",
+    "documentNumber": "13289900",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2002-07-09",
+  "publicationNumber": "D460072",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHIC TECHNOLOGY CORP"]
+  },
+  "applicationNumber": "US_17665103_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2003-05-22",
+  "inventors": {
+    "language": "ot",
+    "texts": ["YEN TZU-HSIANG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-05-25",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-05-22",
+    "documentNumber": "17665103",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-05-25",
+  "publicationNumber": "D490431",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["BEHAVIOR TECH COMPUTER CORP"]
+  },
+  "applicationNumber": "US_19468603_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14402",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2003-11-25",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HSIEH WEN-PIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-06-22",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-11-25",
+    "documentNumber": "19468603",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-06-22",
+  "publicationNumber": "D491947",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ASIA VITAL COMPONENTS CO LTD"]
+  },
+  "applicationNumber": "US_18242203_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14408"]
+  }],
+  "filingDate": "2003-05-28",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "MA TIEM-SHUN",
+      "LIN JAO-CHING",
+      "HUANG CHIEN-CHENG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2003-12-16",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-05-28",
+    "documentNumber": "18242203",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2003-12-16",
+  "publicationNumber": "D483765",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["KOKUYO KK"]
+  },
+  "applicationNumber": "US_19757904_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14402",
+      "XD14426"
+    ]
+  }],
+  "filingDate": "2004-01-20",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "WATANABE TSUYOSHI",
+      "AKIYAMA HIROAKI",
+      "NAKAGAWA SATOSHI"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2005-12-06",
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2003-08-29",
+    "documentNumber": "2003025327",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2005-12-06",
+  "publicationNumber": "D512425",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DISNEY ENTPR INC"]
+  },
+  "applicationNumber": "US_21084304_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14403"
+    ]
+  }],
+  "filingDate": "2004-08-05",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HEATHERLY CHRIS",
+      "GUERRA JON",
+      "SCHLUENDER CHRISTIAN",
+      "LEE CHUEH",
+      "GREAVES MIKAL",
+      "CONNER ALLISON"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2006-04-25",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-08-05",
+    "documentNumber": "21084304",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2006-04-25",
+  "publicationNumber": "D519509",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["JESS LINK PRODUCTS CO LTD"]
+  },
+  "applicationNumber": "US_12656600_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14403",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2000-07-20",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHANG JESSICA",
+      "WANG CHAO JEN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2001-04-17",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-07-20",
+    "documentNumber": "12656600",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2001-04-17",
+  "publicationNumber": "D440569",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_25141006_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14407"
+    ]
+  }],
+  "filingDate": "2006-01-09",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WADA JO"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2007-01-02",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2006-01-09",
+    "documentNumber": "25141006",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2007-01-02",
+  "publicationNumber": "D534534",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LOGITECH EUROP SA"]
+  },
+  "applicationNumber": "US_13204800_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2000-10-31",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SHEEHAN PETER"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2002-07-30",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-10-31",
+    "documentNumber": "13204800",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2002-07-30",
+  "publicationNumber": "D460969",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LOGITECH EUROP SA"]
+  },
+  "applicationNumber": "US_16091702_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2002-05-17",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "O'KEEFFE DENIS",
+      "O'CONNELL NEIL",
+      "KLARKE LLOYD ALBERT"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2003-03-11",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-05-17",
+    "documentNumber": "16091702",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2003-03-11",
+  "publicationNumber": "D471556",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["KOKUYO KK"]
+  },
+  "applicationNumber": "US_17197002_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14405"]
+  }],
+  "filingDate": "2002-12-04",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "AKIYAMA HIROAKI",
+      "WATANABE TSUYOSHI",
+      "NAKAGAWA SATOSHI"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-03-09",
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2002-06-05",
+    "documentNumber": "2002015132",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-03-09",
+  "publicationNumber": "D487463",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_18389103_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14408"]
+  }],
+  "filingDate": "2003-06-19",
+  "inventors": {
+    "language": "ot",
+    "texts": ["MORISAWA YUJIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-03-23",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-06-19",
+    "documentNumber": "18389103",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-03-23",
+  "publicationNumber": "D487745",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["ACER INC"]
+  },
+  "applicationNumber": "US_17985203_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14408"]
+  }],
+  "filingDate": "2003-04-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUANG CHIEN-BIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-05-25",
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2002-11-29",
+    "documentNumber": "91306964",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-05-25",
+  "publicationNumber": "D490432",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["BENQ CORP"]
+  },
+  "applicationNumber": "US_20795404_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14410",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2004-06-21",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "WU CHIH-WEI",
+      "YIN CHUN-HSIUNG",
+      "HUANG HSUN-LI"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2005-11-15",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-02-18",
+    "documentNumber": "93300838",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2005-11-15",
+  "publicationNumber": "D511518",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_21220104_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14402",
+      "XD14408"
+    ]
+  }],
+  "filingDate": "2004-08-30",
+  "inventors": {
+    "language": "ot",
+    "texts": ["MOURI AKINARI"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2005-06-07",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-08-30",
+    "documentNumber": "21220104",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2005-06-07",
+  "publicationNumber": "D505956",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "US_20743604_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "7402",
+      "D14408"
+    ]
+  }],
+  "filingDate": "2004-06-14",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUANG CHUN-CHUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2005-12-27",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-12-26",
+    "documentNumber": "92307783",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2005-12-27",
+  "publicationNumber": "D513258",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["LIN YU-HUNG"]
+  },
+  "applicationNumber": "US_23366005_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2005-07-08",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LIN YU-HUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2006-05-16",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2005-07-08",
+    "documentNumber": "23366005",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2006-05-16",
+  "publicationNumber": "D521005",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "US_20743504_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14402",
+      "XD14408"
+    ]
+  }],
+  "filingDate": "2004-06-14",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUANG CHUN-CHUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2006-05-23",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-12-26",
+    "documentNumber": "92307784",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2006-05-23",
+  "publicationNumber": "D521515",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["WACOM CO LTD"]
+  },
+  "applicationNumber": "US_22211405_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14402",
+      "XD14408"
+    ]
+  }],
+  "filingDate": "2005-01-27",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HIROTA MASUO"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2006-05-30",
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2004-07-29",
+    "documentNumber": "2004022692",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2006-05-30",
+  "publicationNumber": "D521998",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHANG YUAN-JUNG"]
+  },
+  "applicationNumber": "US_23921105_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1404",
+      "D14410"
+    ]
+  }],
+  "filingDate": "2005-09-28",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHANG YUAN-JUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2007-04-10",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2005-09-28",
+    "documentNumber": "23921105",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2007-04-10",
+  "publicationNumber": "D540326",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["WACOM CO LTD"]
+  },
+  "applicationNumber": "US_25754706_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14402"
+    ]
+  }],
+  "filingDate": "2006-04-07",
+  "inventors": {
+    "language": "ot",
+    "texts": ["NAKATA TAKAAKI"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2007-08-28",
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2005-10-13",
+    "documentNumber": "2005029829",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2007-08-28",
+  "publicationNumber": "D549703",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_16991002_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2002-10-29",
+  "inventors": {
+    "language": "ot",
+    "texts": ["MORI AKINARI"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2003-09-23",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-10-29",
+    "documentNumber": "16991002",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2003-09-23",
+  "publicationNumber": "D479843",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_19220603_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14402",
+      "XD14408"
+    ]
+  }],
+  "filingDate": "2003-10-22",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SHIMIZU YOSUKE"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-06-08",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-10-22",
+    "documentNumber": "19220603",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-06-08",
+  "publicationNumber": "D491184",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["BEHAVIOR TECH COMPUTER CORP"]
+  },
+  "applicationNumber": "US_19467703_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "D14408",
+      "XD14402"
+    ]
+  }],
+  "filingDate": "2003-11-25",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SU CHIHWEN",
+      "TSAI GAVIN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2004-06-22",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2003-11-25",
+    "documentNumber": "19467703",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2004-06-22",
+  "publicationNumber": "D491949",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "US_25216706_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14407"
+    ]
+  }],
+  "filingDate": "2006-01-18",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "TZENG SHU-WEN",
+      "CHANG SHUO-HSIU"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2007-01-02",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2005-10-12",
+    "documentNumber": "94306163",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2007-01-02",
+  "publicationNumber": "D534535",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "US_27569007_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14408"
+    ]
+  }],
+  "filingDate": "2007-01-04",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUANG CHUN-CHUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2007-12-25",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2007-01-04",
+    "documentNumber": "27569007",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2007-12-25",
+  "publicationNumber": "D558205",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DARFON ELECTRONICS CORP"]
+  },
+  "applicationNumber": "US_28325707_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14409"
+    ]
+  }],
+  "filingDate": "2007-08-08",
+  "inventors": {
+    "language": "ot",
+    "texts": ["YANG CHOU-HANG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2008-02-26",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2007-02-16",
+    "documentNumber": "96301116",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2008-02-26",
+  "publicationNumber": "D562823",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["DEXIN CORP"]
+  },
+  "applicationNumber": "US_29010807_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": [
+      "1402",
+      "D14409"
+    ]
+  }],
+  "filingDate": "2007-10-23",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WU CHENG-CHENG"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2008-08-19",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2007-10-23",
+    "documentNumber": "29010807",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2008-08-19",
+  "publicationNumber": "D575286",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["SONY CORP"]
+  },
+  "applicationNumber": "US_17283202_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14402"]
+  }],
+  "filingDate": "2002-12-19",
+  "inventors": {
+    "language": "ot",
+    "texts": ["MORISAWA YUJIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2003-08-26",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-12-19",
+    "documentNumber": "17283202",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2003-08-26",
+  "publicationNumber": "D478908",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["VPR MATRIX INC"]
+  },
+  "applicationNumber": "US_16382402_F",
+  "classifications": [{
+    "classificationType": "US",
+    "classificationVersion": "",
+    "classificationCodes": ["D14408"]
+  }],
+  "filingDate": "2002-07-12",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LEE STEVEN K",
+      "PORSCHE FERDINAND A"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "S1",
+  "opiDate": "2003-10-28",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-07-12",
+    "documentNumber": "16382402",
+    "documentKind": "F"
+  }],
+  "publicationDate": "2003-10-28",
+  "publicationNumber": "D481391",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+]

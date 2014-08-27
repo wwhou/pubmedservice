@@ -1,0 +1,177 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse accessory comprises a cover which is configured to fit over a computer mouse in such a way that the pressure-sensitive switches associated with the computer mouse are operable through an opening in the cover."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "SMITH DAVID EDWIN",
+      "LEDWITH BRUCE",
+      "OSBORNE MICHAEL"
+    ]
+  },
+  "applicationNumber": "US_7684102_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "20000500AX",
+        "20000500RX",
+        "27314800BX",
+        "345/156.000",
+        "345163000O",
+        "345163000P",
+        "428/68.000",
+        "463/37.000",
+        "463/46.000",
+        "463/47.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/039"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/039"]
+    }
+  ],
+  "filingDate": "2002-02-15",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SMITH DAVID EDWIN",
+      "LEDWITH BRUCE",
+      "OSBORNE MICHAEL"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2002-09-12",
+  "priorities": [{
+    "countryCode": "GB",
+    "documentDate": "2001-02-16",
+    "documentNumber": "0103853",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2002-09-12",
+  "publicationNumber": "2002126093",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse accessory"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["OCTOGONE GMBH"]
+  },
+  "applicationNumber": "EP_04024697_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/0395"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/039"
+      ]
+    }
+  ],
+  "filingDate": "2004-10-15",
+  "inventors": {
+    "language": "ot",
+    "texts": ["BRUNS GERD"]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2007-11-21",
+  "priorities": [{
+    "countryCode": "EP",
+    "documentDate": "2004-10-15",
+    "documentNumber": "04024697",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-11-21",
+  "publicationNumber": "1647878",
+  "title": {
+    "language": "en",
+    "text": "Mouse pad"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A method for a host computer to detect the motion message of a wireless mouse has the following steps of: gathering statistics regarding information of the host computer; receiving ID authentication information from the wireless mouse; informing a firmware in the wireless mouse to activate a user-specific mode; supervising action information of the wireless mouse; determining whether to change action parameters of the wireless mouse based on action responses of the wireless mouse; and informing and changing the action parameters of the wireless mouse. The delay situation of the wireless mouse due to wireless transmission when moving on a computer screen can thus be improved."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LU HO-LUNG"]
+  },
+  "applicationNumber": "US_98276604_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["710015000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["710/15.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/038",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/00"]
+    }
+  ],
+  "filingDate": "2004-11-08",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LU HO-LUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2006-05-11",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-11-08",
+    "documentNumber": "98276604",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2006-05-11",
+  "publicationNumber": "2006101163",
+  "title": {
+    "language": "en",
+    "text": "Method for a host computer to detect motion message of a wireless mouse"
+  }
+}
+]

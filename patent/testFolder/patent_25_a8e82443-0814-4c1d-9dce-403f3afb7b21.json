@@ -1,0 +1,232 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "In a manually movable computer mouse with a mouse movement sensing system for providing mouse movement signals, and at least one user finger operable control switch, for providing control signals for a graphic user interface, the mouse has a boomerang shaped body ergonomically shaped to fit and support the user&#039;s hand in a naturally relaxed curled hand position, with a main body portion and a narrower neck portion extending at an angle of about 45 degrees to 90 degrees to the main body narrow enough to be interposeable between the thumb and first finger, and with an integral mouse movement control fin or tab extending above the mouse body and being thinly shaped to fit in the relaxed space between the first and second fingers (and to also provide an alternate pen-like grip between the thumb and first finger) to orient the mouse to the users hand and move the mouse with user arm movements. An integral wrist support may be provided extending from the wrist end of the mouse. The movement sensing system is adjacent that same end."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["XEROX CORP"]
+  },
+  "applicationNumber": "US_33960699_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156.000",
+        "345/157.000",
+        "345/158.000",
+        "345163000O",
+        "345163000P",
+        "345/164.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163",
+        "345/156",
+        "345/157",
+        "345/158",
+        "345/164"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F2203/0333",
+        "G06F2203/0334"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "1999-06-24",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "REID JAMES J",
+      "BOUDREAU DALE E"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B1",
+  "nonPatentCitations": ["3 Page Article on the \"Anir\" mouse by AnimaX International ASA of Oslo, Norway."],
+  "opiDate": "2002-08-27",
+  "patentCitations": [
+    "US_6072471_A",
+    "US_6075516_A",
+    "US_4862165_A",
+    "US_5340067_A",
+    "US_5355147_A",
+    "US_5570112_A",
+    "US_5576733_A",
+    "US_5648798_A",
+    "US_D381970_S",
+    "US_5726683_A",
+    "US_5865404_A",
+    "US_5865405_A",
+    "US_5868365_A",
+    "US_6005553_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1999-06-24",
+    "documentNumber": "33960699",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2002-08-27",
+  "publicationNumber": "6441805",
+  "title": {
+    "language": "en",
+    "text": "Ergonomic computer mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["TOP COUSINS OY"]
+  },
+  "applicationNumber": "EP_94917002_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "B41J29/16",
+        "A47B21/0314",
+        "A47B2021/0321",
+        "A47B2021/0335",
+        "A47B2200/009",
+        "A47B2200/0095"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A47B21/03",
+        "B41J29/16"
+      ]
+    }
+  ],
+  "filingDate": "1994-06-03",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HIRSCHOVITS ADIEL",
+      "SKURNIK ROBERT",
+      "LIMINGOJA ANTTI"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "1997-12-03",
+  "priorities": [
+    {
+      "countryCode": "FI",
+      "documentDate": "1994-06-03",
+      "documentNumber": "9400235",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "FI",
+      "documentDate": "1993-06-07",
+      "documentNumber": "930341",
+      "documentKind": "U"
+    },
+    {
+      "countryCode": "FI",
+      "documentDate": "1994-01-31",
+      "documentNumber": "940449",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "1997-12-03",
+  "publicationNumber": "0703740",
+  "title": {
+    "language": "en",
+    "text": "MOUSE SUPPORT"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse having a unique identification that uniquely identifies the computer mouse and is readable by a computer to which the mouse is coupled. The computer mouse is provided with a processor, a memory and a mouse interface and may be used for controlling data transfer between the mouse and a computer to which it is coupled, by receiving from the computer a data transfer request and using the mouse interface to authorize the data transfer request. The mouse may be used to provide personal and secure control of an application that is distributed between the mouse and the computer so as to allow use of the mouse to control a software application running on the computer and at the same time to allow the computer to control the behavior of the mouse by interacting with software run thereby."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "KIDRON OREN",
+      "MEYASSED MOSHE"
+    ]
+  },
+  "applicationNumber": "US_2822605_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F1/1698",
+        "G06F1/1626",
+        "G06F1/169",
+        "G06F3/03543",
+        "G06F3/038",
+        "G06F21/83",
+        "H04M1/0202",
+        "H04M1/7253"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G09G5/08"]
+    }
+  ],
+  "filingDate": "2005-01-04",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "KIDRON OREN",
+      "MEYASSED MOSHE"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2006-07-06",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2005-01-04",
+    "documentNumber": "2822605",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2006-07-06",
+  "publicationNumber": "2006146023",
+  "title": {
+    "language": "en",
+    "text": "Mobile computer mouse"
+  }
+}
+]

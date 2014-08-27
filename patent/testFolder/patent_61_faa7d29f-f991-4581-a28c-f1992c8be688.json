@@ -1,0 +1,236 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse (20) comprises first (24) and second (28) projections on the bottom surface of the mouse housing. The second projections (28) only come into contact with the mouse mat on application of pressure by the user, so as to assist in holding the mouse still, for example during double clicking operations."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["KONINKL PHILIPS ELECTRONICS NV"]
+  },
+  "applicationNumber": "US_76124801_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156.000",
+        "345/159.000",
+        "345163000O",
+        "345163000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163",
+        "345/156",
+        "345/159"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "2001-01-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["THOMASON GRAHAM G"]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "nonPatentCitations": [
+    "\"Auto Double-Click Generator for KIOSK Personal Computer\", IBM Technical Disclosure Bulletin, vol. 40, No. 08, Aug. 1997.",
+    "\"Computer Communication Method\", Patent Abstracts of Japan, Publication No. 08211996A, Dated Aug. 20, 1996.",
+    "\"Mouse\", Patent Abstracts of Japan, Publication No. 07230355A, dated Aug. 29, 1995.",
+    "\"Coordinate Input Device\", Japanese Abstract 5-19961, dated Jan. 29, 1993.",
+    "\"Input Device\", Japanese Abstract 2-77826, dated Mar. 16, 1990.",
+    "Coordinate Input Device, Japanese Abstract 63-318624, dated Dec. 27, 1988."
+  ],
+  "opiDate": "2003-05-06",
+  "patentCitations": [
+    "US_4613853_A",
+    "US_4635496_A",
+    "US_5898424_A",
+    "US_6184869_B1",
+    "US_5280276_A",
+    "US_5287090_A",
+    "US_5457479_A",
+    "US_5648798_A",
+    "US_5936612_A",
+    "DE_4211189_A1",
+    "EP_0166432_A2"
+  ],
+  "priorities": [{
+    "countryCode": "GB",
+    "documentDate": "2000-01-27",
+    "documentNumber": "0001776",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-05-06",
+  "publicationNumber": "6559832",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "To provide input means by which a mouse position can be accurately pointed to in a touch panel input system that does not have a pointing device capable of accurate pointing such as a mouse. Input events, which are mouse events (touches of a touch panel display) or keyboard events, are registered to be hooked, and a mouse pointer window is generated. An event hook section is notified of an occurrence of an input event, and the event is processed. In processing the event, a click event of the mouse event is disabled, and the mouse pointer window is displayed at the mouse position. When a mouse movement is selected on a tool window or a keyboard, the mouse position and the mouse pointer window are moved to that direction. When a click event is selected on the tool window or the keyboard, the click event is generated and issued."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["IBM"]
+  },
+  "applicationNumber": "US_24465602_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345157000O",
+        "345173000P",
+        "345/173.000",
+        "715/856.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/173"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/04892",
+        "G06F3/0488",
+        "G06F3/04886"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/02",
+        "G06F3/023",
+        "G06F3/033",
+        "G06F3/041",
+        "G06F3/048"
+      ]
+    }
+  ],
+  "filingDate": "2002-09-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SAKAGUCHI AKIRA"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2003-03-20",
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2001-09-17",
+    "documentNumber": "2001281172",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-03-20",
+  "publicationNumber": "2003052866",
+  "title": {
+    "language": "en",
+    "text": "Input method, input system, and program for touch panel"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "To provide input means by which a mouse position can be accurately pointed to in a touch panel input system that does not have a pointing device capable of accurate pointing such as a mouse. Input events, which are mouse events (touches of a touch panel display) or keyboard events, are registered to be hooked, and a mouse pointer window is generated. An event hook section is notified of an occurrence of an input event, and the event is processed. In processing the event, a click event of the mouse event is disabled, and the mouse pointer window is displayed at the mouse position. When a mouse movement is selected on a tool window or a keyboard, the mouse position and the mouse pointer window are moved to that direction. When a click event is selected on the tool window or the keyboard, the click event is generated and issued."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["IBM"]
+  },
+  "applicationNumber": "US_24465602_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345157000O",
+        "345173000P",
+        "345/173.000",
+        "715/856.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/157",
+        "345/173",
+        "345/856"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/04892",
+        "G06F3/0488",
+        "G06F3/04886"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/02",
+        "G06F3/023",
+        "G06F3/033",
+        "G06F3/041",
+        "G06F3/048"
+      ]
+    }
+  ],
+  "filingDate": "2002-09-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SAKAGUCHI AKIRA"]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "opiDate": "2005-02-01",
+  "patentCitations": [
+    "US_5808604_A",
+    "US_5835079_A",
+    "US_6278443_B1",
+    "US_2002_0084991_A1"
+  ],
+  "priorities": [{
+    "countryCode": "JP",
+    "documentDate": "2001-09-17",
+    "documentNumber": "2001281172",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-02-01",
+  "publicationNumber": "6850220",
+  "title": {
+    "language": "en",
+    "text": "Input method, input system, and program for touch panel"
+  }
+}
+]

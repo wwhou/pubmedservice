@@ -1,0 +1,208 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse providing the functionality of a vacuum cleaner comprises a main mouse body and a vacuum device. The vacuum device is substantially mounted inside the main mouse body so that the shape of the computer mouse having the functionality of a vacuum cleaner is substantially that of the main mouse body. A user can use it as a mouse or as a vacuum cleaner to, for example, clean a computer keyboard."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["BENEXT INNO PRODUCT DEV LTD"]
+  },
+  "applicationNumber": "US_97106304_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "015339000O",
+        "015339000P",
+        "015344000S",
+        "15/344.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "15/339.000",
+        "15/344.000"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A47L7/0085",
+        "A47L5/24",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A47L5/24",
+        "A47L5/00"
+      ]
+    }
+  ],
+  "filingDate": "2004-10-25",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LEE KUO-VICENT"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2006-04-27",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-10-25",
+    "documentNumber": "97106304",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2006-04-27",
+  "publicationNumber": "2006085944",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse with a cleaning function"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse providing the functionality of a vacuum cleaner comprises a main mouse body and a vacuum device. The vacuum device is substantially mounted inside the main mouse body so that the shape of the computer mouse having the functionality of a vacuum cleaner is substantially that of the main mouse body. A user can use it as a mouse or as a vacuum cleaner to, for example, clean a computer keyboard."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["BENEXT INNO PRODUCT DEV LTD"]
+  },
+  "applicationNumber": "US_97106304_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "015339000O",
+        "015339000P",
+        "015344000S",
+        "15/344.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "15/339",
+        "15/344"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A47L7/0085",
+        "A47L5/24",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["A47L7/00"]
+    }
+  ],
+  "filingDate": "2004-10-25",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LEE KUO-VICENT"]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "opiDate": "2007-05-15",
+  "patentCitations": [
+    "US_4656687_A",
+    "US_6459955_B1",
+    "US_2006_0272123_A1"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-10-25",
+    "documentNumber": "97106304",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-05-15",
+  "publicationNumber": "7216398",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse with a cleaning function"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse designed to reduce the symptoms of and/or prevent Carpel Tunnel Syndrome."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "TALASANI RAGHURAM REDDY",
+      "COOK STEPHEN JAMES"
+    ]
+  },
+  "applicationNumber": "US_201113232228_A",
+  "classifications": [
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/039",
+        "G06F2203/0332"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G09G5/08"]
+    }
+  ],
+  "filingDate": "2011-09-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "TALASANI RAGHURAM REDDY",
+      "COOK STEPHEN JAMES"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2013-03-14",
+  "patentCitations": [
+    "US_5990870_A",
+    "US_2011_0043988_A1",
+    "US_5582375_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2011-09-14",
+    "documentNumber": "201113232228",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-03-14",
+  "publicationNumber": "2013063351",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+]

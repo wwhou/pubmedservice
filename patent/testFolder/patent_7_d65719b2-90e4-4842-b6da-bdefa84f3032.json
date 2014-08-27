@@ -1,0 +1,198 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The upper surface of a mouse pad (10) is formed with grooves (14) of width substantially smaller than the diameter of the mouse (12) ball, whereby particles that fall in the grooves (14) do not adhere to the mouse (12) ball when the mouse (12) is moved over the mouse pad (10)."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C"]
+  },
+  "applicationNumber": "US_9926216_W",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/0395"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "B32B3/28",
+        "G06F3/039",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "1999-11-05",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C"]
+  },
+  "jurisdiction": "WO",
+  "kind": "A1",
+  "opiDate": "2000-06-15",
+  "patentCitations": [
+    "US_4485919_A",
+    "US_5508084_A"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1998-12-09",
+      "documentNumber": "20905098",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1999-03-15",
+      "documentNumber": "27023099",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2000-06-15",
+  "publicationNumber": "0034941",
+  "title": {
+    "language": "en",
+    "text": "COMPUTER MOUSE PAD"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse includes two components. A fully functional module mouse and a shell mouse that fits over the module mouse. The module mouse is configured to perform at least one complete mouse function, independently of the shell mouse. Other functions can be split between the shell mouse and the module mouse, in any desired way."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["MICROSOFT CORP"]
+  },
+  "applicationNumber": "US_69782107_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345163000O",
+        "345163000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/038"]
+    }
+  ],
+  "filingDate": "2007-04-09",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LARSEN GLEN"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2008-10-09",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2007-04-09",
+    "documentNumber": "69782107",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-10-09",
+  "publicationNumber": "2008246727",
+  "title": {
+    "language": "en",
+    "text": "Stand Alone Module Mouse with Replaceable Cover"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The upper surface of a mouse pad is formed with grooves of width substantially smaller than the diameter of the mouse ball, whereby particles that fall in the grooves do not adhere to the mouse ball when the mouse is moved over the mouse pad."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["PERRY; ROBERT C."]
+  },
+  "applicationNumber": "US_20905098_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163.000",
+        "428156000O",
+        "428/167.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "428/156",
+        "428/167",
+        "345/163"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/0395"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "B32B3/00",
+        "G06F3/039",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "1998-12-09",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C"]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "opiDate": "2000-11-07",
+  "patentCitations": [
+    "US_4485919_A",
+    "US_4799054_A",
+    "US_4868940_A",
+    "US_5360653_A",
+    "US_5508084_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1998-12-09",
+    "documentNumber": "20905098",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2000-11-07",
+  "publicationNumber": "6143395",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse pad"
+  }
+}
+]

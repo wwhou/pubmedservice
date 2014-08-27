@@ -1,0 +1,173 @@
+[
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "applicationNumber": "AU_2004_318833_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "jurisdiction": "AU",
+  "kind": "A1",
+  "opiDate": "2005-11-03",
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-04-22",
+      "documentNumber": "20040027785",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-12-17",
+      "documentNumber": "2004003349",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2005-11-03",
+  "publicationNumber": "2004318833",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "Carrying cases (e.g., for a computer mouse) comprising a pad and a fastener (e.g., a zipper) around the perimeter of the pad that may form a mouse pad when the fastener is unfastened, and may be folded along a dimension and the fastener fastened to form a storage pouch. Such carrying cases may include a rim to prevent a mouse from sliding off of the mouse pad, an attachment mechanism that may include a strap, a snap button, or both, or a combination thereof. Embodiments are neoprene having a thickness of 1 to 5 mm, have a fold dimension between 15 and 30 cm, or both. The fastener may have a pull tab located at one end of the fold when the fastener is unfastened and at an opposite end of the fold when the fastener is fastened. Pads may be round, oval, or rectangular with rounded corners."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "BELKIN INTERNATIONAL INC",
+      "SWEEN BARRY P",
+      "EVERS MAAIKE",
+      "SIMONIAN MIKE"
+    ]
+  },
+  "applicationNumber": "US_90973310_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["206216000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156",
+        "345/163",
+        "361/679",
+        "361/693",
+        "361/726",
+        "361/747"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A45F5/02",
+        "A45C9/00",
+        "A45C11/00",
+        "A45C2011/001",
+        "A45C2011/002",
+        "A45F5/021",
+        "G06F3/0395"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G09G5/00"]
+    }
+  ],
+  "filingDate": "2010-10-21",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SWEEN BARRY P",
+      "EVERS MAAIKE",
+      "SIMONIAN MIKE"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "nonPatentCitations": [
+    "Wholesale-Mouse Pad Laptop Accessories Carrying Case Pouch Bag, http://www.dhgate.com/mouse-pad-laptop-accessories-carrying-case/p-ff80808127274ba . . . , 6 pages. Nov. 10, 2010.",
+    "Mouse Trap Mice Mouse Pad Carry Case, neoprene, http://www.himfr.com/d-p1117435793554959225-Mouse-Trap-Mice-Mouse-Pad-Carr . . . , 2 pages. Nov. 10, 2010.",
+    "Amazon.com: Belkin F5L008-BRN Mouse Trap Mouse Pad, http://www.amazon.com/Belkin-F5L008-BRN-Mouse-Trap-Pad/dp/B000QJ6UCW/ref=s . . . , 6 pages. Nov. 10, 2010.",
+    "Mouse Pad/Pouch, https://theintelstore.conn/productcompact2.aspx?catalogid=2&categoryid=0&productid=6 . . . , 1 page. Nov. 10, 2010.",
+    "Black Half Circle Mouse Pouch Pad, http://www.brandsdragon.com/products/product-9946.htm, 3 pages. Nov. 10, 2010.",
+    "2 in 1 Clock Pattern Convertible Zip-Up Storage Mouse Trap Pad Travel Pouch, http://www.dinodirect.com/mouse-pad-carrying-case.html, 4 pages. Nov. 10, 2010.",
+    "Mouse Pad/Pouch, http://www.fortepromo.com/Custom-Imprinted-Mouse-Pad-Pouch-p/45095.htm, 2 pages. Nov. 10, 2010.",
+    "Q Pad Pouch (TF138N), http://travelmall.en.made-in-china.com/product/XeQmpExHFGik/China-Q-Pad-Pouch-T . . . , 2 pages. Nov. 10, 2010.",
+    "Convertible Zip-Up Mouse Storage/Pad-Black/Black, http://www.casecrown.com/electronics/mouses/convertible-zip-up-mouse-storage-pad-blac . . . , 2 pages. Jul. 28, 2010.",
+    "Blue Multifunction Mouse Pad Sleeve Case Bag Holder, http://www.sourcingmap.com/blue-multifunction-mouse-pad-sleeve-case-bag-holder-p-3 . . . , 2 pages. Nov. 10, 2010.",
+    "Multifunction mouse pouch pad, http://www.alibaba.com/product-gs/227898130/Multifunction-mouse-pouch-pad.html, 2 pages. Nov. 10, 2010.",
+    "Mouse pad, http://www.alibaba.com/product-gs/247860132/Mouse-pad.html, 2 pages. Nov. 10, 2010.",
+    "Laptop Netbook Accessories Pouch Bag Mouse Pad bag-gift, http://www.alibaba.com/product-gs/314263830/Laptop-Netbook-Accessories-Pouch-ba . . . , 5 pages. Nov. 10, 2010."
+  ],
+  "opiDate": "2013-01-08",
+  "patentCitations": [
+    "US_179461_A",
+    "US_2274718_A",
+    "US_2755837_A",
+    "US_4566130_A",
+    "US_6655647_B1",
+    "US_6989814_B1",
+    "US_7281698_B2",
+    "US_7843432_B2",
+    "US_6186321_B1",
+    "US_7207539_B1",
+    "US_D555351_S1",
+    "US_2005_0067319_A1",
+    "US_2007_0084976_A1"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2010-10-21",
+      "documentNumber": "90973310",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2007-01-05",
+      "documentNumber": "64999307",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2013-01-08",
+  "publicationNumber": "8350808",
+  "title": {
+    "language": "en",
+    "text": "Mouse pad carrying case"
+  }
+}
+]

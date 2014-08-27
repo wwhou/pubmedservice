@@ -1,0 +1,193 @@
+[
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["XEROX CORP"]
+  },
+  "applicationNumber": "EP_00113241_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F2203/0333",
+        "G06F2203/0334"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2000-06-21",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "REID JAMES J",
+      "BOUDREAU DALE E"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2008-06-18",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1999-06-24",
+    "documentNumber": "33960699",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-06-18",
+  "publicationNumber": "1063608",
+  "title": {
+    "language": "en",
+    "text": "Ergonomic computer mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A standalone virtual device driver that is not a mouse driver replacement or a mouse minidriver examines mouse data packets received from the mouse hardware for data packets that are obviously or likely to be faulty. When such a data packet is detected, the virtual device driver also removes the suspected faulty data by returning a null mouse packet to the mouse driver in its place. The virtual device driver may also initiate resynchronization procedures or reset the mouse hardware if necessary."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["SPOTWARE TECHNOLOGIES INC"]
+  },
+  "applicationNumber": "US_7494798_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "710/19.000",
+        "710/64.000",
+        "710/73.000",
+        "714/40.000",
+        "714044000O",
+        "714/47.300",
+        "714/48.000",
+        "714/49.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "714/44",
+        "714/40",
+        "714/44",
+        "714/47",
+        "714/48",
+        "714/49",
+        "710/19",
+        "710/64",
+        "710/73"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/038"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/038"]
+    }
+  ],
+  "filingDate": "1998-05-08",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PATTERSON JR JOHN L"]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "opiDate": "2000-08-01",
+  "patentCitations": [
+    "US_4386346_A",
+    "US_5164713_A",
+    "US_5264836_A",
+    "US_5287120_A",
+    "US_5565887_A",
+    "US_5570111_A",
+    "US_5574858_A",
+    "US_5675129_A",
+    "US_5699082_A",
+    "US_5732283_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "1998-05-08",
+    "documentNumber": "7494798",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2000-08-01",
+  "publicationNumber": "6098184",
+  "title": {
+    "language": "en",
+    "text": "Method for improving mouse performance and virtual device driver therefor"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "Computer mouse for operation of functions when using a computer, comprising a housing (10), and three control means in the form of a primary mouse button (12), a secondary mouse button (14) and a scroll means (16). The primary (12) and secondary mouse button (14) and scroll means (16) is being so arranged interrelated that the primary mouse button (12) is located between the scroll means (16) and the secondary mouse button (14). The secondary mouse button is preferably substantially vertically placed and made of a material or coated with a coating that gives increased friction."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["EVJE EIVIND"]
+  },
+  "applicationNumber": "NO_2013050167_W",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/03543",
+        "G06F3/0362",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0362"
+      ]
+    }
+  ],
+  "filingDate": "2013-10-03",
+  "inventors": {
+    "language": "ot",
+    "texts": ["EVJE EIVIND"]
+  },
+  "jurisdiction": "WO",
+  "kind": "A1",
+  "opiDate": "2014-04-10",
+  "patentCitations": [
+    "US_2006_0125791_A1",
+    "US_6377245_B1",
+    "WO_2006_042476_A1"
+  ],
+  "priorities": [{
+    "countryCode": "NO",
+    "documentDate": "2012-10-05",
+    "documentNumber": "20121131",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2014-04-10",
+  "publicationNumber": "2014054952",
+  "title": {
+    "language": "en",
+    "text": "ERGONOMIC COMPUTER MOUSE"
+  }
+}
+]

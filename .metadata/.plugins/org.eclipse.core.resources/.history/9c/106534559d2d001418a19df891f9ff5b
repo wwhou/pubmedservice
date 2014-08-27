@@ -1,0 +1,74 @@
+package org.service;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+import org.lens.client.PatentClient;
+import org.lens.crawler.PatentParameter;
+
+public class TestSearch {
+	
+	public static void main(String[] args) throws IOException {
+		PatentClient patentClient=new PatentClient();
+		PatentParameter patentParam=new PatentParameter();
+		patentParam.setRetMax(200);
+		patentParam.setSortField("-pub_date");
+		patentParam.setTerm("mouse");
+		patentClient.call(patentParam);
+		
+	InputStream stream = patentClient.call(patentParam);
+		
+		BufferedReader br1 = new BufferedReader(new InputStreamReader(stream));
+		
+		byte[] buffer = new byte[1024];
+		 
+	     
+	 
+	    	//create output directory is not exists
+	    	File folder = new File("testFolder");
+	    	if(!folder.exists()){
+	    		folder.mkdir();
+	    	}
+	 
+	    	//get the zip file content
+	    	ZipInputStream zis = 
+		    		new ZipInputStream(stream);
+	    	//get the zipped file list entry
+	    	ZipEntry ze = zis.getNextEntry();
+	 
+	    	while(ze!=null){
+	 
+	    	   String fileName = ze.getName();
+	           File newFile = new File(folder+ File.separator + fileName);
+	 
+	           System.out.println("file unzip : "+ newFile.getAbsoluteFile());
+	 
+	            //create all non exists folders
+	            //else you will hit FileNotFoundException for compressed folder
+	            new File(newFile.getParent()).mkdirs();
+	 
+	            FileOutputStream fos = new FileOutputStream(newFile);             
+	 
+	            int len;
+	            while ((len = zis.read(buffer)) > 0) {
+	       		fos.write(buffer, 0, len);
+	            }
+	 
+	            fos.close();   
+	            ze = zis.getNextEntry();
+	    	}
+	 
+	        zis.closeEntry();
+	    	zis.close();
+	 
+	    	System.out.println("Done");
+		patentClient.closeResponse();
+	}
+
+}

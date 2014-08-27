@@ -1,0 +1,219 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A dual mode computer mouse including a first mouse body and a second mouse body is disclosed. The first mouse body includes a first sensor, a first button and at least a second button. A second sensor is disposed either in the first or the second mouse body. The second mouse body includes a third button and is hinged to one tail end of the first mouse body. The first mouse body and the second mouse body can rotate relatively. When the dual mode computer mouse is in a palm-type configuration, the first button and, third button and the second sensor are activated. When the dual mode computer mouse forms a pen-type configuration, the third button is activated and the first sensor is in an activated state."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "HUANG HSUN-LI",
+      "YIN CHUN-HSIUNG"
+    ]
+  },
+  "applicationNumber": "US_98290404_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "178/18.010",
+        "345156000O",
+        "345163000P",
+        "345/163.000",
+        "345/179.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03545",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2004-11-08",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HUANG HSUN-LI",
+      "YIN CHUN-HSIUNG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2005-06-02",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-12-02",
+    "documentNumber": "92133940",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-06-02",
+  "publicationNumber": "2005116933",
+  "title": {
+    "language": "en",
+    "text": "Dual mode computer mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A dual mode computer mouse including a first mouse body and a second mouse body is disclosed. The first mouse body includes a first sensor, a first button and at least a second button. A second sensor is disposed either in the first or the second mouse body. The second mouse body includes a third button and is hinged to one tail end of the first mouse body. The first mouse body and the second mouse body can rotate relatively. When the dual mode computer mouse is in a palm-type configuration, the first button and, third button and the second sensor are activated. When the dual mode computer mouse forms a pen-type configuration, the third button is activated and the first sensor is in an activated state."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["QISDA CORP"]
+  },
+  "applicationNumber": "US_98290404_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "178/18.010",
+        "345156000O",
+        "345163000P",
+        "345/163.000",
+        "345/179.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156",
+        "345/163",
+        "345/179",
+        "178/18.01"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03545",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G09G5/00",
+        "G06F3/033",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2004-11-08",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HUANG HSUN-LI",
+      "YIN CHUN-HSIUNG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "opiDate": "2008-02-19",
+  "patentCitations": [
+    "US_5434594_A",
+    "US_5764224_A",
+    "US_6043807_A",
+    "US_6184869_B1",
+    "US_7030864_B2",
+    "US_2004_0032392_A1"
+  ],
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-12-02",
+    "documentNumber": "92133940",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-02-19",
+  "publicationNumber": "7333086",
+  "title": {
+    "language": "en",
+    "text": "Dual mode computer mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse includes a mouse body having a flat base for moving over a flat surface, one or more key-activated electrical switches, each having an activation direction parallel to the base, and a wrist support extending from the mouse body."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["WAI KO ELECTRONICS LTD"]
+  },
+  "applicationNumber": "US_80883704_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2004-03-25",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LEUNG WILLIE",
+      "LEUNG ALAN WAI-LUN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2005-09-29",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2004-03-25",
+    "documentNumber": "80883704",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-09-29",
+  "publicationNumber": "2005212771",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse"
+  }
+}
+]

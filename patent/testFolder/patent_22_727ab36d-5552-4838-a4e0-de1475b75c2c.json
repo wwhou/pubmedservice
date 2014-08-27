@@ -1,0 +1,222 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse includes a mouse body and a hood. The hood is adjustably attached to a top of the mouse body."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "CHOU CHIA-SHIN",
+      "YE ZHEN-XING",
+      "HONGFUJIN PREC IND SHENZHEN",
+      "HON HAI PREC IND CO LTD"
+    ]
+  },
+  "applicationNumber": "US_61956909_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345163000O",
+        "345163000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/039",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/039"]
+    }
+  ],
+  "filingDate": "2009-11-16",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "CHOU CHIA-SHIN",
+      "YE ZHEN-XING"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "opiDate": "2012-04-24",
+  "patentCitations": [
+    "US_5457480_A",
+    "US_6369797_B1",
+    "US_2007_0035520_A1",
+    "US_2008_0186277_A1",
+    "US_2010_0007607_A1"
+  ],
+  "priorities": [{
+    "countryCode": "CN",
+    "documentDate": "2009-08-21",
+    "documentNumber": "200910305927",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-04-24",
+  "publicationNumber": "8164568",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse includes two components. A fully functional module mouse and a shell mouse that fits over the module mouse. The module mouse is configured to perform at least one complete mouse function, independently of the shell mouse. Other functions can be split between the shell mouse and the module mouse, in any desired way."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["MICROSOFT CORP"]
+  },
+  "applicationNumber": "US_69782107_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345163000O",
+        "345163000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543",
+        "G06F2203/0333"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/038"]
+    }
+  ],
+  "filingDate": "2007-04-09",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LARSEN GLEN"]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "nonPatentCitations": [
+    "\"Mouse Pointing Device Package Design\", http://www.cyberhand.com/products.htm.",
+    "Francis K.H. Quek et al., \"FingerMouse: A Freehand Pointing Interface\", (VISLab) Electrical Engineering and Computer Science Department, Chicago, IL. (1995)."
+  ],
+  "opiDate": "2011-04-12",
+  "patentCitations": [
+    "US_6031522_A",
+    "US_6256015_B1",
+    "US_7295186_B2",
+    "US_7598711_B2",
+    "US_7633486_B2",
+    "US_5894302_A",
+    "US_6396478_B1",
+    "US_6714188_B1",
+    "US_6922186_B2",
+    "US_7016185_B2",
+    "US_2004_0080493_A1",
+    "US_2005_0174330_A1",
+    "US_2006_0007152_A1",
+    "US_2006_0187206_A1"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2007-04-09",
+    "documentNumber": "69782107",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2011-04-12",
+  "publicationNumber": "7924266",
+  "title": {
+    "language": "en",
+    "text": "Stand alone module mouse with replaceable cover"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A computer mouse designed to reduce the symptoms of and/or prevent Carpel Tunnel Syndrome."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "COOK STEPHEN JAMES",
+      "TALASANI RAGHURAM REDDY"
+    ]
+  },
+  "applicationNumber": "US_2012_0055227_W",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/039",
+        "G06F2203/0332"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2012-09-13",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "COOK STEPHEN JAMES",
+      "TALASANI RAGHURAM REDDY"
+    ]
+  },
+  "jurisdiction": "WO",
+  "kind": "A1",
+  "opiDate": "2013-03-21",
+  "patentCitations": [
+    "US_7609251_B2",
+    "US_2009_0303183_A1",
+    "US_2011_0043988_A1",
+    "US_5894302_A",
+    "US_6431504_B1"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2011-09-14",
+    "documentNumber": "201113232228",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2013-03-21",
+  "publicationNumber": "2013040253",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+]

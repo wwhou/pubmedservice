@@ -1,0 +1,257 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A keyboard and mouse operation data recording/reproducing system for recording/reproducing or further editing, programming the operation data of a set of keyboard and mouse and method thereof. The keyboard and mouse operation data recording/reproducing system, coupled to a keyboard, a mouse, a display and at least one computer. The keyboard and mouse operation recording/reproducing system includes a keyboard and mouse recording unit, a memory, a mark generator and a keyboard and mouse emulator. The keyboard and mouse recording unit records keyboard and mouse operation data and reproduces the recorded keyboard and mouse operation data. The memory is for storing the recorded operation data. The mark generator generates marks for events of the recorded operation data while the recorded operation data is stored. The keyboard and mouse emulator receives the reproduced operation data to replay the keyboard and mouse operation to the computer."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["ATEN INT CO LTD"]
+  },
+  "applicationNumber": "US_40929906_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345168000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/168.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/038"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G09G5/00",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2006-04-21",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HUANG WEI-MIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2007-10-25",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2006-04-21",
+    "documentNumber": "40929906",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-10-25",
+  "publicationNumber": "2007247430",
+  "title": {
+    "language": "en",
+    "text": "Keyboard and mouse operation data recording/reproducing system and method thereof"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse, activated by a touch medium, is provided. The mouse includes a mouse body, a sensor, a power source and a mouse circuit. The sensor is disposed on the body, wherein the sensor sends a switch signal according to a distance between the touch medium and the sensor. The mouse circuit is electrically connected to the power source and the sensor, wherein the mouse circuit activates or deactivates the mouse according to the switch signal."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "MA MOU-MING",
+      "LAI YEN-BO",
+      "CHEN SHUI-I"
+    ]
+  },
+  "applicationNumber": "US_201113008596_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F1/3231",
+        "G06F1/3259",
+        "Y02B60/1253"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2011-01-18",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "MA MOU-MING",
+      "LAI YEN-BO",
+      "CHEN SHUI-I"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2012-07-19",
+  "patentCitations": [
+    "US_6859196_B2",
+    "US_2009_0140983_A1",
+    "US_2007_0035520_A1"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2011-01-18",
+    "documentNumber": "201113008596",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-07-19",
+  "publicationNumber": "2012182219",
+  "title": {
+    "language": "en",
+    "text": "MOUSE"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The present invention provides in a first aspect a mouse in which the lambda(lambda) light chain locus has been functionally silenced. In one embodiment, the mouse lambda light chain locus was functional silenced by deletion of gene segments coding for the lambda light chain locus. In a further aspect, a mouse containing functionally silenced lambda and kappa (kappa) L chain loci was produced. The invention is useful for the production of antibodies, for example heterologous antibodies, including heavy chain only antibodies."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["TRANSLOCUS LTD"]
+  },
+  "applicationNumber": "US_48139504_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "435354000S",
+        "800018000P",
+        "800/21.000",
+        "800022000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "800/22",
+        "800/21"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A01K67/0276",
+        "A01K2217/075",
+        "A01K2227/105",
+        "C07K16/00",
+        "C12N2800/30"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A01K67/00",
+        "C07K16/00",
+        "C12N15/00",
+        "C12N15/13"
+      ]
+    }
+  ],
+  "filingDate": "2004-02-10",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "BRUGGEMAN MARIANNE",
+      "ZOU XIANGANG"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "nonPatentCitations": [
+    "Houdebine et al. (2000) Transgenic Research 9:305-320.",
+    "Kolb et al. (1999) Gene 227:21-31.",
+    "Sigmund, C., (2000) Arterioscler. Thromb. Vasc. Biol., p. 1425-1429.",
+    "Leiter et al. (2002) Diabetologia 45:296-308.",
+    "Lariviere et al. (2001) J. Pharm. And Exp. Therap. 297:467-473.",
+    "Zou et al. (2005) J. Immunology 175:3769-3779.",
+    "Bell et al., The EMBO Journal 13(4): 816-826 (1994).",
+    "Boudinot et al., European Journal of Immunology 24(9): 2013-2017 (1994) (Abstract XP-002238056).",
+    "Br??ggemann et al., Proc. Natl. Acad. Sci. USA 86: 6709-6713 (1989).",
+    "Donohoe et al., The Journal of Immunology 164: 5269-5276 (2000).",
+    "Gu et al., Cell 73: 1155-1164 (1993).",
+    "Hamers-Casterman et al., Nature 363(6428): 446-448 (1993) (Abstract XP-002238053).",
+    "Hogan et al., In: Manipulating the Mouse Embryo, Section E, a laboratory manual, Cold Spring Harbor Laboratory Press, Cold Spring Harbor, pp. 217-251 (1994).",
+    "Hogan et al., In: Manipulating the Mouse Embryo, Section F, a laboratory manual, Cold Spring Harbor Laboraty Press, Cold Spring Harbor, pp. 253-289 (1994).",
+    "Li et al., Proc. Natl. Acad. Sci. 93: 6158-6162 (1996).",
+    "March et al., Analytical Biochemistry 60: 149-152 (1974).",
+    "Miller et al., Nature 295: 428-430 (1982).",
+    "Nicholson et al., The Journal of Immunology 163: 6898-6906 (1999).",
+    "Popov et al., J. Exp. Med. 189(10): 1611-1619 (1999).",
+    "Riechmann et al., Journal of Immunological Methods 231(1-2): 25-38 (1999) (Abstract XP-002238054).",
+    "Selfridge et al., Somatic Cell and Molecular Genetics 18(4): 325-336 (1992).",
+    "Transue et al., Proteins 32(4): 515-522 (1998) (Abstract XP-002238055).",
+    "Zou et al., Eur. J. Immunol. 25: 2154-2162 (1995).",
+    "Li et al., Proc. Natl. Acad. Sci. USA 93: 6158-6162 (1996).",
+    "Lonberg, Nature Biotechnology 23(9): 1117-1125 (2005).",
+    "Madsen et al., Proc. Natl. Acad. Sci. USA 96: 10338-10343 (1999).",
+    "Schlake et al., Oncogene 18: 6078-6082 (1999).",
+    "van Deursen et al., Proc. Natl. Acad. Sci. USA 92: 7376-7380 (1995).",
+    "Zheng et al., Molecular and Cellular Biology 20(2): 648-655 (2000).",
+    "Zou et al., The Journal of Immunology 170: 1354-1361 (2003).",
+    "Hunt et al., Journal of Immunological Methods 65: 199-205 (1983).",
+    "Thompson et al., Journal of Neuroimmunology 2: 321-330 (1982)."
+  ],
+  "opiDate": "2009-06-02",
+  "patentCitations": [
+    "WO_1994_002602_A1",
+    "WO_1996_033735_A1",
+    "WO_1998_024884_A1",
+    "WO_2000_026373_A1"
+  ],
+  "priorities": [
+    {
+      "countryCode": "GB",
+      "documentDate": "2001-06-21",
+      "documentNumber": "0115256",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "GB",
+      "documentDate": "2002-06-21",
+      "documentNumber": "0202867",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2009-06-02",
+  "publicationNumber": "7541513",
+  "title": {
+    "language": "en",
+    "text": "Mouse lambda light chain locus"
+  }
+}
+]

@@ -1,0 +1,287 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A method and apparatus to change a mouse cursor corresponding to an item on which mouse cursor is located, with the method to change the mouse cursor including: locating the mouse cursor on the predetermined printing option item on the User Interface (UI) corresponding to a printing option setting; and changing the shape of the mouse cursor into the image corresponding to the function of the printing option item on which the mouse cursor is located. Accordingly, a user can more easily understand corresponding functions through the shapes of the mouse cursor changed into the image corresponding to the function on which the mouse cursor is located at the time."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["SAMSUNG ELECTRONICS CO LTD"]
+  },
+  "applicationNumber": "US_48607706_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "715856000P",
+        "715859000S",
+        "715861000S",
+        "715862000S"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "715/856.000",
+        "715/861.000",
+        "715/862.000",
+        "715/859.000"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/04812"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/00"]
+    }
+  ],
+  "filingDate": "2006-07-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "KIM DUK-YONG",
+      "LEE HEE-RAN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2007-01-25",
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "2005-07-19",
+    "documentNumber": "20050065512",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2007-01-25",
+  "publicationNumber": "2007022391",
+  "title": {
+    "language": "en",
+    "text": "Method and apparatus for changing a shape of a mouse cursor corresponding to an item on which the mouse cursor is located"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "This invention is directed to a chimeric mouse capable of mounting murine cellular and humoral immune response, where the chimeric mouse is tolerant of human tissue implanted therein. The chimeric mouse of this invention is capable of developing murine T cells and producing murine IgG antibodies, which T cells and antibodies are tolerant of the human tissue implanted in the mouse. This allows for the challenge of the vaccinated mouse with human-specific pathogens and determining the capacity of the vaccine to protect the cells in the implanted tissue from infection. This invention is also directed to a method for the development of the chimeric mouse, as well as to the use of the chimeric mouse for the screening of vaccines for human-specific pathogens."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["EINSTEIN COLL MED"]
+  },
+  "applicationNumber": "US_11542498_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "424/9.100",
+        "424009200O",
+        "800/8.000",
+        "800/9.000",
+        "800/11.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "424/9.2",
+        "800/8",
+        "800/9",
+        "800/11",
+        "424/9.1"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["A01K67/0271"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["A01K67/027"]
+    }
+  ],
+  "filingDate": "1998-07-15",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "GOLDSTEIN HARRIS",
+      "KOLLMANN TOBIAS R"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "nonPatentCitations": [
+    "Development of Multiple Organ Localized Autoimmune Diseases in Nude Mice After Reconstitution of T Cell Function by Rat Fetal Thymus Graft , by Taguchi et al., in J. Exp. Med. , vol. 164, pp. 62 71, (Jul., 1986).",
+    "Long Term Human Hematopoiesis in the SCID hu Mouse , by Namikawa et al., in J. Exp. Med. , vol. 172, pp. 1055 1063 (Oct., 1990).",
+    "The SCID hu Mouse: Murine Model for the Analysis of Human Hematolymphoid Differentiation and Function , by McCune et al., in Science , vol. 241, pp. 1632 1639 (Sep. 23, 1988).",
+    "Transfer of a Functional Human Immune System to Mice with Severe Combined Immunodeficiency , by Mosier et al., in Nature , vol. 335, pp. 256 259 (Sep. 1988)."
+  ],
+  "opiDate": "2000-04-25",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1998-07-15",
+      "documentNumber": "11542498",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1996-10-29",
+      "documentNumber": "73928196",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1994-09-20",
+      "documentNumber": "30956394",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1992-08-03",
+      "documentNumber": "92434892",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2000-04-25",
+  "publicationNumber": "6054116",
+  "title": {
+    "language": "en",
+    "text": "Chimeric mouse for human and mouse immune systems"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The present invention provides an immunodeficient mouse (NOG mouse) suitable for engraftment, differentiation and proliferation of heterologous cells, and a method of producing such a mouse. This mouse is obtained by backcrossing a C.B-17-scid mouse with an NOD/Shi mouse, and further backcrossing an interleukin 2-receptor ??-chain gene-knockout mouse with the thus backcrossed mouse. It is usable for producing a human antibody and establishing a stem cell assay system, a tumor model and a virus-infection model."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "ITO MAMORU",
+      "KOBAYASHI KIMIO",
+      "NAKAHATA TATSUTOSHI",
+      "TSUJI KOICHIRO",
+      "HABU SONOKO",
+      "KOYANAGI YOSHIO",
+      "YAMAMOTO NAOKI",
+      "SUGAMURA KAZUO",
+      "ANDO KIYOSHI",
+      "NOMURA TATSUJI"
+    ]
+  },
+  "applicationNumber": "US_62046909_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "424577000O",
+        "800006000P",
+        "800/8.000",
+        "800/21.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["800/6"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "C07K16/18",
+        "A01K67/027",
+        "A01K67/0271",
+        "A01K2267/03",
+        "A01K2267/0331",
+        "A01K2267/0337",
+        "A61K39/00"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "C12P21/00",
+        "A01K67/027",
+        "A61K39/00",
+        "C12N5/08",
+        "C12N15/12"
+      ]
+    }
+  ],
+  "filingDate": "2009-11-17",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ITO MAMORU",
+      "KOBAYASHI KIMIO",
+      "NAKAHATA TATSUTOSHI",
+      "TSUJI KOICHIRO",
+      "HABU SONOKO",
+      "KOYANAGI YOSHIO",
+      "YAMAMOTO NAOKI",
+      "SUGAMURA KAZUO",
+      "ANDO KIYOSHI",
+      "NOMURA TATSUJI"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2011-01-13",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2009-11-17",
+      "documentNumber": "62046909",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "2000-12-01",
+      "documentNumber": "2000367296",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2006-09-08",
+      "documentNumber": "51769806",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2002-09-10",
+      "documentNumber": "22154902",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "2001-10-25",
+      "documentNumber": "0109401",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2011-01-13",
+  "publicationNumber": "2011010781",
+  "title": {
+    "language": "en",
+    "text": "Method of Producing a Mouse Suitable for Engraftment, Differentiation and Proliferation of Heterologous Cells, Mouse Produced by This Method and Use of the Mouse"
+  }
+}
+]

@@ -1,0 +1,115 @@
+[
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "applicationNumber": "AU_2004_318833_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "jurisdiction": "AU",
+  "kind": "B2",
+  "opiDate": "2006-09-21",
+  "patentCitations": [
+    "WO_1991_004526_A1",
+    "WO_2002_052494_A2"
+  ],
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-04-22",
+      "documentNumber": "20040027785",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-12-17",
+      "documentNumber": "2004003349",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2006-09-21",
+  "publicationNumber": "2004318833",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "applicationNumber": "AU_2004_318833_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0383",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2004-12-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["HAN CHANG-YONG"]
+  },
+  "jurisdiction": "AU",
+  "kind": "A1",
+  "opiDate": "2005-11-03",
+  "priorities": [
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-04-22",
+      "documentNumber": "20040027785",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "KR",
+      "documentDate": "2004-12-17",
+      "documentNumber": "2004003349",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2005-11-03",
+  "publicationNumber": "2004318833",
+  "title": {
+    "language": "en",
+    "text": "Mouse"
+  }
+}
+]

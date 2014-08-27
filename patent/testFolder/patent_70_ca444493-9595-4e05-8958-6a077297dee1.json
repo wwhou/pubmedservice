@@ -1,0 +1,83 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A flexible membrane extends over the upper surface of a mouse pad and a mouse resting on the pad in order to keep the mouse pad clean and prevent contamination of the mouse ball with dirt and other foreign matter."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["PERRY; ROBERT C."]
+  },
+  "applicationNumber": "US_13423098_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "248/118.000",
+        "345163000O",
+        "345/167.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163",
+        "345/167",
+        "248/118"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/0395"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/039"]
+    }
+  ],
+  "filingDate": "1998-08-14",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PERRY ROBERT C"]
+  },
+  "jurisdiction": "US",
+  "kind": "A",
+  "opiDate": "2000-03-28",
+  "patentCitations": [
+    "US_4799054_A",
+    "US_4893954_A",
+    "US_5193925_A",
+    "US_5203845_A",
+    "US_5245146_A",
+    "US_5488392_A",
+    "US_5556061_A",
+    "US_5562270_A",
+    "US_5738325_A"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1998-08-14",
+      "documentNumber": "13423098",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1997-04-23",
+      "documentNumber": "84230497",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2000-03-28",
+  "publicationNumber": "6043808",
+  "title": {
+    "language": "en",
+    "text": "Computer mouse assembly including a protective cover"
+  }
+}
+]

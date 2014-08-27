@@ -1,0 +1,235 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An embodiment of the present invention provides a carrying case for computer and electronic accessories containing a foldable mouse pad 90. The foldable mouse pad includes a perimeter extending around the mouse pad 130, wherein the perimeter contains a fastener 120, so that when the mouse pad folds it can form a storage pouch. Other embodiments of the present invention provide a mouse pad 200 having a pocket 220 for storage of computer and electronic accessories and a mouse pad comprising a perimeter of piping 180 to prevent a mouse from sliding off the mouse pad on an uneven surface."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "SWEEN BARRY",
+      "EVERS MAAIKE",
+      "SIMONIAN MIKE"
+    ]
+  },
+  "applicationNumber": "US_64999307_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "D03201000X",
+        "D03226000X",
+        "D03301000X",
+        "D06626000X",
+        "D06632000X",
+        "D06635000X",
+        "206216000P",
+        "206/307.100",
+        "206/320.000",
+        "345/156.000",
+        "345163000O",
+        "383/21.000",
+        "383/31.000",
+        "383/42.000",
+        "383/78.000",
+        "383/84.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["206/216"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A45F5/02",
+        "A45C9/00",
+        "A45C11/00",
+        "A45C2011/001",
+        "A45C2011/002",
+        "A45F5/021",
+        "G06F3/0395"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["B65D77/22"]
+    }
+  ],
+  "filingDate": "2007-01-05",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "SWEEN BARRY",
+      "EVERS MAAIKE",
+      "SIMONIAN MIKE"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2008-07-10",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2007-01-05",
+    "documentNumber": "64999307",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2008-07-10",
+  "publicationNumber": "2008164157",
+  "title": {
+    "language": "en",
+    "text": "Mouse pad carrying case"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A barcode-readable computer mouse is disclosed. A barcode scanner is integrated into a computer mouse. The barcode-readable computer mouse comprises at least one mouse key, at least one mouse sensor, a barcode sensor, a circuit board, and a trigger means. The barcode sensor is selected from a contact type barcode sensor and a non-contact type barcode sensor and is installed at one of the end portions or the bottom of a computer mouse. Moreover, the barcode image sensor is selected from a group containing a CCD sensor, an optic pen sensor, and a laser sensor. The mouse sensor is selected from a group containing a wired computer mouse and a wireless computer mouse. Therefore, it has both functions of a controller and a barcode reading device. Moreover, the data outputted from a mouse is transferred to a connected web-cite using a browser."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LEE MARTIN"]
+  },
+  "applicationNumber": "US_97354901_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["235462450P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["235/462.45"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06K7/10881",
+        "G06F3/03543"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06K7/10"
+      ]
+    }
+  ],
+  "filingDate": "2001-10-09",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LEE MARTIN"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2002-08-29",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2001-02-26",
+    "documentNumber": "90202858",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2002-08-29",
+  "publicationNumber": "2002117549",
+  "title": {
+    "language": "en",
+    "text": "Barcode-readable computer mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse tray apparatus includes a substantially planar mouse tray pivotally mounted at a bottom mid-portion thereof to a base such that as an operator moves a mouse over a top surface of the mouse tray, a weight of the operator&#039;s hand on the mouse causes the tray to tilt downward in a direction corresponding to a location of the mouse on the mouse tray. A bias force can be provided to resists tilting of the mouse tray away from a horizontal position, so that as the operator moves a mouse over a top surface of the mouse tray, a weight of the operator&#039;s hand on the mouse overcomes the bias force and causes the mouse tray to tilt."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["SIMIC MARK"]
+  },
+  "applicationNumber": "US_62352707_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "248/118.100",
+        "248372100O",
+        "248576000P",
+        "248618000S",
+        "248918000S",
+        "248/918.000"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "248/372.1",
+        "248/118.1",
+        "248/918"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0395",
+        "Y10S248/918"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A47G29/00",
+        "B43L15/00"
+      ]
+    }
+  ],
+  "filingDate": "2007-01-16",
+  "inventors": {
+    "language": "ot",
+    "texts": ["SIMIC MARK"]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "opiDate": "2009-05-05",
+  "patentCitations": [
+    "US_3419238_A",
+    "US_3879112_A",
+    "US_4069995_A",
+    "US_4157861_A",
+    "US_5636822_A",
+    "US_5730408_A",
+    "US_5771990_A",
+    "US_5826842_A",
+    "US_6526896_B2",
+    "US_6592085_B2",
+    "US_6726158_B2"
+  ],
+  "priorities": [{
+    "countryCode": "CA",
+    "documentDate": "2006-01-30",
+    "documentNumber": "2534736",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2009-05-05",
+  "publicationNumber": "7527234",
+  "title": {
+    "language": "en",
+    "text": "Dynamic mouse tray"
+  }
+}
+]

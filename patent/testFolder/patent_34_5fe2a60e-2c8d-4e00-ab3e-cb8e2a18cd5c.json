@@ -1,0 +1,174 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An improved mouse structure, having a receiving chamber within a hand-held portion of thereof. The receiving chamber is allocated without affecting operation of interior components of the mouse. The enclosure of the mouse can be open to store or hide articles in the receiving chamber. Thereby, an additional article storage is provided by the existing mouse of the computer."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHI CHUNG-PING"]
+  },
+  "applicationNumber": "US_67731303_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/0354",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2003-10-03",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHI CHUNG-PING"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2005-03-17",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2003-08-29",
+    "documentNumber": "92215684",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2005-03-17",
+  "publicationNumber": "2005057506",
+  "title": {
+    "language": "en",
+    "text": "Mouse structure"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An imaging apparatus comprising a mouse pad."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["KHOVAYLO MODEST"]
+  },
+  "applicationNumber": "US_7566702_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["348207100P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["348/207.1"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/0395",
+        "H04N1/00204",
+        "H04N1/195",
+        "H04N1/19594",
+        "H04N2201/0422",
+        "H04N2201/0436"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/039",
+        "H04N1/00",
+        "H04N1/195"
+      ]
+    }
+  ],
+  "filingDate": "2002-02-13",
+  "inventors": {
+    "language": "ot",
+    "texts": ["KHOVAYLO MODEST"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2003-08-14",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-02-13",
+    "documentNumber": "7566702",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-08-14",
+  "publicationNumber": "2003151666",
+  "title": {
+    "language": "en",
+    "text": "Imaging apparatus with mouse pad"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["GIGA BYTE TECH CO LTD"]
+  },
+  "applicationNumber": "EP_09173537_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354"
+      ]
+    }
+  ],
+  "filingDate": "2009-10-20",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "LIN YIN YU",
+      "LAI YEN-BO",
+      "CHEN MING-YUAN",
+      "CHEN SHU-I"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2012-05-16",
+  "priorities": [{
+    "countryCode": "EP",
+    "documentDate": "2009-10-20",
+    "documentNumber": "09173537",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2012-05-16",
+  "publicationNumber": "2315104",
+  "title": {
+    "language": "en",
+    "text": "Silent mouse"
+  }
+}
+]

@@ -11,6 +11,7 @@ import java.util.concurrent.Future;
 
 import org.pubMed.crawlers.EFetch;
 import org.pubMed.jaxb.eSearch.Id;
+import org.utils.PubMedMultiThreadsCall.MyCallable;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -32,21 +33,24 @@ public class PubMedMultiThreadsCall {
 			
 			int i=0;
 			String fetchIds="db="+db+"&id="+idList.get(0).getContent()+",";
+			
 			while (i < length) {
-				if ((i + 1) % 100 == 0) {	
+				if (i % 100 == 0) {
 					Future<PubMedSAXHandler> future = executor
-							.submit(new MyCallable(fetchIds));			
+							.submit(new MyCallable(fetchIds));	
 					results.add(future);
-				//	System.out.println(fetchIds);
-					fetchIds ="db="+db+"&id="+ idList.get(i).getContent();
-				} else {
-					if (i > 0)
-						fetchIds += ",";
-					String id = idList.get(i+1).getContent();
-					fetchIds += id;					
+					// System.out.println(fetchIds);
+					fetchIds = "db=" + db + "&id=" + idList.get(i).getContent();
+				} else{
+					fetchIds += ",";
+					String id = idList.get(i).getContent();
+					fetchIds += id;
 				}
 				i++;
 			}
+			Future<PubMedSAXHandler> future = executor
+					.submit(new MyCallable(fetchIds));	
+			results.add(future);
 			executor.shutdown();
 			
 		}

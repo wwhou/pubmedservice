@@ -1,0 +1,174 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse device includes a motion detector for detecting motion of the mouse relative to a work surface. An optical mouse button optically detects movement of a finger positioned on the optical mouse button. A controller generates button press information based on the optically detected movement. The button press information indicates whether the optical mouse button has been actuated."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["WEI PATRICK"]
+  },
+  "applicationNumber": "US_10902202_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["G06F3/03543"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2002-03-28",
+  "inventors": {
+    "language": "ot",
+    "texts": ["WEI PATRICK"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2003-10-02",
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2002-03-28",
+    "documentNumber": "10902202",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-10-02",
+  "publicationNumber": "2003184520",
+  "title": {
+    "language": "en",
+    "text": "Mouse with optical buttons"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The present invention offers a mouse pad with wire-wound (WW) induction coil, which is designed for use with battery-free wireless optical mouse. Both the mouse pad and battery-free wireless optical mouse are equipped with induction coils. The features include: the mouse pad device includes a mouse pad of smooth surface and a loop induction coil placed under the smooth surface. At the inner edge of the mouse pad, the loop induction coil forms a closed-loop coil wound by an enameled wire, and there is a proper clearance or close contact between an incoming line and an outgoing line. Also, closed-loop coil is delivered in any geometrical form free of any coil within the inner space, such that a uniformly distributed electromagnetic field can be generated in the mouse pad and most effective electrodynamic force is induced by battery-free wireless optical mouse."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["CHIN CHANG-CHUNG"]
+  },
+  "applicationNumber": "US_10644505_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163.000"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F3/0395"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/033",
+        "G06F3/0354",
+        "G06F3/039",
+        "G09G5/08"
+      ]
+    }
+  ],
+  "filingDate": "2005-04-15",
+  "inventors": {
+    "language": "ot",
+    "texts": ["CHIN CHANG-CHUNG"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2005-12-15",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2004-06-15",
+    "documentNumber": "93117237",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2005-12-15",
+  "publicationNumber": "2005275629",
+  "title": {
+    "language": "en",
+    "text": "Mouse pad with wire-wound induction coil"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An improved ergonomic computer mouse (21) is provided. One or more click buttons (13) are formed at the front edge of the ergonomic computer mouse so as to use primarily the first finger joint during mouse manipulation. Therefore, it is possible for the fingers to take a natural posture thereof without any physical strain. In addition, since the user presses the click buttons with the user&#039;s wrist fixed to the computer table, it is possible that the wrist takes a natural posture thereof and the user manipulates the mouse with ease and stability. One or more grooves capable of accommodating the fingers or the palm of the hand therein are formed on the mouse body, thereby providing the user&#039;s comfort even throuh the user manipulates the mouse for long time."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LEE JENG HUN"]
+  },
+  "applicationNumber": "KR_9900695_W",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03543",
+        "G06F2203/0333",
+        "G06F2203/0334"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/0354"]
+    }
+  ],
+  "filingDate": "1999-11-17",
+  "inventors": {
+    "language": "ot",
+    "texts": ["LEE JENG HUN"]
+  },
+  "jurisdiction": "WO",
+  "kind": "A1",
+  "opiDate": "2000-05-25",
+  "patentCitations": [
+    "FR_2698986_A3",
+    "US_5648798_A",
+    "US_5576733_A",
+    "WO_1997_006480_A1"
+  ],
+  "priorities": [{
+    "countryCode": "KR",
+    "documentDate": "1998-11-17",
+    "documentNumber": "19980022729",
+    "documentKind": "U"
+  }],
+  "publicationDate": "2000-05-25",
+  "publicationNumber": "0029933",
+  "title": {
+    "language": "en",
+    "text": "ERGONOMIC COMPUTER MOUSE"
+  }
+}
+]

@@ -1,0 +1,267 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "A mouse that is deficient in the function of the gene for OASIS, and a method for screening for, or evaluating a pharmacological efficacy of, therapeutic agents for osteoporosis using the mouse."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["UNIV MIYAZAKI"]
+  },
+  "applicationNumber": "US_28132106_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "800003000P",
+        "800/8.000",
+        "800009000S",
+        "800/9.000",
+        "800018000O",
+        "800018000S"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "800/18",
+        "800/8",
+        "800/9"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A01K67/0276",
+        "A01K2217/075",
+        "A01K2227/105",
+        "A01K2267/035",
+        "C07K14/4702",
+        "C12N15/8509",
+        "G01N33/5088",
+        "G01N2800/108"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A01K67/027",
+        "A01K67/00",
+        "A01K67/033"
+      ]
+    }
+  ],
+  "filingDate": "2006-09-25",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "IMAIZUMI KAZUNORI",
+      "KONDO SHINICHI",
+      "WANAKA AKIO"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B2",
+  "nonPatentCitations": [
+    "Honma et al. Mol. Brain Res. 69:93-103; 1999.",
+    "Yutaka Honma et al., \"Identification of a novel gene, OASIS, which encodes for a putative CREB/ATF family transcription factor in the long-term cultured astrocytes andgliotic tissue\", Molecular Brain Research 69 (1999) 93-103.",
+    "Tomohiko Murakami et al., \"Cleavage of the membrane-bound transcription factor OASIS in response to endoplasmic reticulum stress\", Journal of Neurochemistry, 2006, 96, 1090-1100.",
+    "Kazunori Imaizumi et al., \"Saiboshu Tokuiteki Shohotai Stress Oto-astrocytes ni Hakken suru Shinki Shohotai Stress Sensor OASIS\", Folia Pharmacol. Jpn. 2004, vol. 124, pp. 383 to 390.",
+    "Supplementary European Search Report for EP 06 81 0983 dated Jan. 12, 2010.",
+    "T. Nikaido et al., \"Expression of the novel transcription factor OASIS, which belongs to the CREB/ATF family, in mouse embryo with special reference to bone development\", Histochemistry and Cell Biology, (2001) 116:141-148."
+  ],
+  "opiDate": "2010-12-07",
+  "patentCitations": ["JP_2005052016_A"],
+  "priorities": [
+    {
+      "countryCode": "JP",
+      "documentDate": "2006-03-08",
+      "documentNumber": "2006063197",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "2006-09-25",
+      "documentNumber": "2006319628",
+      "documentKind": "W"
+    }
+  ],
+  "publicationDate": "2010-12-07",
+  "publicationNumber": "7847148",
+  "title": {
+    "language": "en",
+    "text": "Oasis gene-deficient mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "An ambidextrous mouse is disclosed. The ambidextrous mouse is configured for both left and right handed use. The mouse may include right handed buttons on the front side of the mouse and left handed buttons on the back side of the mouse. The user may change the handedness of the mouse by rotating the mouse about a vertical axis of the mouse such that the left hand can use the left hand buttons and the right hand can use the right hand buttons. The mouse may include a handedness selection system for configuring the mouse for right handed or left handed use even though the mouse has the capability for both right and left hands."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": [
+      "HOTELLING STEVE",
+      "HUPPI BRIAN"
+    ]
+  },
+  "applicationNumber": "US_18894808_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/03544",
+        "G06F2203/0332"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["G06F3/033"]
+    }
+  ],
+  "filingDate": "2008-08-08",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HOTELLING STEVE",
+      "HUPPI BRIAN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2008-12-04",
+  "patentCitations": [
+    "US_2005_0084138_A1",
+    "US_5841425_A",
+    "US_2001_0011995_A1",
+    "US_7800592_B2"
+  ],
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "2008-08-08",
+      "documentNumber": "18894808",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2003-09-02",
+      "documentNumber": "65410803",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2008-12-04",
+  "publicationNumber": "2008297476",
+  "title": {
+    "language": "en",
+    "text": "Ambidextrous Mouse"
+  }
+}
+,
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The invention is a computer mouse-device/mouse-pad combination in which the mouse device and mouse-pad are magnetically attracted to each other so that a mouse device will stay fixed to the mouse-pad when the mouse-pad is at an angle to the horizontal. Preferably, the mouse device is magnetized by an electromagnetic magnet which is controlled to be sensitive to the touch of the user such that the magnetic force is weakened or turned off when the user touches the mouse device and is turned on full force when the user&#039;s hand is not in contact with the mouse device."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LUCENT TECHNOLOGIES INC"]
+  },
+  "applicationNumber": "US_48378400_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/156.000",
+        "345163000O"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "345/163",
+        "345/156"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/016",
+        "G06F3/03543",
+        "G06F3/038",
+        "G06F3/0383",
+        "G06F3/0395"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F3/00",
+        "G06F3/01",
+        "G06F3/038",
+        "G06F3/039"
+      ]
+    }
+  ],
+  "filingDate": "2000-01-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "KERMANI BAHRAM G",
+      "DAYAL SURENDER"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "B1",
+  "opiDate": "2003-01-07",
+  "patentCitations": [
+    "US_4868549_A",
+    "US_5525901_A",
+    "US_5696537_A",
+    "US_5765795_A",
+    "US_5805144_A",
+    "US_5826874_A",
+    "US_5834709_A",
+    "US_6128006_A",
+    "US_6191774_B1",
+    "US_6285355_B1",
+    "JP_H05257596_A"
+  ],
+  "priorities": [{
+    "countryCode": "US",
+    "documentDate": "2000-01-14",
+    "documentNumber": "48378400",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-01-07",
+  "publicationNumber": "6504528",
+  "title": {
+    "language": "en",
+    "text": "Magnetic mouse and/or mouse-pad"
+  }
+}
+]

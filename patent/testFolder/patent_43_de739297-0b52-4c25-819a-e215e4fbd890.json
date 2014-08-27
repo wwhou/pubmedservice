@@ -1,0 +1,190 @@
+[
+
+{
+  "abstract": {
+    "language": "en",
+    "text": "The present invention discloses a power saving device of a wireless mouse. The power saving device includes a switch and a key. When the wireless mouse is not in use for a period of time, the wireless mouse actuates an interrupt and enters into the sleep mode. If a user wants to use the mouse and touch the key, the key is depressed and the switch is actuated disabling the interrupt. Thus, the wireless mouse is in the operation mode again."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["LITE ON TECHNOLOGY CORP"]
+  },
+  "applicationNumber": "US_30907703_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": ["345163000P"]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": ["345/163"]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "G06F3/038",
+        "G06F1/3203",
+        "G06F1/3259",
+        "Y02B60/1253"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "G06F1/32",
+        "G06F3/038"
+      ]
+    }
+  ],
+  "filingDate": "2003-03-10",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "HUANG CHIUNG-CHIH",
+      "KUO CHIH-JEN"
+    ]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2003-10-23",
+  "priorities": [{
+    "countryCode": "TW",
+    "documentDate": "2002-04-17",
+    "documentNumber": "91107833",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2003-10-23",
+  "publicationNumber": "2003197683",
+  "title": {
+    "language": "en",
+    "text": "Device and method for power saving of wireless mouse"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["CASIO COMPUTER CO LTD"]
+  },
+  "applicationNumber": "EP_01113209_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "B41J3/445",
+        "G06F3/03543",
+        "G06K15/00"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "B41J3/36",
+        "B41J3/42",
+        "B41J3/44",
+        "B41J29/00",
+        "G06F3/033",
+        "G06F3/12",
+        "G06K15/00"
+      ]
+    }
+  ],
+  "filingDate": "2001-05-30",
+  "inventors": {
+    "language": "ot",
+    "texts": ["MURAI YASUSHI"]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "2005-02-09",
+  "priorities": [
+    {
+      "countryCode": "JP",
+      "documentDate": "2000-05-31",
+      "documentNumber": "2000162513",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "JP",
+      "documentDate": "2000-12-13",
+      "documentNumber": "2000379150",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2005-02-09",
+  "publicationNumber": "1160722",
+  "title": {
+    "language": "en",
+    "text": "Mouse device with a built-in printer"
+  }
+}
+,
+
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["MEDICAL BIOLOGY INST"]
+  },
+  "applicationNumber": "EP_89907883_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": ["A01K67/0271"]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "A01K67/027",
+        "C12N5/06",
+        "G01N33/53"
+      ]
+    }
+  ],
+  "filingDate": "1989-06-14",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "MOSIER DONALD E",
+      "WILSON DARCY B"
+    ]
+  },
+  "jurisdiction": "EP",
+  "kind": "B1",
+  "opiDate": "1996-05-15",
+  "priorities": [
+    {
+      "countryCode": "US",
+      "documentDate": "1989-06-14",
+      "documentNumber": "8902591",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1988-09-08",
+      "documentNumber": "24159088",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "1988-06-14",
+      "documentNumber": "20727388",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "1996-05-15",
+  "publicationNumber": "0379554",
+  "title": {
+    "language": "en",
+    "text": "HUMAN IMMUNE SYSTEM IN MOUSE"
+  }
+}
+]
