@@ -1,0 +1,37 @@
+package org.service;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.lens.client.PatentClient;
+import org.lens.crawler.PatentParameter;
+
+public class TestSearch {
+	
+	public static void main(String[] args){
+		PatentClient patentClient=new PatentClient();
+		PatentParameter patentParam=new PatentParameter();
+		patentParam.setRetMax(500);
+		patentParam.setSortField("-pub_date");
+		patentParam.setTerm("nicta");
+		patentClient.call(patentParam);
+		
+	InputStream stream = patentClient.call(patentParam);
+		
+		BufferedReader br1 = new BufferedReader(new InputStreamReader(stream));
+		try {
+			System.out.println(br1.readLine());
+			System.out.println(br1.readLine());
+			System.out.println(br1.readLine());
+			System.out.println(br1.readLine());
+			System.out.println(br1.readLine());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		patentClient.closeResponse();
+	}
+
+}

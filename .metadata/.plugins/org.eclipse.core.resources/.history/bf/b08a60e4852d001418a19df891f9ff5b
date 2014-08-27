@@ -1,0 +1,94 @@
+package org.service;
+
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PipedInputStream;
+import java.io.PipedOutputStream;
+import java.io.PrintStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import org.lens.crawler.LensCujoConnection;
+import org.lens.crawler.MultithreadsJSONTextConnection;
+import org.lens.crawler.PatentParameter;
+
+@Path("/search")
+public class PatentService {
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	@Path("stream")
+	public InputStream getStream(final PatentParameter param) {
+
+		final PipedOutputStream sink = new PipedOutputStream();
+		PipedInputStream source;
+		try {
+			source = new PipedInputStream(sink);
+			// apparently we need to write to the PipedOutputStream in a
+			// separate thread
+			Runnable runnable = new Runnable() {
+				public void run() {
+					LensCujoConnection connection = new LensCujoConnection(
+							param.toString());
+					List<String> keys = connection.getKeys();
+					MultithreadsJSONTextConnection multiConnection = new MultithreadsJSONTextConnection(
+							keys);
+					ArrayList<Future<InputStream>> futures = multiConnection
+							.getFutureList();
+					ZipOutputStream zip = new ZipOutputStream(sink);
+					PrintStream writer = new PrintStream(
+							new BufferedOutputStream(zip));
+
+					for (Future<InputStream> future : futures) {
+						try {
+							// streams.add(future.get());
+							BufferedReader br1 = new BufferedReader(
+									new InputStreamReader(future.get()));
+							try {
+								String s1 = "";
+								zip.putNextEntry(new ZipEntry("_"
+										+ UUID.randomUUID() + ".xml"));
+								while ((s1 = br1.readLine()) != null) {
+									writer.println(s1);
+								}
+
+								writer.flush();
+								zip.closeEntry();
+							} catch (IOException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+						} catch (InterruptedException | ExecutionException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+					writer.flush();
+					writer.close();
+				}
+			};
+			Thread writerThread = new Thread(runnable, "FileGenerator");
+			writerThread.start();
+
+			return source;
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		return null;
+
+	}
+}

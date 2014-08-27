@@ -1,0 +1,19 @@
+package org.lens.utils;
+
+public class IpcCodeParser {
+	public static String parseCode(String code){
+		  int pos=code.indexOf("/");
+		  if (pos > 0) {
+			  String preString="0000" + code.substring(4, pos);
+			  preString=preString.substring(preString.length()-4);
+			  String postString=code.substring(pos + 1)+"000000";
+			  postString=postString.substring(0,6);
+		      return code.substring(0, 4) + preString+ postString;
+		    } else if (code.length() > 4) {
+		      String preString="0000" + code.substring(4);
+		      preString=preString.substring(preString.length()-4);
+		      return code.substring(0, 4) +preString+ "000000";
+		    } else
+		      return code;
+	    }
+}

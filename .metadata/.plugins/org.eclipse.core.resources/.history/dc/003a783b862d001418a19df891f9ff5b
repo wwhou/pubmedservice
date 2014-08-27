@@ -1,0 +1,16 @@
+package org.service;
+
+import org.lens.client.PatentClient;
+import org.lens.crawler.PatentParameter;
+
+public class TestSearch {
+	
+	public static void main(String[] args){
+		PatentClient patentClient=new PatentClient();
+		PatentParameter patentParam=new PatentParameter();
+		patentParam.setRetMax(1000);
+		patentParam.setSortField("-pub_date");
+		patentParam.setTerm("nicta");
+	}
+
+}
