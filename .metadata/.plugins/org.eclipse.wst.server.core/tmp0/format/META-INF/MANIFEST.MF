@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: format Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: format
+Build-Jdk: 1.7.0_51
+Built-By: weiweihou
+Created-By: Maven Integration for Eclipse
+

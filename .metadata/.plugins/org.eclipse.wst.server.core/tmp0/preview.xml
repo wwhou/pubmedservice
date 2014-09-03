@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <server port="8080">
-  <module context="patent" name="patent" path="/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/patent" type="j2ee"/>
+  <module context="elsevier" name="elsevier" path="/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/elsevier" type="j2ee"/>
 </server>

@@ -1,0 +1,42 @@
+package org.search;
+
+import java.io.InputStream;
+import java.net.URL;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+public class ElsevierSearch {
+
+	
+	
+		URL searchURL;
+		private static final String BASE_URL = "http://api.elsevier.com/content/search/index:scidir?query=";
+		
+		public InputStream getSearchResult(final String query, final int count) {
+			Client client = Client.create();
+
+			String url=BASE_URL+"KEY%28"+query+"%29&count="+count+"&httpAccept=application/xml";
+			WebResource webResource = client.resource(url);
+
+			String appKey = "3be85abdc392cf6aad41bcdd27b59e2c"; // appKey is unique
+																// number
+
+			// Get response from RESTful Server get(ClientResponse.class);
+			ClientResponse response = null;
+			response = webResource
+					.header("Content-Type", "application/json;charset=UTF-8")
+					.header("X-ELS-APIKey", appKey).get(ClientResponse.class);
+
+			String jsonStr = response.getEntity(String.class);
+			System.out.print(jsonStr);
+			return null;
+		}
+		
+		public static void main(String[] args){
+			ElsevierSearch search=new ElsevierSearch();
+			search.getSearchResult("java", 1);
+		}
+	
+}

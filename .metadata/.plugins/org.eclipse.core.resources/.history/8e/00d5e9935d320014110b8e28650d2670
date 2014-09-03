@@ -1,0 +1,34 @@
+package org.search;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class ElsevierSearch {
+
+protected String url;
+	
+	public ElsevierSearch(String url){
+		this.url=url;
+	}
+	
+	public InputStream getSearchResult(){
+		URL searchURL;
+		InputStream inputStream=null;
+		try {
+			searchURL = new URL(url);
+			
+			try {
+				inputStream = searchURL.openConnection().getInputStream();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		return inputStream;
+	}
+}

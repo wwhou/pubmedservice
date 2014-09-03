@@ -1,0 +1,188 @@
+[
+{
+  "abstract": {
+    "language": "en",
+    "text": "An electronics package for an active implantable medical device (AIMD). The electronics package comprises: a biocompatible, electrically non-conductive and fluid impermeable planar substrate usable for semiconductor manufacturing; one or more active components on the surface of the substrate; a biocompatible and fluid impermeable cover bonded to the surface of the substrate to hermetically seal the one or more active components between the substrate and the cover; and a conductive region formed on at least one of an exposed surface of the substrate and the cover electrically connected to at least one of the one or more hermetically sealed active components."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["NAT ICT AUSTRALIA LTD NICTA"]
+  },
+  "applicationNumber": "AU_2009_344196_A",
+  "classifications": [
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A61N1/375",
+        "A61N1/3758"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": ["A61N1/05"]
+    }
+  ],
+  "filingDate": "2009-08-28",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "PARKER JOHN L",
+      "DAVID ROBINSON"
+    ]
+  },
+  "jurisdiction": "AU",
+  "kind": "A1",
+  "opiDate": "2011-12-01",
+  "priorities": [
+    {
+      "countryCode": "AU",
+      "documentDate": "2009-04-08",
+      "documentNumber": "2009901532",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "US",
+      "documentDate": "2009-08-28",
+      "documentNumber": "2009055405",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "AU",
+      "documentDate": "2009-08-28",
+      "documentNumber": "2009344196",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2011-12-01",
+  "publicationNumber": "2009344196",
+  "title": {
+    "language": "en",
+    "text": "Electronics package for an active implantable medical device"
+  }
+}
+,
+{
+  "applicants": {
+    "language": "ot",
+    "texts": ["NICTA IPR PTY LTD"]
+  },
+  "applicationNumber": "AU_2006_243809_A",
+  "classifications": [{
+    "classificationType": "IPC",
+    "classificationVersion": "08",
+    "classificationCodes": ["H04B10/08"]
+  }],
+  "filingDate": "2006-04-28",
+  "inventors": {
+    "language": "ot",
+    "texts": [
+      "ANDERSON TREVOR",
+      "DODS SARAH"
+    ]
+  },
+  "jurisdiction": "AU",
+  "kind": "B2",
+  "opiDate": "2009-04-23",
+  "priorities": [
+    {
+      "countryCode": "AU",
+      "documentDate": "2005-04-29",
+      "documentNumber": "2005902178",
+      "documentKind": "A"
+    },
+    {
+      "countryCode": "AU",
+      "documentDate": "2006-04-28",
+      "documentNumber": "2006000560",
+      "documentKind": "W"
+    },
+    {
+      "countryCode": "AU",
+      "documentDate": "2006-04-28",
+      "documentNumber": "2006243809",
+      "documentKind": "A"
+    }
+  ],
+  "publicationDate": "2009-04-23",
+  "publicationNumber": "2006243809",
+  "title": {
+    "language": "en",
+    "text": "Method and device for in-band optical performance monitoring"
+  }
+}
+,
+{
+  "abstract": {
+    "language": "en",
+    "text": "A feed through for an active implantable medical device (AIMD). The feed through comprises first and second substantially planar, electrically non-conductive and fluid impermeable substrates usable for semiconductor device fabrication, each comprising: an aperture there through, and a contiguous metalized layer on the substrate surface that is co-existent with a section of the perimeter of the aperture and extends from the aperture; and a bond layer affixing the metalized layers of the first and second substrates to one another such that the apertures are not aligned with one another, and such that the metalized regions form a conductive pathway between the apertures."
+  },
+  "applicants": {
+    "language": "ot",
+    "texts": ["NAT ICT AUSTRALIA LTD NICTA"]
+  },
+  "applicationNumber": "US_54987509_A",
+  "classifications": [
+    {
+      "classificationType": "DOCUS",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "029852000S",
+        "174262000S",
+        "174266000P"
+      ]
+    },
+    {
+      "classificationType": "US",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "174/266",
+        "29/852",
+        "174/262"
+      ]
+    },
+    {
+      "classificationType": "CPC",
+      "classificationVersion": "",
+      "classificationCodes": [
+        "A61N1/3754",
+        "H01L23/10",
+        "H01L2924/01079",
+        "H05K1/115",
+        "H05K3/4611",
+        "H05K2201/09509",
+        "H05K2201/09627"
+      ]
+    },
+    {
+      "classificationType": "IPC",
+      "classificationVersion": "08",
+      "classificationCodes": [
+        "H05K1/11",
+        "H05K13/00"
+      ]
+    }
+  ],
+  "filingDate": "2009-08-28",
+  "inventors": {
+    "language": "ot",
+    "texts": ["PARKER JOHN L"]
+  },
+  "jurisdiction": "US",
+  "kind": "A1",
+  "opiDate": "2010-10-14",
+  "priorities": [{
+    "countryCode": "AU",
+    "documentDate": "2009-04-08",
+    "documentNumber": "2009901530",
+    "documentKind": "A"
+  }],
+  "publicationDate": "2010-10-14",
+  "publicationNumber": "2010258342",
+  "title": {
+    "language": "en",
+    "text": "BONDED HERMETIC FEED THROUGH FOR AN ACTIVE IMPLANTABLE MEDICAL DEVICE"
+  }
+}
+]

@@ -1,0 +1,41 @@
+package org.utils;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class Search {
+
+	protected String url;
+	
+	public Search(String url){
+		this.url=url;
+	}
+	
+	private boolean flag=true;
+	public InputStream getSearchResult(){
+		URL searchURL;
+		InputStream inputStream=null;
+		try {
+			searchURL = new URL(url);
+			
+			try {
+				inputStream = searchURL.openConnection().getInputStream();
+			
+			} catch (IOException e) {
+				flag=true;
+				return null;
+			}
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		flag=false;
+		return inputStream;
+	}
+	
+	public boolean streamIsEmpty(){
+		return flag;
+	}
+}

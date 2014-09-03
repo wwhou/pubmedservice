@@ -1,0 +1,59 @@
+package org.search;
+
+import java.io.InputStream;
+import java.net.URL;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
+
+public class ElsevierSearch {
+
+	URL searchURL;
+	private static final String BASE_URL = "http://api.elsevier.com/content/search/index:scidir?query=";
+
+	private static final String BASE_AUTHENTICATE_URL = "http://api.elsevier.com/authenticate?";
+
+	private static final String appKey = "3be85abdc392cf6aad41bcdd27b59e2c";
+
+	public String getAuthToken() {
+		Client client = Client.create();
+
+		String url = BASE_AUTHENTICATE_URL+"httpAccept=application/json";
+		WebResource webResource = client.resource(url);
+		ClientResponse response = null;
+		response = webResource
+				.header("Content-Type", "application/json;charset=UTF-8")
+				.header("X-ELS-APIKey", appKey).get(ClientResponse.class);
+		JSONObject jsonOb=new JSONObject(new JSONToken(response.getEntityInputStream()));
+	}
+
+	public InputStream getSearchResult(final String query, final int count) {
+		Client client = Client.create();
+
+		String url = BASE_URL + "KEY%28" + query + "%29&count=" + count
+				+ "&httpAccept=application/xml&view=COMPLETE";
+		WebResource webResource = client.resource(url);
+
+		// appKey is unique
+		// number
+		String auToken = "sat_C029AE1B0477679186161CA4CAC3397C7F5F067C0D2E43D8AD8FC7C0E31871442FB7B53ECC6DF77B7237882CCA9459469637F7D8150CF8238E6307ADD7CB47A3B6F09D1D13BF592A5DE38C7FD01F839DBEE8346F2B22E5F19879CC98C7FEA53930F201CAF93F7F2908018B89C84FB0495CFD31B2B286FE284E5419168A9CDE68D6D6D794B1833367702E3A0E93EAB8712D53A62CC0DD0A3920AB9085E1CFCA6A5D72CB9DC48396D37EE3F68E85562F30";
+
+		ClientResponse response = null;
+		response = webResource
+				.header("Content-Type", "application/json;charset=UTF-8")
+				.header("X-ELS-APIKey", appKey)
+				.header("X-ELS-Authtoken", auToken).get(ClientResponse.class);
+
+		String jsonStr = response.getEntity(String.class);
+		System.out.print(jsonStr);
+		return null;
+	}
+
+	public static void main(String[] args) {
+		ElsevierSearch search = new ElsevierSearch();
+		System.out.println(search.getAuthToken());
+		search.getSearchResult("java", 1);
+	}
+
+}

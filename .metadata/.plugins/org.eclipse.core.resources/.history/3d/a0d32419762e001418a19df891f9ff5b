@@ -1,0 +1,14 @@
+package org.service;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/search")
+public class ElsevierService {
+
+	@Path("stream")
+	@GET
+	public String getString(){
+		return "hello jo";
+	}
+}

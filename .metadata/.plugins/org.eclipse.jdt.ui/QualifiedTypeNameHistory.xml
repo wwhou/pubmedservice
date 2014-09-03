@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="org.codehaus.jettison.json.JSONObject"/>
 <fullyQualifiedTypeName name="nicta.utils.Article"/>
 <fullyQualifiedTypeName name="nicta.pubMed.jaxb.eSearch.Id"/>
-<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 <fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.ESearchResult"/>
 <fullyQualifiedTypeName name="org.pubMed.utils.XMLConvertor"/>
 <fullyQualifiedTypeName name="org.pubMed.jaxb.eSearch.Id"/>
@@ -53,5 +52,8 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
 <fullyQualifiedTypeName name="org.utils.ObjectMapperProvider"/>
 <fullyQualifiedTypeName name="org.utils.PubmedPackage"/>
+<fullyQualifiedTypeName name="prg.parsers.IEEEParser"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
 </qualifiedTypeNameHistroy>

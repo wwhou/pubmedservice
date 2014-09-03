@@ -36,12 +36,24 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
+			<item value="elsevierservice"/>
+			<item value="formatservice"/>
+			<item value="patentservice"/>
+			<item value="ieeeservice"/>
 			<item value="pubmedService"/>
 		</list>
 		<list key="package">
+			<item value="elsevierservice.elsevier"/>
+			<item value="formatservice.format"/>
+			<item value="patentservice.patent"/>
+			<item value="ieeeservice.ieee"/>
 			<item value="pubmedService.pubmed"/>
 		</list>
 		<list key="artifactId">
+			<item value="elsevier"/>
+			<item value="format"/>
+			<item value="patent"/>
+			<item value="ieee"/>
 			<item value="pubmed"/>
 		</list>
 		<list key="projectNameTemplate">

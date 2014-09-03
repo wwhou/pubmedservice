@@ -1,0 +1,38 @@
+package org.service;
+
+import java.io.IOException;
+import java.util.Collection;
+
+import javax.ws.rs.Path;
+
+import org.parsers.IEEEParser;
+import org.utils.jaxb.Article;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.XMLReaderFactory;
+
+@Path("/unifiedArticles")
+public class FormatService {
+
+	public Collection<Article> getArticles() {
+		
+		IEEEParser handler = new IEEEParser();
+		try {
+			xr = XMLReaderFactory.createXMLReader();
+			xr.setContentHandler(handler);
+			xr.setErrorHandler(handler);
+			try {
+				xr.parse(new InputSource(search.getSearchResult()));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		Collection<Article> collection = handler.getArtciles();
+		return collection;	
+		}
+}

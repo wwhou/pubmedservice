@@ -1,0 +1,92 @@
+package org.service;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
+
+import org.utils.jaxb.Article;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
+import org.xml.sax.helpers.XMLReaderFactory;
+
+import prg.parsers.IEEEParser;
+import prg.parsers.PubmedParser;
+
+public class SwitchBoard {
+
+	public static Collection<Article> generateArticlesByStream(
+			InputStream inputStream, String type) {
+		
+		return null;
+
+	}
+
+	public static Collection<Article> generateArticlesByZip(
+			InputStream inputStream) {
+		byte[] buffer = new byte[1024];
+		File folder = new File("testFolder");
+		if (!folder.exists()) {
+			folder.mkdir();
+		}
+
+		// get the zip file content
+		ZipInputStream zis = new ZipInputStream(inputStream);
+		// get the zipped file list entry
+		Collection<Article> collections = new ArrayList<Article>();
+		ZipEntry ze;
+		try {
+
+			while ((ze = zis.getNextEntry()) != null) {
+				String name = ze.getName();
+				if (name.contains("patent")) {
+				} else if (name.contains("pubmed")) {
+					XMLReader xr;
+					try {
+						xr = XMLReaderFactory.createXMLReader();
+						PubmedParser handler = new PubmedParser();
+						xr.setContentHandler(handler);
+						xr.setErrorHandler(handler);
+						xr.parse(new InputSource(inputStream));
+						Collections.addAll(handler.getArtciles());
+					} catch (SAXException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+				} else if (name.contains("ieee")) {
+					XMLReader xr;
+					try {
+						xr = XMLReaderFactory.createXMLReader();
+						IEEEParser handler = new IEEEParser();
+						xr.setContentHandler(handler);
+						xr.setErrorHandler(handler);
+						xr.parse(new InputSource(inputStream));
+						Collections.addAll(handler.getArtciles());
+					} catch (SAXException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+				}
+			}
+
+			zis.closeEntry();
+			zis.close();
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		System.out.println("Done");
+
+		return collections;
+
+	}
+}

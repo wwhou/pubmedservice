@@ -2,7 +2,6 @@ package org.pubMed.utils;
 
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -11,7 +10,6 @@ import java.util.concurrent.Future;
 
 import org.pubMed.crawlers.EFetch;
 import org.pubMed.jaxb.eSearch.Id;
-import org.utils.PubMedMultiThreadsCall.MyCallable;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;

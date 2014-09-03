@@ -1,8 +1,8 @@
 package org.lens.utils;
 
-
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.json.JSONArray;
@@ -63,10 +63,10 @@ public class PatentJSONParser {
 
 		ArticleIdList articleIdList = new ArticleIdList();
 		ArticleId articleId = new ArticleId();
-		articleId.setIdType("patent");
 		articleId.setContent(dockey);
+		articleId.setIdType("patent");
 		Patent patent = new Patent();
-		articleIdList.getArticleId().add(articleId);	
+		articleIdList.getArticleId().add(articleId);
 		if (jsonObject1.has("title")) {
 			articleMeta.setTitle(jsonObject1.getJSONObject("title").getString(
 					"text"));
@@ -75,14 +75,14 @@ public class PatentJSONParser {
 
 			JSONObject jsonApplicants = jsonObject1.getJSONObject("applicants");
 			JSONArray jsonApplicantArray = jsonApplicants.getJSONArray("texts");
-			applicantsList= new ArrayList<Affiliation>();
+			applicantsList = new ArrayList<Affiliation>();
 			for (int i = 0; i < jsonApplicantArray.length(); i++) {
 				String applicantText = jsonApplicantArray.getString(i);
-				Affiliation aff=new Affiliation();
+				Affiliation aff = new Affiliation();
 				aff.setContent(applicantText);
 				applicantsList.add(aff);
 			}
-			
+
 		}
 		if (jsonObject1.has("inventors")) {
 			JSONObject jsonInventors = jsonObject1.getJSONObject("inventors");
@@ -101,7 +101,7 @@ public class PatentJSONParser {
 				}
 				person.setFullName(inventorText);
 				person.setType("inventor");
-				if(applicantsList!=null){
+				if (applicantsList != null) {
 					person.getAffiliation().addAll(applicantsList);
 				}
 				person.setId(UnifiedID.generateID("IN"));
@@ -130,30 +130,32 @@ public class PatentJSONParser {
 			JSONArray classArray = jsonObject1.getJSONArray("classifications");
 			for (int i = 0; i < classArray.length(); i++) {
 				JSONObject object = classArray.getJSONObject(i);
-				String classType = object.getString("classificationType").toString();
+				String classType = object.getString("classificationType")
+						.toString();
 
-				if(!classType.isEmpty()){
-				JSONArray classCodes = object
-						.getJSONArray("classificationCodes");
+				if (!classType.isEmpty()) {
+					JSONArray classCodes = object
+							.getJSONArray("classificationCodes");
 
-				for (int index = 0; index < classCodes.length(); index++) {
-					String code = classCodes.get(index).toString();
-					PatentCodeFinder patentCodeFinder=new PatentCodeFinder(classType,code);
-					patentCodeFinder.check();
-					classType=patentCodeFinder.getType();
-					code=patentCodeFinder.getCode();
-					if (classType!=null) {
-						Classification classi = new Classification(classType,
-								code);
-						Keyword keyword = new Keyword();
-						if (!classi.translateCodeToText().equals("")) {
-							keyword.setContent(classi.translateCodeToText());
-							keywordList.getKeyword().add(keyword);
+					for (int index = 0; index < classCodes.length(); index++) {
+						String code = classCodes.get(index).toString();
+						PatentCodeFinder patentCodeFinder = new PatentCodeFinder(
+								classType, code);
+						patentCodeFinder.check();
+						classType = patentCodeFinder.getType();
+						code = patentCodeFinder.getCode();
+						if (classType != null) {
+							Classification classi = new Classification(
+									classType, code);
+							Keyword keyword = new Keyword();
+							if (!classi.translateCodeToText().equals("")) {
+								keyword.setContent(classi.translateCodeToText());
+								keywordList.getKeyword().add(keyword);
+							}
 						}
-					}
 
-					articleMeta.setKeywords(keywordList);
-				}
+						articleMeta.setKeywords(keywordList);
+					}
 				}
 			}
 
@@ -178,7 +180,7 @@ public class PatentJSONParser {
 
 		if (jsonObject1.has("jurisdiction"))
 			patent.setJuristiction(jsonObject1.get("jurisdiction").toString());
-		if(jsonObject1.has("opiDate"))
+		if (jsonObject1.has("opiDate"))
 			patent.setOpiDate(jsonObject1.getString("opiDate").toString());
 		if (jsonObject1.has("priorities")) {
 			JSONArray priorities = jsonObject1.getJSONArray("priorities");
@@ -198,5 +200,6 @@ public class PatentJSONParser {
 		articleMeta.setId(UnifiedID.generateID("PA"));
 		articleMeta.setArticleType(patent);
 		article.setArticleMeta(articleMeta);
-	}	
+
+	}
 }

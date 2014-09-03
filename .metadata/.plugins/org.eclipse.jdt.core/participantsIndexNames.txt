@@ -1,6 +1,8 @@
 INDEX VERSION 1.127
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3885081109.index
 /pubmed/src/main/resources
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/6252961.index
+/format/src/main/java
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1065368943.index
 /pubMedCrawler/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3290375344.index
@@ -9,6 +11,8 @@ INDEX VERSION 1.127
 /pubmed/src/main/java
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2787306115.index
 /pubMedCrawler/src/main/resources
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3895962336.index
+/elsevier/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1547552820.index
 /DataCollectionService/src/main/resources
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/881283617.index
@@ -19,3 +23,5 @@ INDEX VERSION 1.127
 /pubmed/src/main/java
 /Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/961443108.index
 /patent/src/main/resources
+/Users/weiweihou/Desktop/pubmedservice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1249529197.index
+/format/src/main/resources

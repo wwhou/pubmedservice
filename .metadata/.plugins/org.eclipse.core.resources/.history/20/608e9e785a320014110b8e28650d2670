@@ -1,0 +1,40 @@
+package org.utils;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.ws.rs.core.MediaType;
+
+import org.codehaus.jackson.jaxrs.JacksonJsonProvider;
+
+import com.sun.jersey.api.client.Client;
+import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.GenericType;
+import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.config.ClientConfig;
+import com.sun.jersey.api.client.config.DefaultClientConfig;
+
+public class Search {
+
+	public InputStream getSearchResult() {
+		 Client client = Client.create();
+	     WebResource webResource =client.resource("uri");
+
+	     MultivaluedMap<String, String> queryParams = new MultivaluedMapImpl();
+	     queryParams.add("json", js); //set parametes for request
+
+	     appKey = "Bearer " + appKey; // appKey is unique number
+
+	     //Get response from RESTful Server get(ClientResponse.class);
+	     ClientResponse response = null;
+	     response = webResource.queryParams(queryParams)
+	                            .header("Content-Type", "application/json;charset=UTF-8")
+	                            .header("Authorization", appKey)
+	                            .get(ClientResponse.class);
+
+	     String jsonStr = response.getEntity(String.class);
+	     return null;
+	}
+}
